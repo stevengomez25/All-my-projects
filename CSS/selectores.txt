@@ -1,0 +1,6 @@
+* = universal 
+tipo = h2, h3, h1, etc
+.class = Clases = class="hello" =.hello
+#id = id="Hola" = #hola (MUST BE USED FOR JUST 1 ITEM)
+[Attribute]= Hola="noseasapo"=[Hola="noseasapo"]
+cascadas= .hello p =aplica a solo los <p> en class hello

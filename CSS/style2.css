@@ -1,0 +1,99 @@
+*:hover{
+	cursor: default;
+}
+b{
+	background: gray;
+	font-size: 3cm;
+	border: 2px double red;
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	margin: 30px;
+}
+div div{
+	font-size: 30px;
+	display: inline-block;
+	float: right;
+	padding:50px;
+	border: 10px double #84b6f4;
+
+}
+.primario{
+	background: 	#ff6961;
+	width: 55%;
+
+}
+.secundario{
+	background: #77dd77;
+	width: 45%;
+}
+
+div div img{
+	width: 250px;
+	height: 250px;
+	float: inherit;
+	margin-left: 10px;
+}
+.secundario::first-line{
+	color: blue;
+}
+.primario::first-letter{
+	color: blue;
+	font-size: 150px;
+}
+
+form{
+	margin: 100px auto;
+	display: block;
+	background: yellowgreen;
+	padding: 20px;
+	width: 50%;
+}
+form input{
+	font-family: 'Bricolage Grotesque', sans-serif;
+	padding: 8px auto;
+	width: 75%;
+	text-align: center;
+	background: green;
+}
+input::placeholder{
+	color: blue;
+	background: gray;
+}
+input::selection{
+	color: black;
+	background: orange;
+}
+form::before{
+	content: "Inserte su edad aquí:";
+	font-family: 'Montserrat', sans-serif;
+	color: red;
+}
+form::after{
+	content: "Arriba wey no mames";
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	float: right;
+}
+/*a{
+	display: inline-block;
+	margin: auto;
+	padding: 30px;
+	background-color: red;
+	position: relative;
+  	top: 50%;
+  	left: 50%;
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%)
+}
+*/
+.linksref{
+	background-color: #ff0;
+	text-align: center;
+	padding: 15px;
+	border: 30px solid white;
+}
+.linkbox{
+	margin: 30px;
+	display: inline;
+	}

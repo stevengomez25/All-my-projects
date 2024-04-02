@@ -1,0 +1,240 @@
+:root{
+  --light-color:#666;
+  ;
+  --secondary-color:#ebb78d;
+
+}
+footer{
+  background:linear-gradient(#93d8f7, #8cdde5);
+}
+
+.container-intro{
+  color: var(--light-color);
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.container-intro img{
+  max-height: 100vh;
+  max-width: 50vw;
+  filter: drop-shadow(10px 10px 20px #000);
+}
+.container-intro-stuff{
+  margin:30px;
+
+}
+
+.container-title{
+  margin-bottom: 30px;
+}
+header{
+  background-image: url(https://img.freepik.com/foto-gratis/fondo-azul-degradado-lujo-abstracto-azul-oscuro-liso-banner-estudio-vineta-negra_1258-63452.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav{
+  color: #fff;
+  position: fixed;
+}
+
+.container-form-contact{
+  display: inline;
+  text-align: center;
+  height: 100dvh;
+}
+.row{
+  display: inline;
+}
+
+.form-send-info{
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  padding:20px;
+}
+input::placeholder{
+  color: #fff;
+  transition: all 0.2s ease;
+}
+.form-send-info input,textarea{
+  transition: all 0.5s;
+  color: #fff;
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+  margin: 30px;
+  width: 50%;
+  border: none;
+  padding: 30px;
+  overflow: hidden;
+}
+input:hover,textarea:hover{
+  color: #000;
+  background-color: #fff;
+  outline: solid 1px #000;
+
+}
+input:hover::placeholder,textarea:hover::placeholder{
+  color: #000;
+}
+input:focus,textarea:focus{
+  color: #000;
+  background-color: #fff;
+  outline: solid 1px #000;
+
+}
+input:focus::placeholder,textarea:focus::placeholder{
+  color: #000;
+}
+
+
+input[type="submit"]{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-send-info textarea{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+  /* Apply min height of 4 lines */
+  line-height: 1.2;
+  min-height: calc(1.2em * 4);
+  
+  /* Border styles */
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+textarea::placeholder{
+  color: #fff;
+}
+footer{
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer-content{
+  width: 1200px;
+  display: flex;
+  margin-top:70px;
+  margin-bottom: 25px;
+}
+.copyright{
+  width: 1200px;
+  border-top: 1px solid var(--light-color);
+  color: var(--light-color);
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer-card{
+  width:400px;
+  padding: 20px;
+  color: var(--light-color);
+}
+
+.footer-card h5{
+  font-size: 20px;
+}
+
+.footer-card p{
+  font-size:14px;
+}
+
+.sub-input{
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.sub-input::placeholder{
+  color: var(--light-color);
+}
+
+.sub-submit{
+  border-radius: 10px;
+  background-color: var(--secondary-color);
+  color:var(--light-color);
+  margin-top: 5px;
+  padding: 7px 30px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.social-icons a{
+  color: var(--light-color);
+  margin: 5px;
+  background-color: var(--secondary-color);
+  padding:2.5px 7px;
+  font-size:24px;
+  border-radius: 100px;
+}
+
+@media (max-width: 1200px) {
+  .footer-content{
+      width: 96%;
+      flex-wrap: wrap;
+  }
+  .copyright{
+      width: 96%;
+  }
+  
+}
+
+.imagen_producto{
+  width: 300px;
+  height:300px;
+}
+
+.products-container{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.products-container div{
+  margin:30px;
+}
+
+.container-services{
+  display: flex;
+  justify-content:center;
+}
+.container-services div{
+  margin:20px;
+}
+
+.container-fluid{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon{
+  width:50px;
+  height: 50px;
+}
+
+@media(max-width:1100px){
+  .transform{
+    display: block;
+  }
+  .container-services{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

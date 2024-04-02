@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles_selectors.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="titulo">Este es un TITULO</h1>
+    <a class="parrafito" hidden="">Para probar mas javascript</a>
+    <input type="text" class="input-normal" value="Dalto es el mejor">
+    <form action="">
+        <input type="text" class="input-limitado" value="ingrese aqui minimo 30 caracteres">
+        <input type="submit" value="SEND">
+    </form>
+    <h1 class="titulo-a-modificar gigante" type="text">Elemento a MODIFICAR</h1>
+    <h2 class=" tituloExperimento">Donde funcione me MEO</h2>
+    <h3 class=" tituloExperimento_2">Hola este es el experimento</h3>
+    <p class="content-parrafo">Elemento a <b hidden="">Mostrar</b></p>
+    <p>Aqui ^^ podemos ver que ocultamos el b, sin embargo si vamos a la linea de js que tiene el textcontent, podremos ver su contenido</p>
+    <p>La escala de importancia de las etiquetas para mostrar informacion de la clase elegida son:</p>
+    <p><b>.textContent</b> Muestra el texto sin estilos aplicados</p>
+    <p><b>.innerHTML</b> Muestra el texto con estilos aplicados Y el código HTML sin ser interpretado por consola, o interpretado con los estilos aplicados</p>
+    <p><b>.outerHTML</b> Muestra el texto con estilos aplicados y el codigo HTML tanto del contenido y cada uno de sus childs, como del propio container class que se seleccionó</p>
+    <script src="code_selectors.js"></script>
+</body>
+</html>

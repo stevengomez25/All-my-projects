@@ -1,0 +1,14 @@
+body{
+    color: #222;
+    font-family: sans-serif;
+}
+
+.sapo{
+    color: #0F0;
+}
+
+.grande_bg_gris_color_white{
+    font-size: 50pt;
+    background-color: #333;
+    color: #fff;
+}

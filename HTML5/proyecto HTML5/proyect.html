@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hola Mundo</title>
+    <style type="text/css">
+        #sitio {
+            padding:5rem;
+            font-size: 5rem;
+            margin-left: 15rem;
+        }
+    </style>
+</head>
+<body>
+    <input class="jscolor {onFineChange:'update(this)'}"value="cc66ff"/>
+    <div id = "sitio">
+        Mi Sitio Web
+    </div>
+    <div id="item_de_prueba">
+        <style type="text/css">p{color:#0000FF;
+            font-family: ravie;
+            font-size: 40px;
+            margin-inline: 20rem;
+            padding: 10rem;
+        }
+        </style>
+        <span title="See, this is the tooltip. :)"><p>Vamos a probar vainas</p></span>
+    </div>
+    <script src="jscolor.js"></script>
+
+    <script type="text/javascript">
+        function update(color) {
+            //console.log(color.rgb);
+            var div = document.getElementById("sitio");
+            div.style.background = "#" + color;
+        }
+    </script>
+
+</body>
+</html>

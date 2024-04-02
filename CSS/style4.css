@@ -1,0 +1,145 @@
+*{
+	font-family: 'Sen', sans-serif;
+	font-weight: 100;
+}
+li{
+	list-style-type: none;
+}
+.nav_responsive-u1{
+	display: none;
+}
+.nav{
+	background-color: #48e;
+}
+.nav_u1{
+	margin-top:0px;
+	padding: 0;
+}
+.nav_responsive-u1{
+	margin-top: 0px;
+}
+.Menu_1{
+	display: inline-block;
+	padding: 15px;
+	color: #fff;
+}
+.Menu_1:hover> a{
+	color: #999;
+	}
+
+.Menu_1:hover{
+	color: #999;
+}
+.Menu_1 a{
+	color: #fff;
+	text-decoration: none;
+}
+.Menu_1 i{
+	width: 20px;
+	box-sizing: border-box;
+	text-align: right;
+	margin-right: 5px;
+}
+.nav_responsive-button_container{
+	position: absolute;
+	font-size: 25px;
+	width: 100%;
+	background-color: #69c;
+	margin-top: -60px;
+	z-index: 100;
+}   
+.nav_responsive-button{
+	padding: 6px 20px;
+	text-align: right;
+	width: 100%;
+}
+
+@media only screen and (max-width:690px){
+	.nav_u1{
+		display:none;
+	}
+	.nav{
+		height: 38px;
+		width: 100%;
+	}
+	.nav_u1-container{
+		position: relative;
+		top: -1000px;
+		height: calc(100vh - 64px);
+		background-color: #9bf;
+		transition: all 1s;
+		z-index: 1;
+		width: 75%;
+		padding-top: 27px;
+	}
+	.nav_responsive-u1{
+		display: block;
+		position: absolute;
+		width: 100%;
+		padding: 0px;
+		margin-top: 30px;
+		padding-top: 30px;
+		height: 37px;
+	}
+	.Menu_1_responsive{
+	width: 100%;
+	padding: 9px 20px;
+	}
+	.Menu_1_responsive a{
+	text-decoration: none;
+	color:#016;
+	}
+	.Menu_1_responsive i{
+	width: 30px;
+	box-sizing: border-box;
+	text-align: center;
+	margin-right: 5px;
+	color:#016;
+	}
+	
+	.nav_responsive-u1:hover > .nav_u1-container{
+		top: -37px;
+		height: calc(100vh - 20px);
+	}
+}
+
+
+.flex_box_container{
+	display: flex;
+	height: 100vh;
+	flex-wrap: wrap-reverse;
+}
+.flex{
+	width: 120px;
+	height: 120px;
+	text-align: center;
+	min-width: 100px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+.flex_box_green{
+	background-color:green;
+	flex-basis: 300px;
+	flex-shrink:0;
+}
+.flex_box_blue{
+	background-color:blue ;
+}
+.flex_box_white{
+	background-color:gray;
+}
+.flex_box_yellow{
+	background-color:yellow;
+}
+.flex_box_black{
+	background-color:black;
+	color: white;
+}
+
+.link_form{
+	color: red;
+	text-decoration: none;
+}
+.link_form visited{
+	color: red;
+}

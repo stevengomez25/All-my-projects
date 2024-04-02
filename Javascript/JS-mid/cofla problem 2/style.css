@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+}
+h1{
+    padding:20px;
+    text-transform: uppercase;
+}
+.grid_container{
+    height: auto;
+    display:grid;
+    grid-template-rows: 50px;
+    grid-template-columns: repeat(4,minmax(min-content,max-content));
+    grid-auto-rows: 50px;
+    grid-gap: 20px;
+    background:linear-gradient(#00f,#48e);
+}
+
+
+.grid_container .grid-item{
+    text-align: center;
+    border-radius: 10px;
+    background-color: aqua;
+    padding: 10px;
+    border: 1px solid #48e;
+    margin: 5px;
+}
+select{
+    background-color:#03f;
+    color: #fff;
+}
+
+.button-confirm{
+    padding: 10px 40px;
+    background-color:#00f;
+    color: #fff;
+    border: none;
+    margin: 30px;
+    cursor: pointer;
+}

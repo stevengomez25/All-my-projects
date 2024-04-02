@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Peticiones AJAX con fetch</title>
+</head>
+<body>
+    <button id="boton"">botoncito uwu</button>
+    <div id="characters">
+
+    </div>
+    <script>
+        div = document.getElementById('characters');
+        boton = document.getElementById("boton");
+        boton.addEventListener("click",() => {
+            fetch('https://rickandmortyapi.com/api/character')
+            .then((response)=>response.json())
+            .then((data)=>renderCharacters(data.results));
+
+        });
+        function renderCharacters(characters) {
+            characters.forEach(ch => {
+                div.innerHTML += `<img src="${ch.image}">`;
+            })
+        }
+
+    </script>
+</body>
+</html>

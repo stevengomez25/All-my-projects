@@ -1,0 +1,8 @@
+las triple comillas se usan con f string para abrir varias lineas de texto en la consola y que no se necesite invocar el print muchas veces
+como por ejemplo: 
+print(f'''
+Nombre: {funcion_nombre}
+Edad: {funcion_edad}
+Peso: {funcion_peso}
+Sexo: {funcion_sexo}
+''')

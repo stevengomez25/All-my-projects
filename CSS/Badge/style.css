@@ -1,0 +1,96 @@
+body{
+    background-color: #000;
+}
+.container{
+    margin: 50px;
+    border: solid 4px transparent;
+    border-radius: 15px;
+    height: calc(85vh - 10px);
+    min-height: 800px;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    flex-wrap: wrap;
+    background:radial-gradient(60vh,#ff0000,rgba(243, 0, 0, 0.762));
+    align-items: center;
+}
+.badge_container{
+    margin: 20px;
+    width: 350px;
+    height: 600px;
+    border-radius: 30px;
+    background: linear-gradient(135deg,#fff,#335);
+    box-shadow:  5px 5px 5px;
+}
+.badge_container_img{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.img_profile{
+    width: 150px;
+    height: 210px;
+    border-radius: 30px;
+    border:solid 5px rgba(128, 0, 0, 0.762);
+}
+
+.badge_container_details{
+    display: inline;
+    flex: 1;
+}
+.badge_process_details_tittle{
+    font-size:50px;
+    color: #fff;
+    text-shadow: 0px 0px 10px #000000;
+}
+
+.name_employee{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+.badge_info_2{
+    margin: 30px 40px;
+    height: 80px;
+}
+.Info_detailed{
+    text-decoration: none;
+    color: #fff;
+}
+.about_me{
+    text-align: justify;
+}
+
+.badge_info_container_main{
+    box-sizing: content-box;
+    height: 140px;
+    top: 30px;
+    margin: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.rights_company1{
+    margin-top: 10px;
+    text-align: center;
+}
+.rights_company2{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.Info_detailed:hover{
+    color: #333;
+    font-size: 20px;
+    transition: all .4s ease-in-out;
+}
+.Info_detailed:not(:hover){
+    transition: all .4s ease-in-out;
+}
+.img_profile:hover{
+    transform: scale(1.1);
+    transition: all 0.4s;
+}
+.img_profile:not(:hover){
+    transition: all 0.4s;
+}

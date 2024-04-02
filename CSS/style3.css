@@ -1,0 +1,88 @@
+*{
+	font-family: 'Sen', sans-serif;
+	font-weight: 100;
+	font-size: 20px;
+}
+.caja1{
+	height: 200px;
+	width: 200px;
+	background: #93C572	;
+	transition: all .4s;
+	border: 5px solid orange;
+	display: inline-block;
+	border-radius: 5px;
+}
+.caja1:hover{
+	height: 400px;
+	width: 650px;
+	background-image:url("terry2.jpg");
+	background-size: cover;
+	content: "Que pasa puta queres que te la ponga";
+	border: 8px solid darkred;
+}
+.caja2{
+	height: 200px;
+	width: 200px;
+	background: #93C572	;
+	transition: all 2s;
+	border: 5px solid orange;
+	display: inline-block;
+	border-radius: 5px;
+}
+a:link{
+	color:pink;
+}
+a:visited{
+	color: yellow;
+}
+.caja3{
+	width: 250px;
+	height: 250px;
+	background: gray;
+	margin: 20px;
+	transition: all 1s;
+}
+.caja3:active{
+	background-image:url("terry3.png");
+	background-size:cover;
+	background-repeat: no-repeat;
+	width: 550px;
+	height: 300px;
+}
+input{
+	background: green;
+	width: 500px;
+	height: 75px;
+	margin: 20px;
+	transition: all 1s;
+	text-align: center;
+}
+input:focus {
+	background-color:whitesmoke;
+	width: 550px;
+	height: 100px;
+	margin:20px;
+	color: red;
+	font-weight: 300;
+	text-align: center;
+}
+input::placeholder{
+	color: yellow;
+	text-align: center;
+}
+
+.ImagenGaleria{
+	margin: 10px;
+	width: 350px;
+	object-fit:fill;
+}
+.DivGaleria{
+	display:;
+	background: #666;
+}
+div a:link{
+	color: red;
+}
+div a:visited{
+	color: red;
+}

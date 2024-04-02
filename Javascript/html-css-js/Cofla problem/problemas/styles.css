@@ -1,0 +1,14 @@
+.button{
+    margin: 30px;
+    padding:20px;
+    background-color: #0f0;
+    color: #00f;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+    list-style: none;
+}
+
+.button a{
+    margin: 10px;
+}

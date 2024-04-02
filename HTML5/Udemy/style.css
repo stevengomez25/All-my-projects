@@ -1,0 +1,90 @@
+html{
+    height:100%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+body{
+    background-image: url(back.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+form{
+    text-align: center;
+    margin: 20px;
+}
+.mayorsContainer{
+    background-color: #BEE6CE;
+    display: inline-block;
+    width: 500px;
+    height: 350px;
+    margin-top: 30px;
+    border-radius: 20px 0;
+    box-shadow: 2px 2px #0005;
+}
+.tittleContainer{
+    margin-top: 45px;
+    text-align: center; 
+
+}
+label{
+    color: #4F9D69;
+    display: inline-block;
+    font-size: 14pt;
+    margin-bottom: 10px;
+    content: border-box;
+}
+.container{
+    height: 75px;
+}
+
+#Usuario{
+    background-color:transparent;
+    color: #000;
+    text-align: center;
+    border-radius: 0 10px;
+}
+#contraseña{
+    background-color:transparent;
+    color: #000;
+    text-align: center;
+    border-radius: 0 10px;
+
+}
+#submit{
+    color: #312d2d;
+    margin-top:20px;
+    background-color: #4F9D69;
+    border-radius: 5px;
+}
+#Usuario:hover,#contraseña:hover,#submit:hover{
+    background-color:#fff;
+    border-radius:  10px 0;
+    transition: all 0.5s;
+    padding: 10px 20px;
+}
+#Usuario:not(:hover),#contraseña:not(:hover),#submit:not(:hover){
+    transition: all 0.5s;
+}
+.ayuda{
+    text-decoration: none;
+    font-size: 30pt;
+    display: inline-block;
+    padding: 0 15px;
+    border-radius:100%;
+    border: solid 6px #ffffff6e;
+    color: #ffff;
+    background-color: #00f9;
+}
+
+.ayuda_container{
+    background-color: #00fc;
+    position: absolute; 
+    border-radius: 100%;
+    padding: 10px;
+    right: 0;
+    bottom: 0;
+    margin: 10px;
+    border: inset 5px #000;
+}

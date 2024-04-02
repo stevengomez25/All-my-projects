@@ -1,0 +1,28 @@
+.container{
+    display:flex;
+    flex-direction:column;
+}
+
+.container_carrousel{
+    width:800px;
+    height:500px;
+    margin: 40px;
+}
+
+.container_aligner{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.container_nav{
+    width:100%;
+}
+
+
+img{
+    object-fit: contain;
+}
+.carousel-inner{
+    border-radius: 40px;
+}
