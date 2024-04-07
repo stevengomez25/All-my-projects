@@ -134,4 +134,15 @@ icon_section_div.appendChild(icon_section_i);
 
 //MOVEMENT PAGE
 
-let classes = [];
+let home = document.querySelector(".home");
+home.onclick = ()=>{
+    let container = home.querySelector(".container_text")
+    let icon = container.querySelector(".icon_section_div")
+    if (container.style.color == "white" && container.style.background == "#333" ){
+        container.style.color = "black";
+        container.style.background = "#000"
+}else{
+    container.style.color = "white";
+    container.style.background = "#333"
+}
+}
