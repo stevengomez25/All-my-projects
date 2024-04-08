@@ -135,14 +135,57 @@ icon_section_div.appendChild(icon_section_i);
 //MOVEMENT PAGE
 
 let home = document.querySelector(".home");
-home.onclick = ()=>{
-    let container = home.querySelector(".container_text")
-    let icon = container.querySelector(".icon_section_div")
-    if (container.style.color == "white" && container.style.background == "#333" ){
-        container.style.color = "black";
-        container.style.background = "#000"
-}else{
-    container.style.color = "white";
-    container.style.background = "#333"
-}
-}
+let technologies = document.querySelector(".Technologies");
+let About_me = document.querySelector(".About_me");
+let Studies = document.querySelector(".Studies")
+let Experience = document.querySelector(".Experience")
+
+home.addEventListener("click",()=>{
+    let container = home.querySelector(".icon_section_div")
+    let icono_cambio = container.querySelector(".icon_i")
+    if (icono_cambio.className != "icon_i fa-solid fa-circle-check"){
+        icono_cambio.className = "icon_i fa-solid fa-circle-check"
+    }else{
+        icono_cambio.className = "icon_i fa-solid fa-circle-arrow-left"
+    }
+})
+
+technologies.addEventListener("click",()=>{
+    let container = technologies.querySelector(".icon_section_div")
+    let icono_cambio = container.querySelector(".icon_i")
+    if (icono_cambio.className != "icon_i fa-solid fa-circle-check"){
+        icono_cambio.className = "icon_i fa-solid fa-circle-check"
+    }else{
+        icono_cambio.className = "icon_i fa-solid fa-circle-arrow-left"
+    }
+})
+
+About_me.addEventListener("click",()=>{
+    let container = About_me.querySelector(".icon_section_div")
+    let icono_cambio = container.querySelector(".icon_i")
+    if (icono_cambio.className != "icon_i fa-solid fa-circle-check"){
+        icono_cambio.className = "icon_i fa-solid fa-circle-check"
+    }else{
+        icono_cambio.className = "icon_i fa-solid fa-circle-arrow-left"
+    }
+})
+
+Studies.addEventListener("click",()=>{
+    let container = Studies.querySelector(".icon_section_div")
+    let icono_cambio = container.querySelector(".icon_i")
+    if (icono_cambio.className != "icon_i fa-solid fa-circle-check"){
+        icono_cambio.className = "icon_i fa-solid fa-circle-check"
+    }else{
+        icono_cambio.className = "icon_i fa-solid fa-circle-arrow-left"
+    }
+})
+
+Experience.addEventListener("click",()=>{
+    let container = Experience.querySelector(".icon_section_div")
+    let icono_cambio = container.querySelector(".icon_i")
+    if (icono_cambio.className != "icon_i fa-solid fa-circle-check"){
+        icono_cambio.className = "icon_i fa-solid fa-circle-check"
+    }else{
+        icono_cambio.className = "icon_i fa-solid fa-circle-arrow-left"
+    }
+})
