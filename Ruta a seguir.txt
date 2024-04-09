@@ -1,0 +1,22 @@
+Front-End[
+    HTML : CSS,
+    Javascript : Typescript,
+    Biblioteca/Framework{
+        ReactJS
+        Angular
+        VueJS
+    }
+]
+Back-End[
+    Lenguaje: (Python, NodeJS y Java),
+    Framework: (Django,ExpressJS,Spring),
+    SQL: (mySQL, poslgresql),
+    NonSQL: MongoDB
+]
+
+
+General[
+    git con github,
+    Docker,
+    Linux/Ubuntu
+]
