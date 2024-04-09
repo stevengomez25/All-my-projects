@@ -1,0 +1,13 @@
+.main_container{
+    display: block;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    margin:20px;
+}
+.response{
+    padding:10px;
+}
