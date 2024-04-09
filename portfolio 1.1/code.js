@@ -39,9 +39,11 @@ dot_changer.appendChild(span_switcher);
 input_switcher.addEventListener("change", function () {
     if (this.checked) {
         new_div.style.filter = "invert(1)";
+        document.querySelector('.profile_picture').style.filter = "invert(1)";
     }
     else {
         new_div.style.filter = "invert(0)";
+        document.querySelector('.profile_picture').style.filter = "invert(0)";
     }
 })
 
@@ -175,7 +177,23 @@ home.addEventListener("click", () => {
         display_home = document.createElement('div')
         display_home.className = "desplegated_div home"
         new_div.appendChild(display_home)
-        display_home.innerHTML = "testeando el despliegue "
+        display_home.innerHTML = (`
+        <div class="home_exposer">
+            <h1>Steven Gomez</h1>
+            <div class="home_container">
+                <img src="image2.jpg" class="profile_picture">
+                <div class="icon_wrapper">
+                    <h3>Pasionate with develop and design</h3>
+                    <div class="icon_wrapper_2">
+                        <a href="https://github.com/stevengomez25"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://www.facebook.com/stevengomez.0425/?locale=es_LA"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/steven-gómez-49aa87236/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://wa.me/573164187146"><i class="fa-brands fa-square-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        `)
     } else {
         icono_cambio_home.className = "icon_i fa-solid fa-circle-arrow-left"
         display_home.classList.add("return_div")

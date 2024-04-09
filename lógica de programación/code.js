@@ -30,6 +30,7 @@ button_runner.addEventListener('click',()=>{
         }
     }
 })
+
 // Anagrama
 
 segundo_ejercicio = document.createElement('div')
