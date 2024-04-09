@@ -7,6 +7,7 @@
     flex-wrap: wrap;
     gap:10px;
     margin:20px;
+    align-items: center;
 }
 .response{
     padding:10px;

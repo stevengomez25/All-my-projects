@@ -2,7 +2,7 @@ main_body = document.createElement('div');
 main_body.className = 'main_container'
 
 
-main_body.innerHTML = ('<div class="container fizz">Fizz buzz Ejercicio</div>');
+main_body.innerHTML = ('<div class="container fizz"><h1>Fizz buzz Ejercicio</h1></div>');
 main_body_fizzbuzz = main_body.querySelector('.fizz');
 console.log(main_body_fizzbuzz)
 document.body.appendChild(main_body);
@@ -30,11 +30,12 @@ button_runner.addEventListener('click',()=>{
         }
     }
 })
+// Anagrama
 
 segundo_ejercicio = document.createElement('div')
 segundo_ejercicio.className = 'container segundo'
 main_body.appendChild(segundo_ejercicio)
-segundo_ejercicio.innerHTML = "Anagrama"
+segundo_ejercicio.innerHTML = "<h1>Anagrama</h1>"
 button_runner_2 = document.createElement('button')
 segundo_ejercicio.appendChild(button_runner_2)
 button_runner_2.innerHTML = "Correr"
@@ -53,12 +54,23 @@ button_runner_2.addEventListener('click', () => {
         array_second_word = second_input.value.toLowerCase().split("")
         console.log(array_first_word,array_second_word)
         let new_array = []
-        for(i in array_first_word){
-            element = array_first_word[i]
-            if(array_second_word.includes(element)){
+        for(i in array_second_word){
+            element = array_second_word[i]
+            if(array_first_word.includes(element)){
                 new_array.push(element)
             }
         }
-        console.log(new_array)
+        new_array.sort()
+        array_second_word.sort()
+        new_array = new_array.join("")
+        array_second_word = array_second_word.join("")
+        console.log(array_first_word,array_second_word,new_array)
+        if(new_array===array_second_word){
+            response_validation = segundo_ejercicio.appendChild(document.createElement('div'))
+            response_validation.innerHTML = "Es anagrama"
+        }else{
+            response_validation = segundo_ejercicio.appendChild(document.createElement('div'))
+            response_validation.innerHTML = "No es anagrama"
+        }
     })
 })
