@@ -206,3 +206,29 @@ ul{
 .contenedor_tecnologias div:not(:hover){
 	transition: .5s;
 }
+
+
+@media only screen and (max-width:800px){
+	body{
+		width: 100dvw;
+	}
+	.div_container{
+		position: relative;
+	}
+	.div_container ul{
+		display: inline-block;
+	}
+	.profile_picture{
+		width: 100px;
+		height: 100px;
+	}
+	.profile_picture img{
+		width: 100px;
+		height: 100px;
+	}
+	.header{
+		background-size: 100%;
+		background-position: center;
+		height:auto;
+	}
+}
