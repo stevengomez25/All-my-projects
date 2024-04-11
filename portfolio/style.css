@@ -228,7 +228,16 @@ ul{
 	}
 	.header{
 		background-size: 100%;
+		display: flex;
 		background-position: center;
 		height:auto;
+		
+	}
+	.tecnologias{
+		display: inline;
+	}
+	.contenedor_tecnologias{
+		display: flex;
+		flex-direction: column;
 	}
 }
