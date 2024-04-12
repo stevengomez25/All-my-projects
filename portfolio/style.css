@@ -213,30 +213,51 @@ ul{
 		width: 100dvw;
 	}
 	.div_container{
-		position: relative;
+		display: flex;
+		justify-content: center;
 	}
 	.div_container ul{
-		display: inline-block;
-	}
-	.profile_picture{
-		width: 100px;
-		height: 100px;
-	}
-	.profile_picture img{
-		width: 100px;
-		height: 100px;
-	}
-	.header{
-		background-size: 100%;
+		padding: 0;
+		margin: 0;
 		display: flex;
-		background-position: center;
+		flex-direction: column;
+		align-items: center;
+	}
+	.change_list{
+		margin: 0;
+	}
+	
+	.profile_picture img{
+		padding: 0px;
+		margin: 10px;
+		width: 100px;
+		height: 100px;
+	}
+	
+	.header{
 		height:auto;
-		
 	}
 	.tecnologias{
 		display: inline;
 	}
 	.contenedor_tecnologias{
+		display: flex;
+		flex-direction: column;
+	}
+	.sub_container_tecnologias{
+		display: flex;
+		flex-direction: column;
+		
+	}
+
+	.contenedor_tecnologias div{
+		margin: 0;
+		padding: 0;
+	}
+	.text_container_resume{
+		box-shadow: none;
+	}
+	.contenedor_intro{
 		display: flex;
 		flex-direction: column;
 	}
