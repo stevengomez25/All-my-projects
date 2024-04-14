@@ -235,6 +235,8 @@ ul{
 @media only screen and (max-width:800px){
 	body{
 		width: 100dvw;
+		display: flex;
+		flex-direction: column;
 	}
 	.div_container{
 		justify-content: center;
@@ -266,7 +268,12 @@ ul{
 		width: 50%;
 	}
 	.resume_container{
+		display: block;
 		width: 100%;
+	}
+	.p_container{
+		display: flex;
+		height: 900px;
 	}
 	.titte_container{
 		width: 100%;
@@ -274,5 +281,14 @@ ul{
 	.secondary_section{
 		display: flex;
 		flex-direction: column;
+	}
+	.third_section{
+		display: flex;
+		flex-direction: column;
+	}
+	.jobs_content{
+		display: flex;
+		flex-direction: column;
+		margin: 0;
 	}
 }
