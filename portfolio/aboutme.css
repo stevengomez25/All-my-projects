@@ -271,4 +271,8 @@ ul{
 	.titte_container{
 		width: 100%;
 	}
+	.secondary_section{
+		display: flex;
+		flex-direction: column;
+	}
 }
