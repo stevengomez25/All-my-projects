@@ -231,6 +231,20 @@ ul{
 	}
 }
 
+@keyframes typing_responsive {
+	from{
+		width: 0;
+	}
+	to{
+		width: 100dvw;
+	}
+}
+
+@keyframes blink_animation {
+	50%{
+		border-right: 3px solid #000;
+	}
+}
 
 @media only screen and (max-width:800px){
 	body{
@@ -255,6 +269,9 @@ ul{
 		display: flex;
 		flex-direction: column;
 	}
+	.main_content{
+		height: auto;
+	}
 	.form_img_container{
 		text-align: center;
 		margin: 30px;
@@ -268,15 +285,20 @@ ul{
 		width: 50%;
 	}
 	.resume_container{
-		display: block;
-		width: 100%;
+		display: flex;
+		width: 100vw;
 	}
 	.p_container{
 		display: flex;
-		height: 900px;
 	}
 	.titte_container{
 		width: 100%;
+		font-size: 15pt;
+		display: grid;
+		place-items: center;
+		animation: typing_responsive 1s steps(10), blink_animation .1s step-end 13 alternate;
+		white-space: nowrap;
+		overflow: hidden;
 	}
 	.secondary_section{
 		display: flex;
@@ -290,5 +312,8 @@ ul{
 		display: flex;
 		flex-direction: column;
 		margin: 0;
+	}
+	.edu_tittle{
+		font-size: 10pt;
 	}
 }
