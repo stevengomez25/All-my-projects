@@ -211,9 +211,11 @@ ul{
 @media only screen and (max-width:800px){
 	body{
 		width: 100dvw;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
 	}
 	.div_container{
-		display: flex;
 		justify-content: center;
 	}
 	.div_container ul{
@@ -247,11 +249,16 @@ ul{
 	.sub_container_tecnologias{
 		display: flex;
 		flex-direction: column;
-		
 	}
-
+	.contenedor_tecnologias div button{
+		box-shadow: none;
+	}
+	.contenedor h2{
+		padding: 0px;
+		box-shadow: none;
+	}
 	.contenedor_tecnologias div{
-		margin: 0;
+		margin: 0px;
 		padding: 0;
 	}
 	.text_container_resume{
@@ -260,5 +267,9 @@ ul{
 	.contenedor_intro{
 		display: flex;
 		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
 	}
+	
 }
