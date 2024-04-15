@@ -251,6 +251,7 @@ ul{
 		width: 100dvw;
 		display: flex;
 		flex-direction: column;
+		gap: 10px;
 	}
 	.div_container{
 		justify-content: center;
@@ -269,9 +270,6 @@ ul{
 		display: flex;
 		flex-direction: column;
 	}
-	.main_content{
-		height: auto;
-	}
 	.form_img_container{
 		text-align: center;
 		margin: 30px;
@@ -286,10 +284,7 @@ ul{
 	}
 	.resume_container{
 		display: flex;
-		width: 100vw;
-	}
-	.p_container{
-		display: flex;
+		width: 100%;
 	}
 	.titte_container{
 		width: 100%;
