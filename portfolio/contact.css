@@ -1,4 +1,3 @@
-
 *{
 	font-family: 'Onest', sans-serif;
 	font-weight: 700;
@@ -74,4 +73,27 @@ ul{
 .icon{
 	text-align: center;
 	font-size:40px;
+}
+
+
+@media only screen and (max-width: 800px){
+    body{
+		width: 100dvw;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+	.div_container{
+		justify-content: center;
+	}
+	.div_container ul{
+		padding: 0;
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.change_list{
+		margin: 0;
+	}
 }
