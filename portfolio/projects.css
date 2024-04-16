@@ -4,6 +4,9 @@
 
 }
 
+body{
+    width: 100%;
+}
 :root{
     --primary-color: #20B2AA;
     --secondary-color: #004f;
@@ -22,6 +25,7 @@
 	position: sticky;
 	top:0;
     background-color: white;
+    width: 100%;
 }
 .links:hover{
 	color: #000;
@@ -29,7 +33,7 @@
 	padding: 10px 15px;
 	box-shadow: 0px 0px 20px #00CED1;
 }
-ul{
+ul{ 
 	margin: 0;
 	display: flex;
 	justify-content: space-evenly;
@@ -253,5 +257,63 @@ ul{
         outline: 10px dotted #fff;
         color: #000;
     
+    }
+}
+
+
+
+@media only screen and (max-width: 800px){
+    body{
+		width: 100dvw;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+	.div_container{
+		justify-content: center;
+	}
+	.div_container ul{
+		padding: 0;
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.change_list{
+		margin: 0;
+	}
+    .tittle_resume{
+        font-size:50%;
+    }
+    .resume_section{
+        font-size: 30pt;
+        width: 100%;
+        height: 100%;
+    }
+    .resume_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .front-end-container-tittle{
+        font-size: 10pt;
+    }
+    .front-end-container-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .back-end-container-tittle{
+        font-size: 10pt;
+    }
+    .back-end-container-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-container{
+        width: 100%;
+    }
+
+    .project-container-image{
+        position: inherit;
     }
 }
