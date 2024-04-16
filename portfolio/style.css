@@ -256,10 +256,13 @@ ul{
 	.contenedor h2{
 		padding: 0px;
 		box-shadow: none;
+		font-size: 20pt;
+		overflow: hidden;
 	}
 	.contenedor_tecnologias div{
 		margin: 0px;
 		padding: 0;
+		width: 100%;
 	}
 	.text_container_resume{
 		box-shadow: none;
