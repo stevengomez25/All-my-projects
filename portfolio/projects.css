@@ -294,6 +294,9 @@ ul{
         display: flex;
         flex-direction: column;
     }
+    .project-container-image{
+        position: absolute;
+    }
     .front-end-container-tittle{
         font-size: 10pt;
     }
