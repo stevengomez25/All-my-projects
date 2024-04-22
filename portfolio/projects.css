@@ -173,9 +173,6 @@ ul{
     text-shadow: 0px 0px 10px #fff;
 }
 
-.project-container:active{
-    transform: scale(1.05);
-}
 .project-container-tittle{
     text-align: center;
     padding: 10px;
@@ -184,8 +181,6 @@ ul{
 .project-container-image{
     width: 100%;
     height: 300px;
-    position: relative;
-    
     
 }
 .imagenprueba{
@@ -223,6 +218,17 @@ ul{
 
 .project-container-content{
     padding: 20px;
+}
+.project-container-content button{
+    margin: 0;
+    padding: 3px;
+    border-radius: 30px;
+}
+
+.redirecter_button_a{
+    text-decoration: none;
+    color: #000;
+    border: none;
 }
 
 .back-end-projects-section{
@@ -293,9 +299,6 @@ ul{
     .resume_container{
         display: flex;
         flex-direction: column;
-    }
-    .project-container-image{
-        position: relative;
     }
     .front-end-container-tittle{
         font-size: 10pt;
