@@ -175,7 +175,7 @@ home.addEventListener("click", () => {
         icono_cambio_home.className = "icon_i fa-solid fa-circle-check"
         check_status(icono_cambio_about,icono_cambio_experience,icono_cambio_studies,icono_cambio_technologies)
         display_home = document.createElement('div')
-        display_home.className = "desplegated_div home"
+        display_home.className = "desplegated_div Home"
         new_div.appendChild(display_home)
         display_home.innerHTML = (`
         <div class="home_exposer">
@@ -194,13 +194,15 @@ home.addEventListener("click", () => {
             </div>
         </div>
         `)
+        try{document.querySelector('.technologies').remove()}catch{console.log("Already removed")}
+        try{document.querySelector('.about_me').remove()}catch{console.log("Already removed")}
+        try{document.querySelector('.studies').remove()}catch{console.log("Already removed")}
+        try{document.querySelector('.experience').remove()}catch{console.log("Already removed")}
     } else {
         icono_cambio_home.className = "icon_i fa-solid fa-circle-arrow-left"
         display_home.classList.add("return_div")
         display_home.addEventListener("transitionend", () => {
             display_home.remove()
-            try{display_technologies.remove()}catch{() => {console.log("Error removing technologies")}}
-            try{display_technologies.remove()}catch{() => {console.log("Error removing technologies")}}
         })
     }
 })
@@ -213,6 +215,10 @@ technologies.addEventListener("click", () => {
         display_technologies.className = "desplegated_div technologies"
         new_div.appendChild(display_technologies)
         display_technologies.innerHTML = "Testeando segunda pagina"
+        try{document.querySelector('.Home').remove()}catch{console.log("Already removed")}
+        try{document.querySelector('.about_me').remove()}catch{console.log("Already removed")}
+        try{document.querySelector('.studies').remove()}catch{console.log("Already removed")}
+        try{document.querySelector('.experience').remove()}catch{console.log("Already removed")}
     } else {
         icono_cambio_technologies.className = "icon_i fa-solid fa-circle-arrow-left"
         display_technologies.classList.add("return_div")
@@ -230,6 +236,10 @@ About_me.addEventListener("click", () => {
         display_aboutMe.className = "desplegated_div about_me"
         new_div.appendChild(display_aboutMe)
         display_aboutMe.innerHTML = "Testeando segunda página"
+        try{document.querySelector('.technologies').remove()}catch{console.log("Already removed")}
+        try{document.querySelector('.Home').remove()}catch{console.log("Already removed")}
+        try{document.querySelector('.studies').remove()}catch{console.log("Already removed")}
+        try{document.querySelector('.experience').remove()}catch{console.log("Already removed")}
     } else {
         icono_cambio_about.className = "icon_i fa-solid fa-circle-arrow-left"
         display_aboutMe.classList.add("return_div")
@@ -247,6 +257,10 @@ Studies.addEventListener("click", () => {
         display_studies.className = "desplegated_div studies"
         new_div.appendChild(display_studies)
         display_studies.innerHTML = "Testeando pagina estudios"
+        try{document.querySelector('.technologies').remove()}catch{console.log("Already removed")}
+        try{document.querySelector('.about_me').remove()}catch{console.log("Already removed")}
+        try{document.querySelector('.Home').remove()}catch{console.log("Already removed")}
+        try{document.querySelector('.experience').remove()}catch{console.log("Already removed")}
     } else {
         icono_cambio_studies.className = "icon_i fa-solid fa-circle-arrow-left"
         display_studies.classList.add("return_div")
@@ -263,6 +277,10 @@ Experience.addEventListener("click", () => {
         display_experience.className = "desplegated_div experience"
         new_div.appendChild(display_experience)
         display_experience.innerHTML = "Testeando página Experiencia"
+        try{document.querySelector('.technologies').remove()}catch{console.log("Already removed")}
+        try{document.querySelector('.about_me').remove()}catch{console.log("Already removed")}
+        try{document.querySelector('.studies').remove()}catch{console.log("Already removed")}
+        try{document.querySelector('.Home').remove()}catch{console.log("Already removed")}
     } else {
         icono_cambio_experience.className = "icon_i fa-solid fa-circle-arrow-left"
         display_experience.classList.add("return_div")

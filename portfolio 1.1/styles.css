@@ -10,11 +10,11 @@
   background-color: #fff;
   width: 100dvw;
   height: 100dvh;
-  justify-content: flex-end;
   animation: animation .3s;
 }
 
 .section_right {
+  padding-left: 10px;
   display: flex;
   flex-direction: column;
   background-color: #fff;
