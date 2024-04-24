@@ -158,19 +158,33 @@ input:checked + .slider:before {
 /*Studies Styles*/
 
 .studies_exposer{
+  width: 100%;
+  height: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
-  flex-wrap: nowrap;
   margin: 20px;
 }
 .studies_container{
   margin: 10px;
+  background-color: #bbb;
+  padding: 10px;
+  border-radius: 5px;
+}
+.studies_1{
+  display: flex;
+  flex-direction: column;
+}
+.studies_1 img{
+  border-radius: 10px;
 }
 .studies_2{
   display: flex;
   flex-direction: row;
 }
 .studies_2 img{
+  border-radius: 10px;
   max-width: 100px;
   max-height: 100px;
 }
