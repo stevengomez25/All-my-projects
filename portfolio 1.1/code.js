@@ -214,7 +214,11 @@ technologies.addEventListener("click", () => {
         display_technologies = document.createElement('div')
         display_technologies.className = "desplegated_div technologies"
         new_div.appendChild(display_technologies)
-        display_technologies.innerHTML = "Testeando segunda pagina"
+        display_technologies.innerHTML = `
+        <div class="technologies_exposer">
+            <h1>HTecnologias</h1>
+        </div>
+        `
         try{document.querySelector('.Home').remove()}catch{console.log("Already removed")}
         try{document.querySelector('.about_me').remove()}catch{console.log("Already removed")}
         try{document.querySelector('.studies').remove()}catch{console.log("Already removed")}
@@ -256,7 +260,24 @@ Studies.addEventListener("click", () => {
         display_studies = document.createElement('div')
         display_studies.className = "desplegated_div studies"
         new_div.appendChild(display_studies)
-        display_studies.innerHTML = "Testeando pagina estudios"
+        display_studies.innerHTML = `
+        <div class="studies_exposer">
+            <div class="studies_container studies_1">
+                <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
+                <div class="studies_1_text_container">
+                    <h1>JOSE ELIAS PUYANA</h1>
+                    <h3>Bachiller con promoción anticipada 2013-2020</h3>
+                </div>
+            </div>
+            <div class="studies_container studies_2">
+            <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
+            <div class="studies_1_text_container">
+                <h1>Servicio Nacional de Aprendizaje SENA</h1>
+                <h3>Análisis y desarrollo de Software 2023-actualmente</h3>
+            </div>
+            </div>
+        </div>
+        `
         try{document.querySelector('.technologies').remove()}catch{console.log("Already removed")}
         try{document.querySelector('.about_me').remove()}catch{console.log("Already removed")}
         try{document.querySelector('.Home').remove()}catch{console.log("Already removed")}
