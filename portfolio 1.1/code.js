@@ -279,11 +279,17 @@ Studies.addEventListener("click", () => {
                 </div>
             </div>
             <div class="studies_main_container_right">
-            <div class="studies_container studies_3">
-                <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
+                <div class="studies_container studies_3">
+                    <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
+                        <div class="studies_1_text_container">
+                            <h1>Udemy</h1>
+                            <h3>Múltiples cursos orientados a la programación <br>2022-actualmente</h3>
+                        </div>
+                </div>
+                <div class="studies_container studies_4">
                     <div class="studies_1_text_container">
-                        <h1>Udemy</h1>
-                        <h3>Múltiples cursos orientados a la programación <br>2022-actualmente</h3>
+                        <h1>CISCO</h1>
+                        <h3>Fundamentos de python, proyectos y consolidación de nivel JR 2023</h3>
                     </div>
                 </div>
             </div>

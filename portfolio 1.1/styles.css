@@ -168,6 +168,12 @@ input:checked + .slider:before {
   display: flex;
   flex-direction: column;
 }
+.studies_main_container_right{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
 .studies_exposer{
   display: flex;
   align-items: center;
@@ -207,6 +213,9 @@ input:checked + .slider:before {
   border-radius: 10px;
   max-width: 100px;
   max-height: 100px;
+}
+.studies_4{
+  margin-top: 20px;
 }
 
 @keyframes animation {
