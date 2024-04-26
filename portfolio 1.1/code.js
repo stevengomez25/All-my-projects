@@ -265,14 +265,14 @@ Studies.addEventListener("click", () => {
             <div class="studies_main_container_left">
                 <div class="studies_container studies_1">
                     <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
-                    <div class="studies_1_text_container">
+                    <div class="studies_text_container">
                         <h1>JOSE ELIAS PUYANA</h1>
                         <h3>Bachiller con promoción anticipada 2013-2020</h3>
                     </div>
                 </div>
                 <div class="studies_container studies_2">
                     <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
-                    <div class="studies_1_text_container">
+                    <div class="studies_text_container">
                         <h1>Servicio Nacional de Aprendizaje SENA</h1>
                         <h3>Análisis y desarrollo de Software 2023-actualmente</h3>
                     </div>
@@ -281,14 +281,21 @@ Studies.addEventListener("click", () => {
             <div class="studies_main_container_right">
                 <div class="studies_container studies_3">
                     <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
-                        <div class="studies_1_text_container">
-                            <h1>Udemy</h1>
+                        <div class="studies_text_container">
+                            <h1>UDEMY</h1>
                             <h3>Múltiples cursos orientados a la programación <br>2022-actualmente</h3>
                         </div>
                 </div>
                 <div class="studies_container studies_4">
-                    <div class="studies_1_text_container">
+                    <div class="studies_text_container">
                         <h1>CISCO</h1>
+                        <h3>Fundamentos de python, proyectos y consolidación de nivel JR 2023</h3>
+                    </div>
+                </div>
+                <div class="studies_container studies_5">
+                    <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
+                    <div class="studies_text_container">
+                        <h1>LINKEDIN</h1>
                         <h3>Fundamentos de python, proyectos y consolidación de nivel JR 2023</h3>
                     </div>
                 </div>
