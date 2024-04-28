@@ -262,7 +262,7 @@ Studies.addEventListener("click", () => {
         new_div.appendChild(display_studies)
         display_studies.innerHTML =`
         <div class="studies_exposer">
-            <div class="studies_main_container_left">
+            
                 <div class="studies_container studies_1">
                     <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
                     <div class="studies_text_container">
@@ -277,8 +277,8 @@ Studies.addEventListener("click", () => {
                         <h3>Análisis y desarrollo de Software 2023-actualmente</h3>
                     </div>
                 </div>
-            </div>
-            <div class="studies_main_container_right">
+            
+
                 <div class="studies_container studies_3">
                     <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
                         <div class="studies_text_container">
@@ -299,7 +299,7 @@ Studies.addEventListener("click", () => {
                         <h3>Fundamentos de python, proyectos y consolidación de nivel JR 2023</h3>
                     </div>
                 </div>
-            </div>
+
         </div>
         `
         try{document.querySelector('.technologies').remove()}catch{console.log("Already removed")}
