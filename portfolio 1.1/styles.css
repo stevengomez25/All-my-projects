@@ -162,20 +162,24 @@ input:checked + .slider:before {
 
 /*Studies Styles*/
 
-.studies_exposer{
-  height: auto;
+.studies{
+  margin:20px;
   display: grid;
-  grid-template-rows: repeat(2, 2fr);
-  grid-auto-columns: repeat(2, 2fr);
-  gap: 20px;
+	grid-template-columns:repeat(2, 1fr);
+  grid-template-rows: repeat(auto-fit, minmax(100px,1fr));
 }
-.desplegated_div{
-  display: flex;
-  height:100%
-}
+
 
 .studies_container{
   background-color: #bbb;
+  display: flex;
+  margin: 10px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.studies_1{
+  grid-column: 1/span 2;
 }
 
 @keyframes animation {

@@ -261,7 +261,7 @@ Studies.addEventListener("click", () => {
         display_studies.className = "desplegated_div studies"
         new_div.appendChild(display_studies)
         display_studies.innerHTML =`
-        <div class="studies_exposer">
+        
             
                 <div class="studies_container studies_1">
                     <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
@@ -287,6 +287,8 @@ Studies.addEventListener("click", () => {
                         </div>
                 </div>
                 <div class="studies_container studies_4">
+                <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
+
                     <div class="studies_text_container">
                         <h1>CISCO</h1>
                         <h3>Fundamentos de python, proyectos y consolidación de nivel JR 2023</h3>
@@ -300,7 +302,6 @@ Studies.addEventListener("click", () => {
                     </div>
                 </div>
 
-        </div>
         `
         try{document.querySelector('.technologies').remove()}catch{console.log("Already removed")}
         try{document.querySelector('.about_me').remove()}catch{console.log("Already removed")}
