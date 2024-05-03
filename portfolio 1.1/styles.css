@@ -18,7 +18,7 @@ body{
 }
 
 .section_right {
-  padding-left: 10px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   background-color: #fff;
@@ -59,7 +59,7 @@ body{
 .button_container {
     width: 90%;
     display: flex;
-    justify-content: end;
+    justify-content: center;
 }
 
 .switch {
@@ -119,6 +119,7 @@ input:checked + .slider:before {
     width: 100%;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .section{
@@ -245,6 +246,28 @@ input:checked + .slider:before {
     width: 100%;
     display: flex;
   }
+  /*Home*/
+  .icon_wrapper_2{
+    justify-content: center;
+  }
+  .home_exposer h1{
+    font-size: 30pt;
+  }
+  .home_exposer h3{
+    font-size: 15pt;
+    text-align: center;
+  }
+  .desplegated_div{
+    height:auto;
+  }
+  .home_container{
+    flex-direction: column;
+  }
+  .profile_picture{
+    height: auto;
+    width: 100%;
+  }
+  /*Studies*/
   .studies{
     display: flex;
     flex-direction: column;

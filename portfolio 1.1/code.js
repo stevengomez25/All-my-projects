@@ -6,18 +6,9 @@ let section_right = document.createElement('div');
 section_right.className = 'section_right';
 new_div.appendChild(section_right);
 
-let search_bar = document.createElement('form');
-search_bar.className = 'search_bar';
-section_right.appendChild(search_bar);
 
-i = document.createElement('i');
-i.className = "icon_element fa-brands fa-searchengin fa-rotate-90"
-search_bar.appendChild(i);
 
-input_search = document.createElement('input');
-input_search.className = 'search_input';
-input_search.placeholder = "Search";
-search_bar.appendChild(input_search);
+
 
 button_container = document.createElement('div');
 button_container.className = "button_container";
