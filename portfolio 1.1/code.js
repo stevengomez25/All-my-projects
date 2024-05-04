@@ -207,8 +207,6 @@ technologies.addEventListener("click", () => {
         new_div.appendChild(display_technologies)
         display_technologies.innerHTML = `
         <div class="technologies_exposer">
-            <h1>HTecnologias</h1>
-        </div>
         `
         try{document.querySelector('.Home').remove()}catch{console.log("Already removed")}
         try{document.querySelector('.about_me').remove()}catch{console.log("Already removed")}
@@ -313,7 +311,19 @@ Experience.addEventListener("click", () => {
         display_experience = document.createElement('div')
         display_experience.className = "desplegated_div experience"
         new_div.appendChild(display_experience)
-        display_experience.innerHTML = "Testeando página Experiencia"
+        display_experience.innerHTML = `
+        <div class="experience_exposer">
+            <ul class="list_options">
+                <li>Pestaña 1</li>
+                <li>Pestaña 2</li>
+                <li>Pestaña 3</li>
+                <li>Pestaña 4</li>
+                <li>Pestaña 5</li>
+                <li>Pestaña 6</li>
+                <li>Pestaña 7</li>
+            </ul>
+            <div class="main_container_proyect">Aqui el expositor</div>
+        </div>`
         try{document.querySelector('.technologies').remove()}catch{console.log("Already removed")}
         try{document.querySelector('.about_me').remove()}catch{console.log("Already removed")}
         try{document.querySelector('.studies').remove()}catch{console.log("Already removed")}

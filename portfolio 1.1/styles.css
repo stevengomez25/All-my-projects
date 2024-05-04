@@ -231,6 +231,32 @@ input:checked + .slider:before {
   font-size: 30pt;
 }
 
+/* Experience */
+
+.experience{
+  display: flex;
+  width: 100%;
+}
+
+.experience_exposer{
+  align-items: center;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.experience_exposer ul{
+  display: flex;
+  align-items: space-around;
+}
+
+.experience_exposer ul li{
+  margin:10px;
+}
+
+.main_container_proyect{
+  flex-grow: 1;
+}
 
 
 @media screen and (max-width:800px){
