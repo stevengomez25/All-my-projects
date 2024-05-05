@@ -251,7 +251,15 @@ input:checked + .slider:before {
 }
 
 .experience_exposer ul li{
-  margin:10px;
+  border-radius: 10px;
+  background-color: #999;
+  margin: 10px;
+  padding: 10px 20px;
+  list-style: none;
+}
+.experience_exposer ul li a{
+  text-decoration: none;
+  color: #fff;
 }
 
 .main_container_proyect{

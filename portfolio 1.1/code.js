@@ -314,13 +314,13 @@ Experience.addEventListener("click", () => {
         display_experience.innerHTML = `
         <div class="experience_exposer">
             <ul class="list_options">
-                <li>Pestaña 1</li>
-                <li>Pestaña 2</li>
-                <li>Pestaña 3</li>
-                <li>Pestaña 4</li>
-                <li>Pestaña 5</li>
-                <li>Pestaña 6</li>
-                <li>Pestaña 7</li>
+                <li><a href="#">Pestaña 1</a></li>
+                <li><a href="#">Pestaña 2</a></li>
+                <li><a href="#">Pestaña 3</a></li>
+                <li><a href="#">Pestaña 4</a></li>
+                <li><a href="#">Pestaña 5</a></li>
+                <li><a href="#">Pestaña 6</a></li>
+                <li><a href="#">Pestaña 7</a></li>
             </ul>
             <div class="main_container_proyect">Aqui el expositor</div>
         </div>`
