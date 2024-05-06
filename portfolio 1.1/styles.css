@@ -247,7 +247,8 @@ input:checked + .slider:before {
 
 .experience_exposer ul{
   display: flex;
-  align-items: space-around;
+  width: 90%;
+  justify-content: space-around;
 }
 
 .experience_exposer ul li{
@@ -264,6 +265,8 @@ input:checked + .slider:before {
 
 .main_container_proyect{
   flex-grow: 1;
+  width: 90%;
+  justify-content: center;
 }
 
 
