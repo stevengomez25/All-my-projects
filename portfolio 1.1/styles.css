@@ -164,6 +164,7 @@ input:checked + .slider:before {
 /*Studies Styles*/
 
 .studies{
+  width: 80%;
   margin:20px;
   display: grid;
 	grid-template-columns:repeat(2, 1fr);
@@ -235,7 +236,7 @@ input:checked + .slider:before {
 
 .experience{
   display: flex;
-  width: 100%;
+  width: 80%;
 }
 
 .experience_exposer{
@@ -247,7 +248,7 @@ input:checked + .slider:before {
 
 .experience_exposer ul{
   display: flex;
-  width: 90%;
+  width: 100%;
   justify-content: space-around;
 }
 
@@ -265,7 +266,7 @@ input:checked + .slider:before {
 
 .main_container_proyect{
   flex-grow: 1;
-  width: 90%;
+  width: 100%;
   justify-content: center;
 }
 
