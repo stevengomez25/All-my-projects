@@ -173,7 +173,7 @@ input:checked + .slider:before {
 
 
 .studies_container{
-  background-color: #bbb;
+  background-color: #ddd;
   display: flex;
   margin: 10px;
   border-radius: 20px;
@@ -253,21 +253,37 @@ input:checked + .slider:before {
 }
 
 .experience_exposer ul li{
-  border-radius: 10px;
-  background-color: #999;
-  margin: 10px;
-  padding: 10px 20px;
   list-style: none;
 }
-.experience_exposer ul li a{
+.experience_exposer ul li button{
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px 20px;
   text-decoration: none;
-  color: #fff;
+}
+.activated{
+  color: white;
+  background-color: black;
 }
 
 .main_container_proyect{
+  display: flex;
   flex-grow: 1;
   width: 100%;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.exposer_left{
+  display: flex;
+  flex-direction: column;
+}
+.exposer_right{
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  text-align: center;
 }
 
 
