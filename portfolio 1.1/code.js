@@ -333,6 +333,13 @@ Experience.addEventListener("click", () => {
             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit vulputate, eu luctus nascetur sociis ornare sed turpis, scelerisque fringilla tempor pulvinar fusce suscipit egestas. Class et potenti varius aenean scelerisque duis rhoncus nulla, egestas at per porttitor inceptos tellus vitae parturient, himenaeos ut nullam aptent pretium nisl mauris. Natoque class curae velit lacinia suscipit primis ridiculus, vulputate mattis bibendum molestie volutpat egestas etiam, torquent est purus ultricies interdum nostra.
 
             Sociosqu dictumst aliquam phasellus libero platea pulvinar quisque, facilisi eleifend lacinia hac lacus netus ultricies morbi, sociis tempus leo ultrices primis nisl. Ultricies nibh maecenas eu litora ridiculus tristique lacinia interdum sollicitudin in dignissim varius ullamcorper, fusce blandit vestibulum non pharetra faucibus cursus himenaeos arcu mi morbi. Porttitor magna viverra orci eros habitant parturient ac convallis auctor donec bibendum urna, facilisi ultrices nisi nascetur ridiculus cum aliquet tortor risus turpis.</p>
+            <select>
+                <option value="HTML">Tecnologías utilizadas</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="React">React</option>
+            </select>
         </div>
         `,`
         <div class="exposer_left">
@@ -344,6 +351,13 @@ Experience.addEventListener("click", () => {
             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit vulputate, eu luctus nascetur sociis ornare sed turpis, scelerisque fringilla tempor pulvinar fusce suscipit egestas. Class et potenti varius aenean scelerisque duis rhoncus nulla, egestas at per porttitor inceptos tellus vitae parturient, himenaeos ut nullam aptent pretium nisl mauris. Natoque class curae velit lacinia suscipit primis ridiculus, vulputate mattis bibendum molestie volutpat egestas etiam, torquent est purus ultricies interdum nostra.
 
             Sociosqu dictumst aliquam phasellus libero platea pulvinar quisque, facilisi eleifend lacinia hac lacus netus ultricies morbi, sociis tempus leo ultrices primis nisl. Ultricies nibh maecenas eu litora ridiculus tristique lacinia interdum sollicitudin in dignissim varius ullamcorper, fusce blandit vestibulum non pharetra faucibus cursus himenaeos arcu mi morbi. Porttitor magna viverra orci eros habitant parturient ac convallis auctor donec bibendum urna, facilisi ultrices nisi nascetur ridiculus cum aliquet tortor risus turpis.</p>
+            <select>
+                <option value="HTML">Tecnologías utilizadas</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="React">React</option>
+            </select>
         </div>`,`
         <div class="exposer_left">
             <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
@@ -354,6 +368,13 @@ Experience.addEventListener("click", () => {
             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit vulputate, eu luctus nascetur sociis ornare sed turpis, scelerisque fringilla tempor pulvinar fusce suscipit egestas. Class et potenti varius aenean scelerisque duis rhoncus nulla, egestas at per porttitor inceptos tellus vitae parturient, himenaeos ut nullam aptent pretium nisl mauris. Natoque class curae velit lacinia suscipit primis ridiculus, vulputate mattis bibendum molestie volutpat egestas etiam, torquent est purus ultricies interdum nostra.
 
             Sociosqu dictumst aliquam phasellus libero platea pulvinar quisque, facilisi eleifend lacinia hac lacus netus ultricies morbi, sociis tempus leo ultrices primis nisl. Ultricies nibh maecenas eu litora ridiculus tristique lacinia interdum sollicitudin in dignissim varius ullamcorper, fusce blandit vestibulum non pharetra faucibus cursus himenaeos arcu mi morbi. Porttitor magna viverra orci eros habitant parturient ac convallis auctor donec bibendum urna, facilisi ultrices nisi nascetur ridiculus cum aliquet tortor risus turpis.</p>
+            <select>
+                <option value="HTML">Tecnologías utilizadas</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="React">React</option>
+            </select>
         </div>`,`
         <div class="exposer_left">
             <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
@@ -364,6 +385,13 @@ Experience.addEventListener("click", () => {
             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit vulputate, eu luctus nascetur sociis ornare sed turpis, scelerisque fringilla tempor pulvinar fusce suscipit egestas. Class et potenti varius aenean scelerisque duis rhoncus nulla, egestas at per porttitor inceptos tellus vitae parturient, himenaeos ut nullam aptent pretium nisl mauris. Natoque class curae velit lacinia suscipit primis ridiculus, vulputate mattis bibendum molestie volutpat egestas etiam, torquent est purus ultricies interdum nostra.
 
             Sociosqu dictumst aliquam phasellus libero platea pulvinar quisque, facilisi eleifend lacinia hac lacus netus ultricies morbi, sociis tempus leo ultrices primis nisl. Ultricies nibh maecenas eu litora ridiculus tristique lacinia interdum sollicitudin in dignissim varius ullamcorper, fusce blandit vestibulum non pharetra faucibus cursus himenaeos arcu mi morbi. Porttitor magna viverra orci eros habitant parturient ac convallis auctor donec bibendum urna, facilisi ultrices nisi nascetur ridiculus cum aliquet tortor risus turpis.</p>
+            <select>
+                <option value="HTML">Tecnologías utilizadas</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="React">React</option>
+            </select>
         </div>`,`
         <div class="exposer_left">
             <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
@@ -374,6 +402,13 @@ Experience.addEventListener("click", () => {
             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit vulputate, eu luctus nascetur sociis ornare sed turpis, scelerisque fringilla tempor pulvinar fusce suscipit egestas. Class et potenti varius aenean scelerisque duis rhoncus nulla, egestas at per porttitor inceptos tellus vitae parturient, himenaeos ut nullam aptent pretium nisl mauris. Natoque class curae velit lacinia suscipit primis ridiculus, vulputate mattis bibendum molestie volutpat egestas etiam, torquent est purus ultricies interdum nostra.
 
             Sociosqu dictumst aliquam phasellus libero platea pulvinar quisque, facilisi eleifend lacinia hac lacus netus ultricies morbi, sociis tempus leo ultrices primis nisl. Ultricies nibh maecenas eu litora ridiculus tristique lacinia interdum sollicitudin in dignissim varius ullamcorper, fusce blandit vestibulum non pharetra faucibus cursus himenaeos arcu mi morbi. Porttitor magna viverra orci eros habitant parturient ac convallis auctor donec bibendum urna, facilisi ultrices nisi nascetur ridiculus cum aliquet tortor risus turpis.</p>
+            <select>
+                <option value="HTML">Tecnologías utilizadas</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="React">React</option>
+            </select>
         </div>`,`
         <div class="exposer_left">
             <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
@@ -384,6 +419,13 @@ Experience.addEventListener("click", () => {
             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit vulputate, eu luctus nascetur sociis ornare sed turpis, scelerisque fringilla tempor pulvinar fusce suscipit egestas. Class et potenti varius aenean scelerisque duis rhoncus nulla, egestas at per porttitor inceptos tellus vitae parturient, himenaeos ut nullam aptent pretium nisl mauris. Natoque class curae velit lacinia suscipit primis ridiculus, vulputate mattis bibendum molestie volutpat egestas etiam, torquent est purus ultricies interdum nostra.
 
             Sociosqu dictumst aliquam phasellus libero platea pulvinar quisque, facilisi eleifend lacinia hac lacus netus ultricies morbi, sociis tempus leo ultrices primis nisl. Ultricies nibh maecenas eu litora ridiculus tristique lacinia interdum sollicitudin in dignissim varius ullamcorper, fusce blandit vestibulum non pharetra faucibus cursus himenaeos arcu mi morbi. Porttitor magna viverra orci eros habitant parturient ac convallis auctor donec bibendum urna, facilisi ultrices nisi nascetur ridiculus cum aliquet tortor risus turpis.</p>
+            <select>
+                <option value="HTML">Tecnologías utilizadas</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="React">React</option>
+            </select>
         </div>`,`
         <div class="exposer_left">
             <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
@@ -394,6 +436,13 @@ Experience.addEventListener("click", () => {
             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit vulputate, eu luctus nascetur sociis ornare sed turpis, scelerisque fringilla tempor pulvinar fusce suscipit egestas. Class et potenti varius aenean scelerisque duis rhoncus nulla, egestas at per porttitor inceptos tellus vitae parturient, himenaeos ut nullam aptent pretium nisl mauris. Natoque class curae velit lacinia suscipit primis ridiculus, vulputate mattis bibendum molestie volutpat egestas etiam, torquent est purus ultricies interdum nostra.
 
             Sociosqu dictumst aliquam phasellus libero platea pulvinar quisque, facilisi eleifend lacinia hac lacus netus ultricies morbi, sociis tempus leo ultrices primis nisl. Ultricies nibh maecenas eu litora ridiculus tristique lacinia interdum sollicitudin in dignissim varius ullamcorper, fusce blandit vestibulum non pharetra faucibus cursus himenaeos arcu mi morbi. Porttitor magna viverra orci eros habitant parturient ac convallis auctor donec bibendum urna, facilisi ultrices nisi nascetur ridiculus cum aliquet tortor risus turpis.</p>
+            <select>
+                <option value="HTML">Tecnologías utilizadas</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="React">React</option>
+            </select>
         </div>`]
         colors.map((e)=>{
             document.querySelector(`.pestaña_${colors.indexOf(e)+1}`).addEventListener("click",()=>{

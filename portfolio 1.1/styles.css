@@ -285,7 +285,12 @@ input:checked + .slider:before {
   justify-content: center;
   text-align: center;
 }
-
+select{
+  background-color:#0f0;
+}
+option{
+  background-color: #0f0;
+}
 
 @media screen and (max-width:800px){
   body{
