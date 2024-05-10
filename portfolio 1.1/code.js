@@ -340,6 +340,7 @@ Experience.addEventListener("click", () => {
                 <option value="JavaScript">JavaScript</option>
                 <option value="React">React</option>
             </select>
+            <button class="proyect_redirecter proyect_1"><a href="#">Visitar proyecto</a></button>
         </div>
         `,`
         <div class="exposer_left">
@@ -358,6 +359,7 @@ Experience.addEventListener("click", () => {
                 <option value="JavaScript">JavaScript</option>
                 <option value="React">React</option>
             </select>
+            <button class="proyect_redirecter proyect_2"><a href="#">Visitar proyecto</a></button>
         </div>`,`
         <div class="exposer_left">
             <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
@@ -375,6 +377,7 @@ Experience.addEventListener("click", () => {
                 <option value="JavaScript">JavaScript</option>
                 <option value="React">React</option>
             </select>
+            <button class="proyect_redirecter proyect_3"><a href="#">Visitar proyecto</a></button>
         </div>`,`
         <div class="exposer_left">
             <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
@@ -392,6 +395,7 @@ Experience.addEventListener("click", () => {
                 <option value="JavaScript">JavaScript</option>
                 <option value="React">React</option>
             </select>
+            <button class="proyect_redirecter proyect_4"><a href="#">Visitar proyecto</a></button>
         </div>`,`
         <div class="exposer_left">
             <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
@@ -409,6 +413,7 @@ Experience.addEventListener("click", () => {
                 <option value="JavaScript">JavaScript</option>
                 <option value="React">React</option>
             </select>
+            <button class="proyect_redirecter proyect_5"><a href="#">Visitar proyecto</a></button>
         </div>`,`
         <div class="exposer_left">
             <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
@@ -426,6 +431,7 @@ Experience.addEventListener("click", () => {
                 <option value="JavaScript">JavaScript</option>
                 <option value="React">React</option>
             </select>
+            <button class="proyect_redirecter proyect_6"><a href="#">Visitar proyecto</a></button>
         </div>`,`
         <div class="exposer_left">
             <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
@@ -443,6 +449,7 @@ Experience.addEventListener("click", () => {
                 <option value="JavaScript">JavaScript</option>
                 <option value="React">React</option>
             </select>
+            <button class="proyect_redirecter proyect_7"><a href="#">Visitar proyecto</a></button>
         </div>`]
         colors.map((e)=>{
             document.querySelector(`.pestaña_${colors.indexOf(e)+1}`).addEventListener("click",()=>{
