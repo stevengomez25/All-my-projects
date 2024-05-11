@@ -251,30 +251,30 @@ Studies.addEventListener("click", () => {
         
             
                 <div class="studies_container studies_1">
-                    <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
+                    <img src="assets/images/jep.jpg">
                     <div class="studies_text_container">
-                        <h1>JOSE ELIAS PUYANA</h1>
+                        <h1>COLEGIO TECNICO INDUSTRIAL JOSE ELIAS PUYANA</h1>
                         <h3>Bachiller con promoción anticipada 2013-2020</h3>
                     </div>
                 </div>
                 <div class="studies_container studies_2">
-                    <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
+                    <img src="assets/images/sena.jpg">
                     <div class="studies_text_container">
                         <h1>Servicio Nacional de Aprendizaje SENA</h1>
-                        <h3>Análisis y desarrollo de Software 2023-actualmente</h3>
+                        <h3>Análisis y desarrollo de Software <br>2023-actualmente</h3>
                     </div>
                 </div>
             
 
                 <div class="studies_container studies_3">
-                    <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
+                    <img src="assets/images/udemy.png">
                         <div class="studies_text_container">
                             <h1>UDEMY</h1>
                             <h3>Múltiples cursos orientados a la programación <br>2022-actualmente</h3>
                         </div>
                 </div>
                 <div class="studies_container studies_4">
-                <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
+                <img src="assets/images/cisco.jpg">
 
                     <div class="studies_text_container">
                         <h1>CISCO</h1>
@@ -282,7 +282,7 @@ Studies.addEventListener("click", () => {
                     </div>
                 </div>
                 <div class="studies_container studies_5">
-                    <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
+                    <img src="assets/images/linkedin.png">
                     <div class="studies_text_container">
                         <h1>LINKEDIN</h1>
                         <h3>Fundamentos de python, proyectos y consolidación de nivel JR 2023</h3>
