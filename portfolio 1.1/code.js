@@ -226,7 +226,21 @@ About_me.addEventListener("click", () => {
         display_aboutMe = document.createElement('div')
         display_aboutMe.className = "desplegated_div about_me"
         new_div.appendChild(display_aboutMe)
-        display_aboutMe.innerHTML = "Testeando segunda página"
+        display_aboutMe.innerHTML = `
+        <ul class="main_bar">
+            <li><a href="#">Past</a></li>
+            <li><a href="#">Present</a></li>
+            <li><a href="#">Future</a></li>
+        </ul>
+        <div class="desplegated_bar">
+            <ul class="secondary_bar">
+                <li><a href="#">Sueños</a></li>
+                <li><a href="#">Actividades</a></li>
+                <li><a href="#">Hobbies</a></li>
+            </ul>
+            <div class="main_desplegated_content">ola</div>
+        </div>
+        `
         try{document.querySelector('.technologies').remove()}catch{console.log("Already removed")}
         try{document.querySelector('.Home').remove()}catch{console.log("Already removed")}
         try{document.querySelector('.studies').remove()}catch{console.log("Already removed")}

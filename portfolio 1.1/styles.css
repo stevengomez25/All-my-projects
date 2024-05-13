@@ -161,6 +161,46 @@ input:checked + .slider:before {
   animation: animation .5s reverse;
 }
 
+/* About me styles */
+
+.about_me{
+  display: flex;
+  flex-direction: column;
+  background-color: #0f0;
+  width: 100%;
+}
+.about_me * a{
+  text-decoration:none;
+}
+
+.main_bar{
+  justify-content: space-around;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  list-style: none;
+}
+.desplegated_bar{
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: space-around;
+}
+.secondary_bar{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main_desplegated_content{
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
 /*Studies Styles*/
 
 .studies{
