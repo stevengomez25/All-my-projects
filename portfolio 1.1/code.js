@@ -241,6 +241,12 @@ About_me.addEventListener("click", () => {
             <div class="main_desplegated_content">ola</div>
         </div>
         `
+        content_about = {
+            past : [`
+            
+            `]
+        }
+
         try{document.querySelector('.technologies').remove()}catch{console.log("Already removed")}
         try{document.querySelector('.Home').remove()}catch{console.log("Already removed")}
         try{document.querySelector('.studies').remove()}catch{console.log("Already removed")}
