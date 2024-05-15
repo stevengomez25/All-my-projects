@@ -228,9 +228,9 @@ About_me.addEventListener("click", () => {
         new_div.appendChild(display_aboutMe)
         display_aboutMe.innerHTML = `
         <ul class="main_bar">
-            <li><a href="#">Past</a></li>
-            <li><a href="#">Present</a></li>
-            <li><a href="#">Future</a></li>
+            <li><i class="fa-solid fa-clock-rotate-left"></i><a href="#">Past</a></li>
+            <li><i class="fa-solid fa-circle-pause"></i><a href="#">Present</a></li>
+            <li><i class="fa-solid fa-jet-fighter-up"></i><a href="#">Future</a></li>
         </ul>
         <div class="desplegated_bar">
             <ul class="secondary_bar">
@@ -238,12 +238,25 @@ About_me.addEventListener("click", () => {
                 <li><a href="#">Actividades</a></li>
                 <li><a href="#">Hobbies</a></li>
             </ul>
-            <div class="main_desplegated_content">ola</div>
+            <div class="main_desplegated_content">
+                <div class="desplegated_container">
+                    <h2>titulo</h2>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                </div>
+                <div class="desplegated_container">
+                    <h2>titulo</h2>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                </div>
+                <div class="desplegated_container">
+                    <h2>titulo</h2>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                </div>
+            </div>
         </div>
         `
         content_about = {
             past : [`
-            
+
             `]
         }
 

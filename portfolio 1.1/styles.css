@@ -166,13 +166,12 @@ input:checked + .slider:before {
 .about_me{
   display: flex;
   flex-direction: column;
-  background-color: #0f0;
-  width: 100%;
+  width: 85%;
 }
 .about_me * a{
   text-decoration:none;
+  color: #000;
   margin: 10px;
-  background-color: #fff;
   padding: 10px;
   border-radius: 10px;
 }
@@ -205,6 +204,32 @@ input:checked + .slider:before {
   flex-grow: 1;
   align-items: center;
   justify-content: center;
+  height: 100%;
+}
+.desplegated_container:first-child{
+  justify-content: end;
+  background-color: #0f0;
+}
+.desplegated_container:nth-child(2){
+  background-color: #00f;
+  justify-content: start;
+}
+.desplegated_container:nth-child(3){
+  justify-content: center;
+  background-color: #f00;
+}
+
+.desplegated_container{
+  align-items: center;
+  display: flex;
+  height: 100%;
+  flex-grow: 1;
+  flex-direction: column;
+}
+.desplegated_container img{
+  border-radius: 10%;
+  width: 90%;
+  margin: 10px;
 }
 /*Studies Styles*/
 
