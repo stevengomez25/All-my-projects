@@ -184,6 +184,14 @@ input:checked + .slider:before {
   list-style: none;
   margin: 15px;
 }
+.main_bar li button{
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
 .desplegated_bar{
   display: flex;
   flex-grow: 1;
@@ -205,6 +213,7 @@ input:checked + .slider:before {
   align-items: center;
   justify-content: center;
   height: 100%;
+  flex-direction: column;
 }
 .desplegated_container:first-child{
   justify-content: end;
@@ -226,11 +235,12 @@ input:checked + .slider:before {
   flex-grow: 1;
   flex-direction: column;
 }
-.desplegated_container img{
-  border-radius: 10%;
-  width: 90%;
-  margin: 10px;
+
+.upper_container img{
+  width: 300px;
+  text-align: center;
 }
+
 /*Studies Styles*/
 
 .studies{
