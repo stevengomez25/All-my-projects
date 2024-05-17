@@ -228,15 +228,15 @@ About_me.addEventListener("click", () => {
         new_div.appendChild(display_aboutMe)
         display_aboutMe.innerHTML = `
         <ul class="main_bar">
-            <li><i class="fa-solid fa-clock-rotate-left"></i><button class="pestaña__1">Past</button></li>
-            <li><i class="fa-solid fa-circle-pause"></i><button class="pestaña__2">Present</button></li>
-            <li><i class="fa-solid fa-jet-fighter-up"></i><button class="pestaña__3">Future</button></li>
+            <li><i class="fa-solid fa-clock-rotate-left"></i><button class="pestaña__4">Past</button></li>
+            <li><i class="fa-solid fa-circle-pause"></i><button class="pestaña__5">Present</button></li>
+            <li><i class="fa-solid fa-jet-fighter-up"></i><button class="pestaña__6">Future</button></li>
         </ul>
         <div class="desplegated_bar">
             <ul class="secondary_bar">
-                <li><a href="#">Sueños</a></li>
-                <li><a href="#">Actividades</a></li>
-                <li><a href="#">Hobbies</a></li>
+                <li><button class="pestaña__1">Sueños</button></li>
+                <li><button class="pestaña__2">Actividades</button></li>
+                <li><button class="pestaña__3">Hobbies</button></li>
             </ul>
             <div class="main_desplegated_content">
                 <div class="desplegated_container">
@@ -254,7 +254,7 @@ About_me.addEventListener("click", () => {
             </div>
         </div>
         `
-        content_about = [
+        let content_about = [
             `
             <div class="left_container">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla eros et ex tristique, quis laoreet magna aliquet. Nullam pretium urna vitae ligula faucibus hendrerit. Etiam egestas enim nec consequat rutrum. Fusce gravida sodales purus vitae vulputate. In imperdiet, erat ac porttitor rutrum, ex quam consectetur magna, quis consequat metus ligula id libero. Nunc ac luctus lorem. Donec sed lacinia nisl, id ornare nisl. Nunc semper neque ut dolor mattis, eget blandit ex facilisis. Nunc cursus nisl quam, vel lacinia erat rutrum quis. Vivamus et risus lectus. Praesent at ex tincidunt arcu feugiat cursus a nec sapien. Nullam tempus est ut lectus lacinia mattis. Maecenas consectetur ligula mi, non lacinia lorem molestie ac. Suspendisse ullamcorper, mauris in consectetur porttitor, diam leo ornare turpis, at viverra libero libero a eros. Aliquam efficitur elit vel nulla viverra convallis. Pellentesque ut molestie est, a dictum lacus.</p>

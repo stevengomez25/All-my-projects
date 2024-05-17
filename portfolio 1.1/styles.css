@@ -192,6 +192,14 @@ input:checked + .slider:before {
     text-decoration: none;
 }
 
+.secondary_bar li button{
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
 .desplegated_bar{
   display: flex;
   flex-grow: 1;
@@ -234,6 +242,18 @@ input:checked + .slider:before {
   height: 100%;
   flex-grow: 1;
   flex-direction: column;
+}
+
+.desplegated_container img{
+  width: 300px;
+}
+
+.left_container img{
+  width: 300px;
+}
+
+.right_container img{
+  width: 300px;
 }
 
 .upper_container img{
