@@ -254,7 +254,7 @@ About_me.addEventListener("click", () => {
             </div>
         </div>
         `
-        let content_about = [
+        content_about_1 = [
             `<div class="Dreams">
                 <div class="left_container">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla eros et ex tristique, quis laoreet magna aliquet. Nullam pretium urna vitae ligula faucibus hendrerit. Etiam egestas enim nec consequat rutrum. Fusce gravida sodales purus vitae vulputate. In imperdiet, erat ac porttitor rutrum, ex quam consectetur magna, quis consequat metus ligula id libero. Nunc ac luctus lorem. Donec sed lacinia nisl, id ornare nisl. Nunc semper neque ut dolor mattis, eget blandit ex facilisis. Nunc cursus nisl quam, vel lacinia erat rutrum quis. Vivamus et risus lectus. Praesent at ex tincidunt arcu feugiat cursus a nec sapien. Nullam tempus est ut lectus lacinia mattis. Maecenas consectetur ligula mi, non lacinia lorem molestie ac. Suspendisse ullamcorper, mauris in consectetur porttitor, diam leo ornare turpis, at viverra libero libero a eros. Aliquam efficitur elit vel nulla viverra convallis. Pellentesque ut molestie est, a dictum lacus.</p>
@@ -364,13 +364,19 @@ About_me.addEventListener("click", () => {
             `
         ]
         content_about.map((e)=>{
-            document.querySelector(`.pestaña__${content_about.indexOf(e)+1}`).addEventListener("click",()=>{
-                document.querySelectorAll(".activated").forEach((e)=>{e.classList.remove("activated")})
-                document.querySelector(`.pestaña__${content_about.indexOf(e)+1}`).classList.add("activated")
-                expositor = document.querySelector('.main_desplegated_content')
-                expositor.innerHTML = content_about[content_about.indexOf(e)];
+            document.querySelector(`.section_${content_about.indexOf(e)+1}`).addEventListener('click',()=>{
+                `content_about_${content_about.indexOf(e)+1}`.map((e)=>{
+                    document.querySelector(`.pestaña__${content_about.indexOf(e)+1}`).addEventListener("click",()=>{
+                        document.querySelectorAll(".activated").forEach((e)=>{e.classList.remove("activated")})
+                        document.querySelector(`.pestaña__${content_about.indexOf(e)+1}`).classList.add("activated")
+                        expositor = document.querySelector('.main_desplegated_content')
+                        expositor.innerHTML = content_about[content_about.indexOf(e)];
+                })
+                })
+            })
         })
-        })
+
+        
         try{document.querySelector('.technologies').remove()}catch{console.log("Already removed")}
         try{document.querySelector('.Home').remove()}catch{console.log("Already removed")}
         try{document.querySelector('.studies').remove()}catch{console.log("Already removed")}
