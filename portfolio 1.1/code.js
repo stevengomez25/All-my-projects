@@ -243,115 +243,6 @@ About_me.addEventListener("click", () => {
             </div>
         </div>
         `
-        content_about_1 = [
-            `<div class="Dreams">
-                <div class="left_container">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla eros et ex tristique, quis laoreet magna aliquet. Nullam pretium urna vitae ligula faucibus hendrerit. Etiam egestas enim nec consequat rutrum. Fusce gravida sodales purus vitae vulputate. In imperdiet, erat ac porttitor rutrum, ex quam consectetur magna, quis consequat metus ligula id libero. Nunc ac luctus lorem. Donec sed lacinia nisl, id ornare nisl. Nunc semper neque ut dolor mattis, eget blandit ex facilisis. Nunc cursus nisl quam, vel lacinia erat rutrum quis. Vivamus et risus lectus. Praesent at ex tincidunt arcu feugiat cursus a nec sapien. Nullam tempus est ut lectus lacinia mattis. Maecenas consectetur ligula mi, non lacinia lorem molestie ac. Suspendisse ullamcorper, mauris in consectetur porttitor, diam leo ornare turpis, at viverra libero libero a eros. Aliquam efficitur elit vel nulla viverra convallis. Pellentesque ut molestie est, a dictum lacus.</p>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-                </div>
-                <div class="right_container">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla eros et ex tristique, quis laoreet magna aliquet. Nullam pretium urna vitae ligula faucibus hendrerit. Etiam egestas enim nec consequat rutrum. Fusce gravida sodales purus vitae vulputate. In imperdiet, erat ac porttitor rutrum, ex quam consectetur magna, quis consequat metus ligula id libero. Nunc ac luctus lorem. Donec sed lacinia nisl, id ornare nisl. Nunc semper neque ut dolor mattis, eget blandit ex facilisis. Nunc cursus nisl quam, vel lacinia erat rutrum quis. Vivamus et risus lectus. Praesent at ex tincidunt arcu feugiat cursus a nec sapien. Nullam tempus est ut lectus lacinia mattis. Maecenas consectetur ligula mi, non lacinia lorem molestie ac. Suspendisse ullamcorper, mauris in consectetur porttitor, diam leo ornare turpis, at viverra libero libero a eros. Aliquam efficitur elit vel nulla viverra convallis. Pellentesque ut molestie est, a dictum lacus.</p>
-                </div>
-            </div>
-            `,`
-            <div class="Actividades">
-                <div class="upper_container">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-                </div>
-                <div class="down_container"
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla eros et ex tristique, quis laoreet magna aliquet. Nullam pretium urna vitae ligula faucibus hendrerit. Etiam egestas enim nec consequat rutrum. Fusce gravida sodales purus vitae vulputate. In imperdiet, erat ac porttitor rutrum, ex quam consectetur magna, quis consequat metus ligula id libero. Nunc ac luctus lorem. Donec sed lacinia nisl, id ornare nisl. Nunc semper neque ut dolor mattis, eget blandit ex facilisis. Nunc cursus nisl quam, vel lacinia erat rutrum quis. Vivamus et risus lectus. Praesent at ex tincidunt arcu feugiat cursus a nec sapien. Nullam tempus est ut lectus lacinia mattis. Maecenas consectetur ligula mi, non lacinia lorem molestie ac. Suspendisse ullamcorper, mauris in consectetur porttitor, diam leo ornare turpis, at viverra libero libero a eros. Aliquam efficitur elit vel nulla viverra convallis. Pellentesque ut molestie est, a dictum lacus.</p>
-                </div>
-            </div>
-            `,`
-            <div class="Hobbies">
-                <div class="desplegated_container">
-                    <h2>titulo</h2>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-                </div>
-                <div class="desplegated_container">
-                    <h2>titulo</h2>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-                </div>
-                <div class="desplegated_container">
-                    <h2>titulo</h2>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-                </div>
-            </div>
-            `
-            
-        ]
-        content_about_2 = [
-            `
-            <div class="left_container">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla eros et ex tristique, quis laoreet magna aliquet. Nullam pretium urna vitae ligula faucibus hendrerit. Etiam egestas enim nec consequat rutrum. Fusce gravida sodales purus vitae vulputate. In imperdiet, erat ac porttitor rutrum, ex quam consectetur magna, quis consequat metus ligula id libero. Nunc ac luctus lorem. Donec sed lacinia nisl, id ornare nisl. Nunc semper neque ut dolor mattis, eget blandit ex facilisis. Nunc cursus nisl quam, vel lacinia erat rutrum quis. Vivamus et risus lectus. Praesent at ex tincidunt arcu feugiat cursus a nec sapien. Nullam tempus est ut lectus lacinia mattis. Maecenas consectetur ligula mi, non lacinia lorem molestie ac. Suspendisse ullamcorper, mauris in consectetur porttitor, diam leo ornare turpis, at viverra libero libero a eros. Aliquam efficitur elit vel nulla viverra convallis. Pellentesque ut molestie est, a dictum lacus.</p>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-            </div>
-            <div class="right_container">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla eros et ex tristique, quis laoreet magna aliquet. Nullam pretium urna vitae ligula faucibus hendrerit. Etiam egestas enim nec consequat rutrum. Fusce gravida sodales purus vitae vulputate. In imperdiet, erat ac porttitor rutrum, ex quam consectetur magna, quis consequat metus ligula id libero. Nunc ac luctus lorem. Donec sed lacinia nisl, id ornare nisl. Nunc semper neque ut dolor mattis, eget blandit ex facilisis. Nunc cursus nisl quam, vel lacinia erat rutrum quis. Vivamus et risus lectus. Praesent at ex tincidunt arcu feugiat cursus a nec sapien. Nullam tempus est ut lectus lacinia mattis. Maecenas consectetur ligula mi, non lacinia lorem molestie ac. Suspendisse ullamcorper, mauris in consectetur porttitor, diam leo ornare turpis, at viverra libero libero a eros. Aliquam efficitur elit vel nulla viverra convallis. Pellentesque ut molestie est, a dictum lacus.</p>
-            </div>
-            `,`
-            <div class="upper_container">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-            </div>
-            <div class="down_container"
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla eros et ex tristique, quis laoreet magna aliquet. Nullam pretium urna vitae ligula faucibus hendrerit. Etiam egestas enim nec consequat rutrum. Fusce gravida sodales purus vitae vulputate. In imperdiet, erat ac porttitor rutrum, ex quam consectetur magna, quis consequat metus ligula id libero. Nunc ac luctus lorem. Donec sed lacinia nisl, id ornare nisl. Nunc semper neque ut dolor mattis, eget blandit ex facilisis. Nunc cursus nisl quam, vel lacinia erat rutrum quis. Vivamus et risus lectus. Praesent at ex tincidunt arcu feugiat cursus a nec sapien. Nullam tempus est ut lectus lacinia mattis. Maecenas consectetur ligula mi, non lacinia lorem molestie ac. Suspendisse ullamcorper, mauris in consectetur porttitor, diam leo ornare turpis, at viverra libero libero a eros. Aliquam efficitur elit vel nulla viverra convallis. Pellentesque ut molestie est, a dictum lacus.</p>
-            </div>
-            `,`
-            <div class="desplegated_container">
-                <h2>titulo</h2>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-            </div>
-            <div class="desplegated_container">
-                <h2>titulo</h2>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-            </div>
-            <div class="desplegated_container">
-                <h2>titulo</h2>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-            </div>
-            `
-        ]
-
-        content_about_3 = [
-            `
-            <div class="left_container">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla eros et ex tristique, quis laoreet magna aliquet. Nullam pretium urna vitae ligula faucibus hendrerit. Etiam egestas enim nec consequat rutrum. Fusce gravida sodales purus vitae vulputate. In imperdiet, erat ac porttitor rutrum, ex quam consectetur magna, quis consequat metus ligula id libero. Nunc ac luctus lorem. Donec sed lacinia nisl, id ornare nisl. Nunc semper neque ut dolor mattis, eget blandit ex facilisis. Nunc cursus nisl quam, vel lacinia erat rutrum quis. Vivamus et risus lectus. Praesent at ex tincidunt arcu feugiat cursus a nec sapien. Nullam tempus est ut lectus lacinia mattis. Maecenas consectetur ligula mi, non lacinia lorem molestie ac. Suspendisse ullamcorper, mauris in consectetur porttitor, diam leo ornare turpis, at viverra libero libero a eros. Aliquam efficitur elit vel nulla viverra convallis. Pellentesque ut molestie est, a dictum lacus.</p>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-            </div>
-            <div class="right_container">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla eros et ex tristique, quis laoreet magna aliquet. Nullam pretium urna vitae ligula faucibus hendrerit. Etiam egestas enim nec consequat rutrum. Fusce gravida sodales purus vitae vulputate. In imperdiet, erat ac porttitor rutrum, ex quam consectetur magna, quis consequat metus ligula id libero. Nunc ac luctus lorem. Donec sed lacinia nisl, id ornare nisl. Nunc semper neque ut dolor mattis, eget blandit ex facilisis. Nunc cursus nisl quam, vel lacinia erat rutrum quis. Vivamus et risus lectus. Praesent at ex tincidunt arcu feugiat cursus a nec sapien. Nullam tempus est ut lectus lacinia mattis. Maecenas consectetur ligula mi, non lacinia lorem molestie ac. Suspendisse ullamcorper, mauris in consectetur porttitor, diam leo ornare turpis, at viverra libero libero a eros. Aliquam efficitur elit vel nulla viverra convallis. Pellentesque ut molestie est, a dictum lacus.</p>
-            </div>
-            `,`
-            <div class="upper_container">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-            </div>
-            <div class="down_container"
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla eros et ex tristique, quis laoreet magna aliquet. Nullam pretium urna vitae ligula faucibus hendrerit. Etiam egestas enim nec consequat rutrum. Fusce gravida sodales purus vitae vulputate. In imperdiet, erat ac porttitor rutrum, ex quam consectetur magna, quis consequat metus ligula id libero. Nunc ac luctus lorem. Donec sed lacinia nisl, id ornare nisl. Nunc semper neque ut dolor mattis, eget blandit ex facilisis. Nunc cursus nisl quam, vel lacinia erat rutrum quis. Vivamus et risus lectus. Praesent at ex tincidunt arcu feugiat cursus a nec sapien. Nullam tempus est ut lectus lacinia mattis. Maecenas consectetur ligula mi, non lacinia lorem molestie ac. Suspendisse ullamcorper, mauris in consectetur porttitor, diam leo ornare turpis, at viverra libero libero a eros. Aliquam efficitur elit vel nulla viverra convallis. Pellentesque ut molestie est, a dictum lacus.</p>
-            </div>
-            `,`
-            <div class="desplegated_container">
-                <h2>titulo</h2>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-            </div>
-            <div class="desplegated_container">
-                <h2>titulo</h2>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-            </div>
-            <div class="desplegated_container">
-                <h2>titulo</h2>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-            </div>
-            `
-        ]
         content_about_bidimensional =[
             [
             `<div class="Dreams">
@@ -394,69 +285,81 @@ About_me.addEventListener("click", () => {
             ],
             [
                 `
-                <div class="left_container">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla eros et ex tristique, quis laoreet magna aliquet. Nullam pretium urna vitae ligula faucibus hendrerit. Etiam egestas enim nec consequat rutrum. Fusce gravida sodales purus vitae vulputate. In imperdiet, erat ac porttitor rutrum, ex quam consectetur magna, quis consequat metus ligula id libero. Nunc ac luctus lorem. Donec sed lacinia nisl, id ornare nisl. Nunc semper neque ut dolor mattis, eget blandit ex facilisis. Nunc cursus nisl quam, vel lacinia erat rutrum quis. Vivamus et risus lectus. Praesent at ex tincidunt arcu feugiat cursus a nec sapien. Nullam tempus est ut lectus lacinia mattis. Maecenas consectetur ligula mi, non lacinia lorem molestie ac. Suspendisse ullamcorper, mauris in consectetur porttitor, diam leo ornare turpis, at viverra libero libero a eros. Aliquam efficitur elit vel nulla viverra convallis. Pellentesque ut molestie est, a dictum lacus.</p>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-                </div>
-                <div class="right_container">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla eros et ex tristique, quis laoreet magna aliquet. Nullam pretium urna vitae ligula faucibus hendrerit. Etiam egestas enim nec consequat rutrum. Fusce gravida sodales purus vitae vulputate. In imperdiet, erat ac porttitor rutrum, ex quam consectetur magna, quis consequat metus ligula id libero. Nunc ac luctus lorem. Donec sed lacinia nisl, id ornare nisl. Nunc semper neque ut dolor mattis, eget blandit ex facilisis. Nunc cursus nisl quam, vel lacinia erat rutrum quis. Vivamus et risus lectus. Praesent at ex tincidunt arcu feugiat cursus a nec sapien. Nullam tempus est ut lectus lacinia mattis. Maecenas consectetur ligula mi, non lacinia lorem molestie ac. Suspendisse ullamcorper, mauris in consectetur porttitor, diam leo ornare turpis, at viverra libero libero a eros. Aliquam efficitur elit vel nulla viverra convallis. Pellentesque ut molestie est, a dictum lacus.</p>
-                </div>
-                `,`
-                <div class="upper_container">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-                </div>
-                <div class="down_container"
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla eros et ex tristique, quis laoreet magna aliquet. Nullam pretium urna vitae ligula faucibus hendrerit. Etiam egestas enim nec consequat rutrum. Fusce gravida sodales purus vitae vulputate. In imperdiet, erat ac porttitor rutrum, ex quam consectetur magna, quis consequat metus ligula id libero. Nunc ac luctus lorem. Donec sed lacinia nisl, id ornare nisl. Nunc semper neque ut dolor mattis, eget blandit ex facilisis. Nunc cursus nisl quam, vel lacinia erat rutrum quis. Vivamus et risus lectus. Praesent at ex tincidunt arcu feugiat cursus a nec sapien. Nullam tempus est ut lectus lacinia mattis. Maecenas consectetur ligula mi, non lacinia lorem molestie ac. Suspendisse ullamcorper, mauris in consectetur porttitor, diam leo ornare turpis, at viverra libero libero a eros. Aliquam efficitur elit vel nulla viverra convallis. Pellentesque ut molestie est, a dictum lacus.</p>
+                <div class="Dreams">
+                    <div class="left_container">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla eros et ex tristique, quis laoreet magna aliquet. Nullam pretium urna vitae ligula faucibus hendrerit. Etiam egestas enim nec consequat rutrum. Fusce gravida sodales purus vitae vulputate. In imperdiet, erat ac porttitor rutrum, ex quam consectetur magna, quis consequat metus ligula id libero. Nunc ac luctus lorem. Donec sed lacinia nisl, id ornare nisl. Nunc semper neque ut dolor mattis, eget blandit ex facilisis. Nunc cursus nisl quam, vel lacinia erat rutrum quis. Vivamus et risus lectus. Praesent at ex tincidunt arcu feugiat cursus a nec sapien. Nullam tempus est ut lectus lacinia mattis. Maecenas consectetur ligula mi, non lacinia lorem molestie ac. Suspendisse ullamcorper, mauris in consectetur porttitor, diam leo ornare turpis, at viverra libero libero a eros. Aliquam efficitur elit vel nulla viverra convallis. Pellentesque ut molestie est, a dictum lacus.</p>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                    </div>
+                    <div class="right_container">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla eros et ex tristique, quis laoreet magna aliquet. Nullam pretium urna vitae ligula faucibus hendrerit. Etiam egestas enim nec consequat rutrum. Fusce gravida sodales purus vitae vulputate. In imperdiet, erat ac porttitor rutrum, ex quam consectetur magna, quis consequat metus ligula id libero. Nunc ac luctus lorem. Donec sed lacinia nisl, id ornare nisl. Nunc semper neque ut dolor mattis, eget blandit ex facilisis. Nunc cursus nisl quam, vel lacinia erat rutrum quis. Vivamus et risus lectus. Praesent at ex tincidunt arcu feugiat cursus a nec sapien. Nullam tempus est ut lectus lacinia mattis. Maecenas consectetur ligula mi, non lacinia lorem molestie ac. Suspendisse ullamcorper, mauris in consectetur porttitor, diam leo ornare turpis, at viverra libero libero a eros. Aliquam efficitur elit vel nulla viverra convallis. Pellentesque ut molestie est, a dictum lacus.</p>
+                    </div>
                 </div>
                 `,`
-                <div class="desplegated_container">
-                    <h2>titulo 2</h2>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                <div class="Actividades">
+                    <div class="upper_container">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                    </div>
+                    <div class="down_container"
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla eros et ex tristique, quis laoreet magna aliquet. Nullam pretium urna vitae ligula faucibus hendrerit. Etiam egestas enim nec consequat rutrum. Fusce gravida sodales purus vitae vulputate. In imperdiet, erat ac porttitor rutrum, ex quam consectetur magna, quis consequat metus ligula id libero. Nunc ac luctus lorem. Donec sed lacinia nisl, id ornare nisl. Nunc semper neque ut dolor mattis, eget blandit ex facilisis. Nunc cursus nisl quam, vel lacinia erat rutrum quis. Vivamus et risus lectus. Praesent at ex tincidunt arcu feugiat cursus a nec sapien. Nullam tempus est ut lectus lacinia mattis. Maecenas consectetur ligula mi, non lacinia lorem molestie ac. Suspendisse ullamcorper, mauris in consectetur porttitor, diam leo ornare turpis, at viverra libero libero a eros. Aliquam efficitur elit vel nulla viverra convallis. Pellentesque ut molestie est, a dictum lacus.</p>
+                    </div>
                 </div>
-                <div class="desplegated_container">
-                    <h2>titulo 2</h2>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-                </div>
-                <div class="desplegated_container">
-                    <h2>titulo 2</h2>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                `,`
+                <div class="Hobbies">
+                    <div class="desplegated_container">
+                        <h2>titulo 2</h2>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                    </div>
+                    <div class="desplegated_container">
+                        <h2>titulo 2</h2>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                    </div>
+                    <div class="desplegated_container">
+                        <h2>titulo 2</h2>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                    </div>
                 </div>
                 `
             ],
             [
                 `
-                <div class="left_container">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla eros et ex tristique, quis laoreet magna aliquet. Nullam pretium urna vitae ligula faucibus hendrerit. Etiam egestas enim nec consequat rutrum. Fusce gravida sodales purus vitae vulputate. In imperdiet, erat ac porttitor rutrum, ex quam consectetur magna, quis consequat metus ligula id libero. Nunc ac luctus lorem. Donec sed lacinia nisl, id ornare nisl. Nunc semper neque ut dolor mattis, eget blandit ex facilisis. Nunc cursus nisl quam, vel lacinia erat rutrum quis. Vivamus et risus lectus. Praesent at ex tincidunt arcu feugiat cursus a nec sapien. Nullam tempus est ut lectus lacinia mattis. Maecenas consectetur ligula mi, non lacinia lorem molestie ac. Suspendisse ullamcorper, mauris in consectetur porttitor, diam leo ornare turpis, at viverra libero libero a eros. Aliquam efficitur elit vel nulla viverra convallis. Pellentesque ut molestie est, a dictum lacus.</p>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-                </div>
-                <div class="right_container">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla eros et ex tristique, quis laoreet magna aliquet. Nullam pretium urna vitae ligula faucibus hendrerit. Etiam egestas enim nec consequat rutrum. Fusce gravida sodales purus vitae vulputate. In imperdiet, erat ac porttitor rutrum, ex quam consectetur magna, quis consequat metus ligula id libero. Nunc ac luctus lorem. Donec sed lacinia nisl, id ornare nisl. Nunc semper neque ut dolor mattis, eget blandit ex facilisis. Nunc cursus nisl quam, vel lacinia erat rutrum quis. Vivamus et risus lectus. Praesent at ex tincidunt arcu feugiat cursus a nec sapien. Nullam tempus est ut lectus lacinia mattis. Maecenas consectetur ligula mi, non lacinia lorem molestie ac. Suspendisse ullamcorper, mauris in consectetur porttitor, diam leo ornare turpis, at viverra libero libero a eros. Aliquam efficitur elit vel nulla viverra convallis. Pellentesque ut molestie est, a dictum lacus.</p>
-                </div>
-                `,`
-                <div class="upper_container">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-                </div>
-                <div class="down_container"
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla eros et ex tristique, quis laoreet magna aliquet. Nullam pretium urna vitae ligula faucibus hendrerit. Etiam egestas enim nec consequat rutrum. Fusce gravida sodales purus vitae vulputate. In imperdiet, erat ac porttitor rutrum, ex quam consectetur magna, quis consequat metus ligula id libero. Nunc ac luctus lorem. Donec sed lacinia nisl, id ornare nisl. Nunc semper neque ut dolor mattis, eget blandit ex facilisis. Nunc cursus nisl quam, vel lacinia erat rutrum quis. Vivamus et risus lectus. Praesent at ex tincidunt arcu feugiat cursus a nec sapien. Nullam tempus est ut lectus lacinia mattis. Maecenas consectetur ligula mi, non lacinia lorem molestie ac. Suspendisse ullamcorper, mauris in consectetur porttitor, diam leo ornare turpis, at viverra libero libero a eros. Aliquam efficitur elit vel nulla viverra convallis. Pellentesque ut molestie est, a dictum lacus.</p>
+                <div class="Dreams">
+                    <div class="left_container">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla eros et ex tristique, quis laoreet magna aliquet. Nullam pretium urna vitae ligula faucibus hendrerit. Etiam egestas enim nec consequat rutrum. Fusce gravida sodales purus vitae vulputate. In imperdiet, erat ac porttitor rutrum, ex quam consectetur magna, quis consequat metus ligula id libero. Nunc ac luctus lorem. Donec sed lacinia nisl, id ornare nisl. Nunc semper neque ut dolor mattis, eget blandit ex facilisis. Nunc cursus nisl quam, vel lacinia erat rutrum quis. Vivamus et risus lectus. Praesent at ex tincidunt arcu feugiat cursus a nec sapien. Nullam tempus est ut lectus lacinia mattis. Maecenas consectetur ligula mi, non lacinia lorem molestie ac. Suspendisse ullamcorper, mauris in consectetur porttitor, diam leo ornare turpis, at viverra libero libero a eros. Aliquam efficitur elit vel nulla viverra convallis. Pellentesque ut molestie est, a dictum lacus.</p>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                    </div>
+                    <div class="right_container">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla eros et ex tristique, quis laoreet magna aliquet. Nullam pretium urna vitae ligula faucibus hendrerit. Etiam egestas enim nec consequat rutrum. Fusce gravida sodales purus vitae vulputate. In imperdiet, erat ac porttitor rutrum, ex quam consectetur magna, quis consequat metus ligula id libero. Nunc ac luctus lorem. Donec sed lacinia nisl, id ornare nisl. Nunc semper neque ut dolor mattis, eget blandit ex facilisis. Nunc cursus nisl quam, vel lacinia erat rutrum quis. Vivamus et risus lectus. Praesent at ex tincidunt arcu feugiat cursus a nec sapien. Nullam tempus est ut lectus lacinia mattis. Maecenas consectetur ligula mi, non lacinia lorem molestie ac. Suspendisse ullamcorper, mauris in consectetur porttitor, diam leo ornare turpis, at viverra libero libero a eros. Aliquam efficitur elit vel nulla viverra convallis. Pellentesque ut molestie est, a dictum lacus.</p>
+                    </div>
                 </div>
                 `,`
-                <div class="desplegated_container">
-                    <h2>titulo 3</h2>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                <div class="Actividades">
+                    <div class="upper_container">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                    </div>
+                    <div class="down_container"
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla eros et ex tristique, quis laoreet magna aliquet. Nullam pretium urna vitae ligula faucibus hendrerit. Etiam egestas enim nec consequat rutrum. Fusce gravida sodales purus vitae vulputate. In imperdiet, erat ac porttitor rutrum, ex quam consectetur magna, quis consequat metus ligula id libero. Nunc ac luctus lorem. Donec sed lacinia nisl, id ornare nisl. Nunc semper neque ut dolor mattis, eget blandit ex facilisis. Nunc cursus nisl quam, vel lacinia erat rutrum quis. Vivamus et risus lectus. Praesent at ex tincidunt arcu feugiat cursus a nec sapien. Nullam tempus est ut lectus lacinia mattis. Maecenas consectetur ligula mi, non lacinia lorem molestie ac. Suspendisse ullamcorper, mauris in consectetur porttitor, diam leo ornare turpis, at viverra libero libero a eros. Aliquam efficitur elit vel nulla viverra convallis. Pellentesque ut molestie est, a dictum lacus.</p>
+                    </div>
                 </div>
-                <div class="desplegated_container">
-                    <h2>titulo 3</h2>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-                </div>
-                <div class="desplegated_container">
-                    <h2>titulo 3</h2>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                `,`
+                <div class="Hobbies">
+                    <div class="desplegated_container">
+                        <h2>titulo 3</h2>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                    </div>
+                    <div class="desplegated_container">
+                        <h2>titulo 3</h2>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                    </div>
+                    <div class="desplegated_container">
+                        <h2>titulo 3</h2>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                    </div>
                 </div>
                 `
             ]
