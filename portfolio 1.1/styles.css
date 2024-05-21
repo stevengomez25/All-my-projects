@@ -163,6 +163,10 @@ input:checked + .slider:before {
 
 /* About me styles */
 
+.main_desplegated_content *{
+  transition: all .5s linear;
+}
+
 .about_me{
   display: flex;
   flex-direction: column;
@@ -247,6 +251,10 @@ input:checked + .slider:before {
   width: 100%;
   height: 100%;
   display: flex;
+}
+.section_activated{
+  background-color: #000;
+  color: #fff;
 }
 .desplegated_container img{
   width: 300px;
