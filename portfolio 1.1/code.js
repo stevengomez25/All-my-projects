@@ -247,12 +247,12 @@ About_me.addEventListener("click", () => {
             [
             `<div class="Dreams">
                 <div class="left_container">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla eros et ex tristique, quis laoreet magna aliquet. Nullam pretium urna vitae ligula faucibus hendrerit. Etiam egestas enim nec consequat rutrum. Fusce gravida sodales purus vitae vulputate. In imperdiet, erat ac porttitor rutrum, ex quam consectetur magna, quis consequat metus ligula id libero. Nunc ac luctus lorem. Donec sed lacinia nisl, id ornare nisl. Nunc semper neque ut dolor mattis, eget blandit ex facilisis. Nunc cursus nisl quam, vel lacinia erat rutrum quis. Vivamus et risus lectus. Praesent at ex tincidunt arcu feugiat cursus a nec sapien. Nullam tempus est ut lectus lacinia mattis. Maecenas consectetur ligula mi, non lacinia lorem molestie ac. Suspendisse ullamcorper, mauris in consectetur porttitor, diam leo ornare turpis, at viverra libero libero a eros. Aliquam efficitur elit vel nulla viverra convallis. Pellentesque ut molestie est, a dictum lacus.</p>
+                    <p>En mi infancia soñaba con una familia Estable, salud para todos mis allegados, conseguir ser reconocido como un estudiante muy inteligente mas que aplicado para demostrar que mis capacidades cognitivas no se podían limitarse por métodos de evaluación educativos tan retrógrados. Buscaba la manera de cambiar donde vivía con mi familia ya que estabamos a las afueras de la ciudad y el transporte a diario era terriblemente dificil, por lo que o era caminando o era no llegar de lo lejos que era. Pasaba horas caminando al mes para poder tanto movilizarme de mi casa al estudio y viceversa.</p>
                     <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
                 </div>
                 <div class="right_container">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla eros et ex tristique, quis laoreet magna aliquet. Nullam pretium urna vitae ligula faucibus hendrerit. Etiam egestas enim nec consequat rutrum. Fusce gravida sodales purus vitae vulputate. In imperdiet, erat ac porttitor rutrum, ex quam consectetur magna, quis consequat metus ligula id libero. Nunc ac luctus lorem. Donec sed lacinia nisl, id ornare nisl. Nunc semper neque ut dolor mattis, eget blandit ex facilisis. Nunc cursus nisl quam, vel lacinia erat rutrum quis. Vivamus et risus lectus. Praesent at ex tincidunt arcu feugiat cursus a nec sapien. Nullam tempus est ut lectus lacinia mattis. Maecenas consectetur ligula mi, non lacinia lorem molestie ac. Suspendisse ullamcorper, mauris in consectetur porttitor, diam leo ornare turpis, at viverra libero libero a eros. Aliquam efficitur elit vel nulla viverra convallis. Pellentesque ut molestie est, a dictum lacus.</p>
+                    <p>Soñaba con tener una familia propia, construir un futuro junto a alguien que no merecía un futuro asi. Buscando no sentirme solo, idealicé a la persona equivocada, planeando uan vida completa como chef, viajando por el mundo y cocinandole a las personas más influyentes. Preparando los platos más exquisítos y deseados. Continuar mi camino de la busqueda de mi construcción física y mental. </p>
                 </div>
             </div>
             `,`
@@ -269,15 +269,15 @@ About_me.addEventListener("click", () => {
             `,`
             <div class="Hobbies">
                 <div class="desplegated_container">
-                    <h2>titulo</h2>
+                    <h2>Futbol</h2>
                     <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
                 </div>
                 <div class="desplegated_container">
-                    <h2>titulo</h2>
+                    <h2>Videojuegos</h2>
                     <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
                 </div>
                 <div class="desplegated_container">
-                    <h2>titulo</h2>
+                    <h2>Inglés</h2>
                     <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
                 </div>
             </div>
@@ -309,15 +309,15 @@ About_me.addEventListener("click", () => {
                 `,`
                 <div class="Hobbies">
                     <div class="desplegated_container">
-                        <h2>titulo 2</h2>
+                        <h2>Basketball</h2>
                         <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
                     </div>
                     <div class="desplegated_container">
-                        <h2>titulo 2</h2>
+                        <h2>Programación</h2>
                         <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
                     </div>
                     <div class="desplegated_container">
-                        <h2>titulo 2</h2>
+                        <h2>Gimnasio</h2>
                         <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
                     </div>
                 </div>
@@ -349,15 +349,15 @@ About_me.addEventListener("click", () => {
                 `,`
                 <div class="Hobbies">
                     <div class="desplegated_container">
-                        <h2>titulo 3</h2>
+                        <h2>Viajar</h2>
                         <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
                     </div>
                     <div class="desplegated_container">
-                        <h2>titulo 3</h2>
+                        <h2>Rodar</h2>
                         <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
                     </div>
                     <div class="desplegated_container">
-                        <h2>titulo 3</h2>
+                        <h2>Estudiar</h2>
                         <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
                     </div>
                 </div>
