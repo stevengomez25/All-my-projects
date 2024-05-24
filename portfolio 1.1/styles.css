@@ -229,15 +229,15 @@ input:checked + .slider:before {
 }
 .desplegated_container:first-child{
   justify-content: end;
-  background-color: #0f0;
+  background-color: #888;
 }
 .desplegated_container:nth-child(2){
-  background-color: #00f;
+  background-color: #999;
   justify-content: start;
 }
 .desplegated_container:nth-child(3){
   justify-content: center;
-  background-color: #f00;
+  background-color: #aaa;
 }
 
 .desplegated_container{
@@ -246,6 +246,12 @@ input:checked + .slider:before {
   height: 100%;
   flex-grow: 1;
   flex-direction: column;
+}
+.desplegated_container *{
+  margin:10px;
+}
+.desplegated_container img{
+  border-radius: 50%;
 }
 .Dreams{
   display: flex;
