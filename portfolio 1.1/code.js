@@ -487,7 +487,6 @@ Experience.addEventListener("click", () => {
                 <li><button class="pestaña_4">Pestaña 4</button></li>
                 <li><button class="pestaña_5">Pestaña 5</button></li>
                 <li><button class="pestaña_6">Pestaña 6</button></li>
-                <li><button class="pestaña_7">Pestaña 7</button></li>
             </ul>
             <div class="main_container_proyect"><iframe width="700" height="400" src="https://www.youtube.com/embed/RE87rQkXdNw?si=s9aSi0XLaUWCuF8t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
         </div>`
@@ -498,18 +497,14 @@ Experience.addEventListener("click", () => {
             <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
         </div>
         <div class="exposer_right">
-            <h1>Proyecto 1</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit vulputate, eu luctus nascetur sociis ornare sed turpis, scelerisque fringilla tempor pulvinar fusce suscipit egestas. Class et potenti varius aenean scelerisque duis rhoncus nulla, egestas at per porttitor inceptos tellus vitae parturient, himenaeos ut nullam aptent pretium nisl mauris. Natoque class curae velit lacinia suscipit primis ridiculus, vulputate mattis bibendum molestie volutpat egestas etiam, torquent est purus ultricies interdum nostra.
-
-            Sociosqu dictumst aliquam phasellus libero platea pulvinar quisque, facilisi eleifend lacinia hac lacus netus ultricies morbi, sociis tempus leo ultrices primis nisl. Ultricies nibh maecenas eu litora ridiculus tristique lacinia interdum sollicitudin in dignissim varius ullamcorper, fusce blandit vestibulum non pharetra faucibus cursus himenaeos arcu mi morbi. Porttitor magna viverra orci eros habitant parturient ac convallis auctor donec bibendum urna, facilisi ultrices nisi nascetur ridiculus cum aliquet tortor risus turpis.</p>
+            <h1>Log-in site</h1>
+            <p>Utilizando solamente HTML5, CSS, buenas practicas, correcta estructuración y conocimientos adquiridos en proyectos personales, logré instaurar esta landing page the logeo con el propósito de exponer mis habilidades de maquetación y organización de conocimientos al momento de aplicarlas en practicas</p>
             <select>
                 <option value="HTML">Tecnologías utilizadas</option>
                 <option value="HTML">HTML</option>
                 <option value="CSS">CSS</option>
-                <option value="JavaScript">JavaScript</option>
-                <option value="React">React</option>
             </select>
-            <button class="proyect_redirecter proyect_1"><a href="#">Visitar proyecto</a></button>
+            <button class="proyect_redirecter proyect_1"><a href="login.html">Visitar proyecto</a></button>
         </div>
         `,`
         <div class="exposer_left">
@@ -517,108 +512,80 @@ Experience.addEventListener("click", () => {
             <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
         </div>
         <div class="exposer_right">
-            <h1>Proyecto 2</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit vulputate, eu luctus nascetur sociis ornare sed turpis, scelerisque fringilla tempor pulvinar fusce suscipit egestas. Class et potenti varius aenean scelerisque duis rhoncus nulla, egestas at per porttitor inceptos tellus vitae parturient, himenaeos ut nullam aptent pretium nisl mauris. Natoque class curae velit lacinia suscipit primis ridiculus, vulputate mattis bibendum molestie volutpat egestas etiam, torquent est purus ultricies interdum nostra.
-
-            Sociosqu dictumst aliquam phasellus libero platea pulvinar quisque, facilisi eleifend lacinia hac lacus netus ultricies morbi, sociis tempus leo ultrices primis nisl. Ultricies nibh maecenas eu litora ridiculus tristique lacinia interdum sollicitudin in dignissim varius ullamcorper, fusce blandit vestibulum non pharetra faucibus cursus himenaeos arcu mi morbi. Porttitor magna viverra orci eros habitant parturient ac convallis auctor donec bibendum urna, facilisi ultrices nisi nascetur ridiculus cum aliquet tortor risus turpis.</p>
+            <h1>Landing page</h1>
+            <p>Realizando el maquetado de la página web con CSS y HTML5 sin ninguna intervención de frameworks, diseñé la página web principal del portafolio, dandole un estilo propio y único, buscando en cada oportunidad darle la interactividad necesaria para ser del agrado del usuario</p>
             <select>
                 <option value="HTML">Tecnologías utilizadas</option>
                 <option value="HTML">HTML</option>
                 <option value="CSS">CSS</option>
-                <option value="JavaScript">JavaScript</option>
-                <option value="React">React</option>
             </select>
-            <button class="proyect_redirecter proyect_2"><a href="#">Visitar proyecto</a></button>
+            <button class="proyect_redirecter proyect_2"><a href="index_landing_page.html">Visitar proyecto</a></button>
         </div>`,`
         <div class="exposer_left">
             <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
             <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
         </div>
         <div class="exposer_right">
-            <h1>Proyecto 3</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit vulputate, eu luctus nascetur sociis ornare sed turpis, scelerisque fringilla tempor pulvinar fusce suscipit egestas. Class et potenti varius aenean scelerisque duis rhoncus nulla, egestas at per porttitor inceptos tellus vitae parturient, himenaeos ut nullam aptent pretium nisl mauris. Natoque class curae velit lacinia suscipit primis ridiculus, vulputate mattis bibendum molestie volutpat egestas etiam, torquent est purus ultricies interdum nostra.
-
-            Sociosqu dictumst aliquam phasellus libero platea pulvinar quisque, facilisi eleifend lacinia hac lacus netus ultricies morbi, sociis tempus leo ultrices primis nisl. Ultricies nibh maecenas eu litora ridiculus tristique lacinia interdum sollicitudin in dignissim varius ullamcorper, fusce blandit vestibulum non pharetra faucibus cursus himenaeos arcu mi morbi. Porttitor magna viverra orci eros habitant parturient ac convallis auctor donec bibendum urna, facilisi ultrices nisi nascetur ridiculus cum aliquet tortor risus turpis.</p>
+            <h1>Sitio web de veterinaria</h1>
+            <p>utilizando mis conocimientos en maquetado con JS, realicé una página completa desde 0 con el propósito de exponerla a un cliente potencial e ir modificandola conforme a las preferencias de este.</p>
             <select>
                 <option value="HTML">Tecnologías utilizadas</option>
                 <option value="HTML">HTML</option>
                 <option value="CSS">CSS</option>
                 <option value="JavaScript">JavaScript</option>
-                <option value="React">React</option>
             </select>
-            <button class="proyect_redirecter proyect_3"><a href="#">Visitar proyecto</a></button>
+            <button class="proyect_redirecter proyect_3"><a href="https://pelucandog.netlify.app">Visitar proyecto</a></button>
         </div>`,`
         <div class="exposer_left">
             <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
             <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
         </div>
         <div class="exposer_right">
-            <h1>Proyecto 4</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit vulputate, eu luctus nascetur sociis ornare sed turpis, scelerisque fringilla tempor pulvinar fusce suscipit egestas. Class et potenti varius aenean scelerisque duis rhoncus nulla, egestas at per porttitor inceptos tellus vitae parturient, himenaeos ut nullam aptent pretium nisl mauris. Natoque class curae velit lacinia suscipit primis ridiculus, vulputate mattis bibendum molestie volutpat egestas etiam, torquent est purus ultricies interdum nostra.
-
-            Sociosqu dictumst aliquam phasellus libero platea pulvinar quisque, facilisi eleifend lacinia hac lacus netus ultricies morbi, sociis tempus leo ultrices primis nisl. Ultricies nibh maecenas eu litora ridiculus tristique lacinia interdum sollicitudin in dignissim varius ullamcorper, fusce blandit vestibulum non pharetra faucibus cursus himenaeos arcu mi morbi. Porttitor magna viverra orci eros habitant parturient ac convallis auctor donec bibendum urna, facilisi ultrices nisi nascetur ridiculus cum aliquet tortor risus turpis.</p>
+            <h1>Tricki</h1>
+            <p>Utilizando tecnologías de modularización como Nextjs, Nodejs, JavaScript y HTML5 junto con estilos en cascada, se logró diseñar un juego de tres en linea capaz de guardar el proceso en el localStorage con respecto al turno y la disposición del tablero en su momento</p>
             <select>
                 <option value="HTML">Tecnologías utilizadas</option>
                 <option value="HTML">HTML</option>
                 <option value="CSS">CSS</option>
                 <option value="JavaScript">JavaScript</option>
                 <option value="React">React</option>
+                <option value="Node">NodeJS</option>
             </select>
-            <button class="proyect_redirecter proyect_4"><a href="#">Visitar proyecto</a></button>
+            <button class="proyect_redirecter proyect_4"><a href="https://trickytraque.netlify.app">Visitar proyecto</a></button>
         </div>`,`
         <div class="exposer_left">
             <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
             <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
         </div>
         <div class="exposer_right">
-            <h1>Proyecto 5</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit vulputate, eu luctus nascetur sociis ornare sed turpis, scelerisque fringilla tempor pulvinar fusce suscipit egestas. Class et potenti varius aenean scelerisque duis rhoncus nulla, egestas at per porttitor inceptos tellus vitae parturient, himenaeos ut nullam aptent pretium nisl mauris. Natoque class curae velit lacinia suscipit primis ridiculus, vulputate mattis bibendum molestie volutpat egestas etiam, torquent est purus ultricies interdum nostra.
-
-            Sociosqu dictumst aliquam phasellus libero platea pulvinar quisque, facilisi eleifend lacinia hac lacus netus ultricies morbi, sociis tempus leo ultrices primis nisl. Ultricies nibh maecenas eu litora ridiculus tristique lacinia interdum sollicitudin in dignissim varius ullamcorper, fusce blandit vestibulum non pharetra faucibus cursus himenaeos arcu mi morbi. Porttitor magna viverra orci eros habitant parturient ac convallis auctor donec bibendum urna, facilisi ultrices nisi nascetur ridiculus cum aliquet tortor risus turpis.</p>
+            <h1>Tarjetas de Twitter</h1>
+            <p>Poniendo en practica la modularización y reutilización de código de manera práctica y eficiente, aplicando Node.js, React.js y Vite debido a su velocidad, para exponer un proyecto de el sistema de twitter para tarjetas de follow o unfollow que se utiliza en la web</p>
             <select>
                 <option value="HTML">Tecnologías utilizadas</option>
                 <option value="HTML">HTML</option>
                 <option value="CSS">CSS</option>
                 <option value="JavaScript">JavaScript</option>
                 <option value="React">React</option>
+                <option value="Node">NodeJS</option>
             </select>
-            <button class="proyect_redirecter proyect_5"><a href="#">Visitar proyecto</a></button>
+            <button class="proyect_redirecter proyect_5"><a href="https://twittercards.netlify.app">Visitar proyecto</a></button>
         </div>`,`
         <div class="exposer_left">
             <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
             <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
         </div>
         <div class="exposer_right">
-            <h1>Proyecto 6</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit vulputate, eu luctus nascetur sociis ornare sed turpis, scelerisque fringilla tempor pulvinar fusce suscipit egestas. Class et potenti varius aenean scelerisque duis rhoncus nulla, egestas at per porttitor inceptos tellus vitae parturient, himenaeos ut nullam aptent pretium nisl mauris. Natoque class curae velit lacinia suscipit primis ridiculus, vulputate mattis bibendum molestie volutpat egestas etiam, torquent est purus ultricies interdum nostra.
-
-            Sociosqu dictumst aliquam phasellus libero platea pulvinar quisque, facilisi eleifend lacinia hac lacus netus ultricies morbi, sociis tempus leo ultrices primis nisl. Ultricies nibh maecenas eu litora ridiculus tristique lacinia interdum sollicitudin in dignissim varius ullamcorper, fusce blandit vestibulum non pharetra faucibus cursus himenaeos arcu mi morbi. Porttitor magna viverra orci eros habitant parturient ac convallis auctor donec bibendum urna, facilisi ultrices nisi nascetur ridiculus cum aliquet tortor risus turpis.</p>
+            <h1>Seguidor de puntero</h1>
+            <p>Aplicando funciones de trackeo para mejorar la experiencia de usuario, con lo que se pueden personalizar las interacciones de quien visita el sitio</p>
             <select>
                 <option value="HTML">Tecnologías utilizadas</option>
                 <option value="HTML">HTML</option>
                 <option value="CSS">CSS</option>
                 <option value="JavaScript">JavaScript</option>
                 <option value="React">React</option>
+                <option value="Node">NodeJS</option>
             </select>
-            <button class="proyect_redirecter proyect_6"><a href="#">Visitar proyecto</a></button>
-        </div>`,`
-        <div class="exposer_left">
-            <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
-            <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
-        </div>
-        <div class="exposer_right">
-            <h1>Proyecto 7</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit vulputate, eu luctus nascetur sociis ornare sed turpis, scelerisque fringilla tempor pulvinar fusce suscipit egestas. Class et potenti varius aenean scelerisque duis rhoncus nulla, egestas at per porttitor inceptos tellus vitae parturient, himenaeos ut nullam aptent pretium nisl mauris. Natoque class curae velit lacinia suscipit primis ridiculus, vulputate mattis bibendum molestie volutpat egestas etiam, torquent est purus ultricies interdum nostra.
-
-            Sociosqu dictumst aliquam phasellus libero platea pulvinar quisque, facilisi eleifend lacinia hac lacus netus ultricies morbi, sociis tempus leo ultrices primis nisl. Ultricies nibh maecenas eu litora ridiculus tristique lacinia interdum sollicitudin in dignissim varius ullamcorper, fusce blandit vestibulum non pharetra faucibus cursus himenaeos arcu mi morbi. Porttitor magna viverra orci eros habitant parturient ac convallis auctor donec bibendum urna, facilisi ultrices nisi nascetur ridiculus cum aliquet tortor risus turpis.</p>
-            <select>
-                <option value="HTML">Tecnologías utilizadas</option>
-                <option value="HTML">HTML</option>
-                <option value="CSS">CSS</option>
-                <option value="JavaScript">JavaScript</option>
-                <option value="React">React</option>
-            </select>
-            <button class="proyect_redirecter proyect_7"><a href="#">Visitar proyecto</a></button>
+            <button class="proyect_redirecter proyect_6"><a href="https://cursorfollower.netlify.app">Visitar proyecto</a></button>
         </div>`]
         colors.map((e)=>{
             document.querySelector(`.pestaña_${colors.indexOf(e)+1}`).addEventListener("click",()=>{
