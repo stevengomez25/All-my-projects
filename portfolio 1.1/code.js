@@ -192,6 +192,10 @@ home.addEventListener("click", () => {
         display_home.classList.add("return_div")
         display_home.addEventListener("transitionend", () => {
             display_home.remove()
+            try{document.querySelector('.technologies').remove()}catch{console.log("Already removed")}
+            try{document.querySelector('.about_me').remove()}catch{console.log("Already removed")}
+            try{document.querySelector('.studies').remove()}catch{console.log("Already removed")}
+            try{document.querySelector('.experience').remove()}catch{console.log("Already removed")}
         })
     }
 })
@@ -215,6 +219,10 @@ technologies.addEventListener("click", () => {
         display_technologies.classList.add("return_div")
         display_technologies.addEventListener("transitionend",()=>{
             display_technologies.remove()
+            try{document.querySelector('.Home').remove()}catch{console.log("Already removed")}
+            try{document.querySelector('.about_me').remove()}catch{console.log("Already removed")}
+            try{document.querySelector('.studies').remove()}catch{console.log("Already removed")}
+            try{document.querySelector('.experience').remove()}catch{console.log("Already removed")}
         })
     }
 })
@@ -405,6 +413,10 @@ About_me.addEventListener("click", () => {
         display_aboutMe.addEventListener("transitionend",()=>{
             console.log("Algo paso")
             display_aboutMe.remove()
+            try{document.querySelector('.technologies').remove()}catch{console.log("Already removed")}
+            try{document.querySelector('.Home').remove()}catch{console.log("Already removed")}
+            try{document.querySelector('.studies').remove()}catch{console.log("Already removed")}
+            try{document.querySelector('.experience').remove()}catch{console.log("Already removed")}
         })
     }
 })
@@ -469,6 +481,10 @@ Studies.addEventListener("click", () => {
         display_studies.classList.add("return_div")
         display_studies.addEventListener("transitionend",()=>{
             display_studies.remove()
+            try{document.querySelector('.technologies').remove()}catch{console.log("Already removed")}
+            try{document.querySelector('.about_me').remove()}catch{console.log("Already removed")}
+            try{document.querySelector('.Home').remove()}catch{console.log("Already removed")}
+            try{document.querySelector('.experience').remove()}catch{console.log("Already removed")}
     })
 }})
 
@@ -491,7 +507,7 @@ Experience.addEventListener("click", () => {
             </ul>
             <div class="main_container_proyect"><iframe width="700" height="400" src="https://www.youtube.com/embed/RE87rQkXdNw?si=s9aSi0XLaUWCuF8t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
         </div>`
-        colors = ['red','blue','yellow','green','black','orange','purple']
+        colors = ['red','blue','yellow','green','black','orange']
         content = [`
         <div class="exposer_left">
             <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
@@ -589,6 +605,7 @@ Experience.addEventListener("click", () => {
             <button class="proyect_redirecter proyect_6"><a href="https://cursorfollower.netlify.app">Visitar proyecto</a></button>
         </div>`]
         colors.map((e)=>{
+            console.log(`.pestaña_${colors.indexOf(e)+1}`)
             document.querySelector(`.pestaña_${colors.indexOf(e)+1}`).addEventListener("click",()=>{
                 document.querySelectorAll(".activated").forEach((e)=>{e.classList.remove("activated")})
                 document.querySelector(`.pestaña_${colors.indexOf(e)+1}`).classList.add("activated")
@@ -612,6 +629,10 @@ Experience.addEventListener("click", () => {
         display_experience.classList.add("return_div")
         display_experience.addEventListener("transitionend",()=>{
             display_experience.remove()
+            try{document.querySelector('.technologies').remove()}catch{console.log("Already removed")}
+            try{document.querySelector('.about_me').remove()}catch{console.log("Already removed")}
+            try{document.querySelector('.studies').remove()}catch{console.log("Already removed")}
+            try{document.querySelector('.Home').remove()}catch{console.log("Already removed")}
     })
 }})
 
