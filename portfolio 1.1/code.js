@@ -403,6 +403,7 @@ About_me.addEventListener("click", () => {
         icono_cambio_about.className = "icon_i fa-solid fa-circle-arrow-left"
         display_aboutMe.classList.add("return_div")
         display_aboutMe.addEventListener("transitionend",()=>{
+            console.log("Algo paso")
             display_aboutMe.remove()
         })
     }
