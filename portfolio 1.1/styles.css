@@ -229,15 +229,15 @@ input:checked + .slider:before {
 }
 .desplegated_container:first-child{
   justify-content: end;
-  background-color: #888;
+  background-color: #eee;
 }
 .desplegated_container:nth-child(2){
-  background-color: #999;
+  background-color: #ddd;
   justify-content: start;
 }
 .desplegated_container:nth-child(3){
   justify-content: center;
-  background-color: #aaa;
+  background-color: #ccc;
 }
 
 .desplegated_container{

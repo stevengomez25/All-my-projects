@@ -256,19 +256,19 @@ About_me.addEventListener("click", () => {
             `<div class="Dreams">
                 <div class="left_container">
                     <p>En mi infancia soñaba con una familia Estable, salud para todos mis allegados, conseguir ser reconocido como un estudiante muy inteligente mas que aplicado para demostrar que mis capacidades cognitivas no se podían limitarse por métodos de evaluación educativos tan retrógrados. Buscaba la manera de cambiar donde vivía con mi familia ya que estabamos a las afueras de la ciudad y el transporte a diario era terriblemente dificil, por lo que o era caminando o era no llegar de lo lejos que era. Pasaba horas caminando al mes para poder tanto movilizarme de mi casa al estudio y viceversa.</p>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                    <img src="assets/images/familia.jpg">
                 </div>
                 <div class="right_container">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-                    <p>Soñaba con tener una familia propia, construir un futuro junto a alguien que no merecía un futuro asi. Buscando no sentirme solo, idealicé a la persona equivocada, planeando uan vida completa como chef, viajando por el mundo y cocinandole a las personas más influyentes. Preparando los platos más exquisítos y deseados. Continuar mi camino de la busqueda de mi construcción física y mental. </p>
+                    <img src="assets/images/pareja.jpg">
+                    <p>Soñaba con tener una familia propia, construir un futuro junto a alguien. Buscando no sentirme solo, idealicé a la persona equivocada, planeando una vida completa como chef, viajando por el mundo y cocinandole a las personas más influyentes. Preparando los platos más exquisítos y deseados. Continuar mi camino de la busqueda de mi construcción física y mental. </p>
                 </div>
             </div>
             `,`
             <div class="Actividades">
                 <div class="upper_container">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                    <img src="assets/images/secundaria.jpg">
+                    <img src="assets/images/planos.jpg">
+                    <img src="assets/images/gamer.jpg">
                 </div>
                 <div class="down_container"
                     <p>Utilizaba la mayor parte del dia realizando mis estudios de secundaria, aprendiendo sobre materias que no eran necesariamente de mi agrado y sin embargo logré promocionarme anticipadamente con el esfuerzo y dedicación que me propuse el último año de mis estudios básicos. Basaba mi red social en videojuegos y gustos por ellos compartidos con compañeros de colegio, amigos de barrio y de la infancia. Cuando podía solía vender proyectos como planos arquitectónicos a compañeros para conseguir dinero extra y poder comprar cosas que necesitaba por el momento. Mi relación con mis padres era bastante deteriorada debido a que tanto ellos como yo ocupabamos la mayoria del tiempo desarrollando nuestras actividades, y como la situación económica era bastante precaria, no se podían planear salidas o paseos para mejorar la convivencia de la familia, sin embargo siempre lograban la manera de festejar todos los cumpleaños con ponqué, gaseosas y amigos o familiares</p>
@@ -278,15 +278,15 @@ About_me.addEventListener("click", () => {
             <div class="Hobbies">
                 <div class="desplegated_container">
                     <h2>Futbol</h2>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                    <img src="assets/images/futbol.jpg">
                 </div>
                 <div class="desplegated_container">
                     <h2>Videojuegos</h2>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                    <img src="assets/images/videojuego.jpg">
                 </div>
                 <div class="desplegated_container">
                     <h2>Inglés</h2>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                    <img src="assets/images/ingles.jpeg">
                 </div>
             </div>
             `
