@@ -296,19 +296,19 @@ About_me.addEventListener("click", () => {
                 <div class="Dreams">
                     <div class="left_container">
                         <p>Mi sueño actual es conseguir trabajo como desarrollador JR de software con tecnologías que practico constantemente y afianzo para que mi conocimiento sea sólido e inquebrantable. Quiero sacar a mis padres de trabajar debido a que uno es taxista y mi madre es recepcionista por lo que siempre han existido problemas de escazes hasta que conseguí mi primer trabajo. Voy a conseguirles la casa a cada uno y los pondré a viajar por el mundo gracias a mi esfuerzo y dedicación por esta pasión. También tendré mi moto para estar con ella por los siguientes 10 años y eso lo cumpliré este mismo 2024 a más tardar en Diciembre. Lograré que mi hermano mejore su enfoque y entienda que la única persona que lo sacará de donde no quiere estar, para ponerlo en un mejor lugar es el mismo</p>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                        <img src="assets/images/programacion.jpg">
                     </div>
                     <div class="right_container">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                        <img src="assets/images/amistades.jpg">
                         <p>Buscaré la manera de capacitarme física y mentalmente para los retos que todos estos ambiciosos sueños me deparan. Me esforzaré, estudiaré duro y no desfalleceré en mi camino por convertirme en lo mejor de mi linaje en todos los aspectos posibles. Sin olvidar de donde vengo, ni hablar mal tanto de donde sali, como de a donde llegaré. Consolidaré mis amistades basandome en lealtad, amistad sincera y competencia sana, sin ningún espacio para la envidia. Nosotros venimos de lo más abajo y seremos igual de sencillos cuando lleguemos a la cima y podamos ver todo lo que logramos</p>
                     </div>
                 </div>
                 `,`
                 <div class="Actividades">
                     <div class="upper_container">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                        <img src="assets/images/estudios.jpg">
+                        <img src="assets/images/ingles2.png">
+                        <img src="assets/images/tecnologias.jpg">
                     </div>
                     <div class="down_container"
                         <p>Estudiando a diario y actualizando tanto mi repositorio, luego de por fin dedicarle tiempo a aprender el manejo de versiones y de actualizaciones en local y remotos. 47 horas a la semana trabajo como Agente de servicio al cliente con la mejor empresa de la industria llamada Webhelp desde Enero 2024. Practico de 6 a 10 horas semanales en gimnasio y practicando basket para recuperar mi disciplina con mi estado físico. Continúo ahorrando para comprar una motocicleta nueva y comenzar a rodar por todo el pais en mi tiempo libre. Me educo viendo videos y tutoriales en youtube de los mejores streamers de código como MiduDev, SoyDalto, HolaMundo, Fazt, MouresDev y otros relacionados. También continúo mis estudios con el servicio nacional de Aprendizaje SENA, complementando todos los proyectos en grupo establecidos para fechas determinadas, con el propósito de afianzar conocimiento sobre el análisis y desarrollo de software</p>
@@ -318,15 +318,15 @@ About_me.addEventListener("click", () => {
                 <div class="Hobbies">
                     <div class="desplegated_container">
                         <h2>Basketball</h2>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                        <img src="assets/images/basket.jpg">
                     </div>
                     <div class="desplegated_container">
                         <h2>Programación</h2>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                        <img src="assets/images/programacion2.jpg">
                     </div>
                     <div class="desplegated_container">
                         <h2>Gimnasio</h2>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                        <img src="assets/images/gimnasio.jpg">
                     </div>
                 </div>
                 `
