@@ -336,19 +336,19 @@ About_me.addEventListener("click", () => {
                 <div class="Dreams">
                     <div class="left_container">
                         <p>Conocer los paises restantes en mi lista para aprender sobre más culturas, maneras de pensar, de vivir y de creer en lo que nos mantiene aqui. Ser ejemplo para los demás de superación personal a base de esfuerzo y dedicación y no favoritismo mediocre y vergonzoso. Permitir que si tengo proximas generaciones, estas no tengan que preocuparse por el dinero y se centren en hacer de este mundo un lugar mejor con lo que les apasione</p>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                        <img src="assets/images/mapa.jpg">
                     </div>
                     <div class="right_container">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                        <img src="assets/images/impacto.jpg">
                         <p>Conseguir reconocimiento a nivel global debido a la gran calidad de mi trabajo como profesional dedicado a lo que ama. Contribuir con que el planeta sea un lugar más amigable tanto para nosotros, como para los demás seres vivos que lo habitan. Procurar por el bien de las personas más vulnerables incentivando programas de voluntariado y donaciones a movimientos de impacto social</p>
                     </div>
                 </div>
                 `,`
                 <div class="Actividades">
                     <div class="upper_container">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                        <img src="assets/images/remote.jpeg">
+                        <img src="assets/images/book.jpg">
+                        <img src="assets/images/motivation.jpeg">
                     </div>
                     <div class="down_container"
                         <p>Trabajando cada que quiera en vez de sentir que estoy obligado, siendo mi propio jefe y permitiendome la libertad de moverme por cualquier parte del mundo mientras me encuentro trabajando para la compañía que desee de mis conocimientos y habilidades en su equipo. Escribiendo un libro o relatando mi historia desde el comienzo hasta lo que logré ser para motivar a las generaciones futuras a que no se rindan, que no todo es sacrificar tu moralidad por conseguir un buen puesto, sin embargo siempre siendo humilde y respetuoso tanto con la gente que apenas va empezando, como con personas con mucho más recorrido en nuestro ambito de interes</p>
@@ -358,15 +358,15 @@ About_me.addEventListener("click", () => {
                 <div class="Hobbies">
                     <div class="desplegated_container">
                         <h2>Viajar</h2>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                        <img src="assets/images/travel.jpeg">
                     </div>
                     <div class="desplegated_container">
                         <h2>Rodar</h2>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                        <img src="assets/images/moto.jpg">
                     </div>
                     <div class="desplegated_container">
                         <h2>Estudiar</h2>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%B8rv%C3%A1gsvatn_4.jpg">
+                        <img src="assets/images/study.jpg">
                     </div>
                 </div>
                 `
