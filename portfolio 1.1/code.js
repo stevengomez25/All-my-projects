@@ -256,19 +256,19 @@ About_me.addEventListener("click", () => {
             `<div class="Dreams">
                 <div class="left_container">
                     <p>En mi infancia soñaba con una familia Estable, salud para todos mis allegados, conseguir ser reconocido como un estudiante muy inteligente mas que aplicado para demostrar que mis capacidades cognitivas no se podían limitarse por métodos de evaluación educativos tan retrógrados. Buscaba la manera de cambiar donde vivía con mi familia ya que estabamos a las afueras de la ciudad y el transporte a diario era terriblemente dificil, por lo que o era caminando o era no llegar de lo lejos que era. Pasaba horas caminando al mes para poder tanto movilizarme de mi casa al estudio y viceversa.</p>
-                    <img src="assets/images/familia.jpg">
+                    <img src="assets/images/familia.jpg" class="imagen_about">
                 </div>
                 <div class="right_container">
-                    <img src="assets/images/pareja.jpg">
+                    <img src="assets/images/pareja.jpg" class="imagen_about">
                     <p>Soñaba con tener una familia propia, construir un futuro junto a alguien. Buscando no sentirme solo, idealicé a la persona equivocada, planeando una vida completa como chef, viajando por el mundo y cocinandole a las personas más influyentes. Preparando los platos más exquisítos y deseados. Continuar mi camino de la busqueda de mi construcción física y mental. </p>
                 </div>
             </div>
             `,`
             <div class="Actividades">
                 <div class="upper_container">
-                    <img src="assets/images/secundaria.jpg">
-                    <img src="assets/images/planos.jpg">
-                    <img src="assets/images/gamer.jpg">
+                    <img src="assets/images/secundaria.jpg" class="imagen_about">
+                    <img src="assets/images/planos.jpg" class="imagen_about">
+                    <img src="assets/images/gamer.jpg" class="imagen_about">
                 </div>
                 <div class="down_container"
                     <p>Utilizaba la mayor parte del dia realizando mis estudios de secundaria, aprendiendo sobre materias que no eran necesariamente de mi agrado y sin embargo logré promocionarme anticipadamente con el esfuerzo y dedicación que me propuse el último año de mis estudios básicos. Basaba mi red social en videojuegos y gustos por ellos compartidos con compañeros de colegio, amigos de barrio y de la infancia. Cuando podía solía vender proyectos como planos arquitectónicos a compañeros para conseguir dinero extra y poder comprar cosas que necesitaba por el momento. Mi relación con mis padres era bastante deteriorada debido a que tanto ellos como yo ocupabamos la mayoria del tiempo desarrollando nuestras actividades, y como la situación económica era bastante precaria, no se podían planear salidas o paseos para mejorar la convivencia de la familia, sin embargo siempre lograban la manera de festejar todos los cumpleaños con ponqué, gaseosas y amigos o familiares</p>
@@ -278,15 +278,15 @@ About_me.addEventListener("click", () => {
             <div class="Hobbies">
                 <div class="desplegated_container">
                     <h2>Futbol</h2>
-                    <img src="assets/images/futbol.jpg">
+                    <img src="assets/images/futbol.jpg" class="imagen_about">
                 </div>
                 <div class="desplegated_container">
                     <h2>Videojuegos</h2>
-                    <img src="assets/images/videojuego.jpg">
+                    <img src="assets/images/videojuego.jpg" class="imagen_about">
                 </div>
                 <div class="desplegated_container">
                     <h2>Inglés</h2>
-                    <img src="assets/images/ingles.jpeg">
+                    <img src="assets/images/ingles.jpeg" class="imagen_about">
                 </div>
             </div>
             `
@@ -296,19 +296,19 @@ About_me.addEventListener("click", () => {
                 <div class="Dreams">
                     <div class="left_container">
                         <p>Mi sueño actual es conseguir trabajo como desarrollador JR de software con tecnologías que practico constantemente y afianzo para que mi conocimiento sea sólido e inquebrantable. Quiero sacar a mis padres de trabajar debido a que uno es taxista y mi madre es recepcionista por lo que siempre han existido problemas de escazes hasta que conseguí mi primer trabajo. Voy a conseguirles la casa a cada uno y los pondré a viajar por el mundo gracias a mi esfuerzo y dedicación por esta pasión. También tendré mi moto para estar con ella por los siguientes 10 años y eso lo cumpliré este mismo 2024 a más tardar en Diciembre. Lograré que mi hermano mejore su enfoque y entienda que la única persona que lo sacará de donde no quiere estar, para ponerlo en un mejor lugar es el mismo</p>
-                        <img src="assets/images/programacion.jpg">
+                        <img src="assets/images/programacion.jpg" class="imagen_about">
                     </div>
                     <div class="right_container">
-                        <img src="assets/images/amistades.jpg">
+                        <img src="assets/images/amistades.jpg" class="imagen_about">
                         <p>Buscaré la manera de capacitarme física y mentalmente para los retos que todos estos ambiciosos sueños me deparan. Me esforzaré, estudiaré duro y no desfalleceré en mi camino por convertirme en lo mejor de mi linaje en todos los aspectos posibles. Sin olvidar de donde vengo, ni hablar mal tanto de donde sali, como de a donde llegaré. Consolidaré mis amistades basandome en lealtad, amistad sincera y competencia sana, sin ningún espacio para la envidia. Nosotros venimos de lo más abajo y seremos igual de sencillos cuando lleguemos a la cima y podamos ver todo lo que logramos</p>
                     </div>
                 </div>
                 `,`
                 <div class="Actividades">
                     <div class="upper_container">
-                        <img src="assets/images/estudios.jpg">
-                        <img src="assets/images/ingles2.png">
-                        <img src="assets/images/tecnologias.jpg">
+                        <img src="assets/images/estudios.jpg" class="imagen_about">
+                        <img src="assets/images/ingles2.png" class="imagen_about">
+                        <img src="assets/images/tecnologias.jpg" class="imagen_about">
                     </div>
                     <div class="down_container"
                         <p>Estudiando a diario y actualizando tanto mi repositorio, luego de por fin dedicarle tiempo a aprender el manejo de versiones y de actualizaciones en local y remotos. 47 horas a la semana trabajo como Agente de servicio al cliente con la mejor empresa de la industria llamada Webhelp desde Enero 2024. Practico de 6 a 10 horas semanales en gimnasio y practicando basket para recuperar mi disciplina con mi estado físico. Continúo ahorrando para comprar una motocicleta nueva y comenzar a rodar por todo el pais en mi tiempo libre. Me educo viendo videos y tutoriales en youtube de los mejores streamers de código como MiduDev, SoyDalto, HolaMundo, Fazt, MouresDev y otros relacionados. También continúo mis estudios con el servicio nacional de Aprendizaje SENA, complementando todos los proyectos en grupo establecidos para fechas determinadas, con el propósito de afianzar conocimiento sobre el análisis y desarrollo de software</p>
@@ -318,15 +318,15 @@ About_me.addEventListener("click", () => {
                 <div class="Hobbies">
                     <div class="desplegated_container">
                         <h2>Basketball</h2>
-                        <img src="assets/images/basket.jpg">
+                        <img src="assets/images/basket.jpg" class="imagen_about">
                     </div>
                     <div class="desplegated_container">
                         <h2>Programación</h2>
-                        <img src="assets/images/programacion2.jpg">
+                        <img src="assets/images/programacion2.jpg" class="imagen_about">
                     </div>
                     <div class="desplegated_container">
                         <h2>Gimnasio</h2>
-                        <img src="assets/images/gimnasio.jpg">
+                        <img src="assets/images/gimnasio.jpg" class="imagen_about">
                     </div>
                 </div>
                 `
@@ -336,19 +336,19 @@ About_me.addEventListener("click", () => {
                 <div class="Dreams">
                     <div class="left_container">
                         <p>Conocer los paises restantes en mi lista para aprender sobre más culturas, maneras de pensar, de vivir y de creer en lo que nos mantiene aqui. Ser ejemplo para los demás de superación personal a base de esfuerzo y dedicación y no favoritismo mediocre y vergonzoso. Permitir que si tengo proximas generaciones, estas no tengan que preocuparse por el dinero y se centren en hacer de este mundo un lugar mejor con lo que les apasione</p>
-                        <img src="assets/images/mapa.jpg">
+                        <img src="assets/images/mapa.jpg" class="imagen_about">
                     </div>
                     <div class="right_container">
-                        <img src="assets/images/impacto.jpg">
+                        <img src="assets/images/impacto.jpg" class="imagen_about">
                         <p>Conseguir reconocimiento a nivel global debido a la gran calidad de mi trabajo como profesional dedicado a lo que ama. Contribuir con que el planeta sea un lugar más amigable tanto para nosotros, como para los demás seres vivos que lo habitan. Procurar por el bien de las personas más vulnerables incentivando programas de voluntariado y donaciones a movimientos de impacto social</p>
                     </div>
                 </div>
                 `,`
                 <div class="Actividades">
                     <div class="upper_container">
-                        <img src="assets/images/remote.jpeg">
-                        <img src="assets/images/book.jpg">
-                        <img src="assets/images/motivation.jpeg">
+                        <img src="assets/images/remote.jpeg" class="imagen_about">
+                        <img src="assets/images/book.jpg" class="imagen_about">
+                        <img src="assets/images/motivation.jpeg" class="imagen_about">
                     </div>
                     <div class="down_container"
                         <p>Trabajando cada que quiera en vez de sentir que estoy obligado, siendo mi propio jefe y permitiendome la libertad de moverme por cualquier parte del mundo mientras me encuentro trabajando para la compañía que desee de mis conocimientos y habilidades en su equipo. Escribiendo un libro o relatando mi historia desde el comienzo hasta lo que logré ser para motivar a las generaciones futuras a que no se rindan, que no todo es sacrificar tu moralidad por conseguir un buen puesto, sin embargo siempre siendo humilde y respetuoso tanto con la gente que apenas va empezando, como con personas con mucho más recorrido en nuestro ambito de interes</p>
@@ -358,15 +358,15 @@ About_me.addEventListener("click", () => {
                 <div class="Hobbies">
                     <div class="desplegated_container">
                         <h2>Viajar</h2>
-                        <img src="assets/images/travel.jpeg">
+                        <img src="assets/images/travel.jpeg" class="imagen_about">
                     </div>
                     <div class="desplegated_container">
                         <h2>Rodar</h2>
-                        <img src="assets/images/moto.jpg">
+                        <img src="assets/images/moto.jpg" class="imagen_about">
                     </div>
                     <div class="desplegated_container">
                         <h2>Estudiar</h2>
-                        <img src="assets/images/study.jpg">
+                        <img src="assets/images/study.jpg" class="imagen_about">
                     </div>
                 </div>
                 `
