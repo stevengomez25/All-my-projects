@@ -451,6 +451,10 @@ option{
   color: #000;
 }
 
+.imagen_proyecto{
+  width: 100%;
+}
+
 @media screen and (max-width:800px){
   body{
     overflow: auto;

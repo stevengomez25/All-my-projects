@@ -510,8 +510,7 @@ Experience.addEventListener("click", () => {
         colors = ['red','blue','yellow','green','black','orange']
         content = [`
         <div class="exposer_left">
-            <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
-            <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
+            <img src="assets/images/proyect-0-0.png" class="imagen_proyecto">
         </div>
         <div class="exposer_right">
             <h1>Log-in site</h1>
@@ -525,8 +524,8 @@ Experience.addEventListener("click", () => {
         </div>
         `,`
         <div class="exposer_left">
-            <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
-            <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
+            <img src="assets/images/proyect-1-0.png" class="imagen_proyecto">
+            <img src="assets/images/proyect-1-1.png" class="imagen_proyecto">
         </div>
         <div class="exposer_right">
             <h1>Landing page</h1>
@@ -539,8 +538,7 @@ Experience.addEventListener("click", () => {
             <button class="proyect_redirecter proyect_2"><a href="index_landing_page.html">Visitar proyecto</a></button>
         </div>`,`
         <div class="exposer_left">
-            <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
-            <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
+            <img src="assets/images/veterinary.png" class="imagen_proyecto">
         </div>
         <div class="exposer_right">
             <h1>Sitio web de veterinaria</h1>
@@ -554,8 +552,7 @@ Experience.addEventListener("click", () => {
             <button class="proyect_redirecter proyect_3"><a href="https://pelucandog.netlify.app">Visitar proyecto</a></button>
         </div>`,`
         <div class="exposer_left">
-            <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
-            <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
+            <img src="assets/images/projectbackend.png" class="imagen_proyecto">
         </div>
         <div class="exposer_right">
             <h1>Tricki</h1>
@@ -571,8 +568,7 @@ Experience.addEventListener("click", () => {
             <button class="proyect_redirecter proyect_4"><a href="https://trickytraque.netlify.app">Visitar proyecto</a></button>
         </div>`,`
         <div class="exposer_left">
-            <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
-            <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
+            <img src="assets/images/project5.png" class="imagen_proyecto">
         </div>
         <div class="exposer_right">
             <h1>Tarjetas de Twitter</h1>
@@ -588,8 +584,7 @@ Experience.addEventListener("click", () => {
             <button class="proyect_redirecter proyect_5"><a href="https://twittercards.netlify.app">Visitar proyecto</a></button>
         </div>`,`
         <div class="exposer_left">
-            <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
-            <img src="https://w7.pngwing.com/pngs/388/487/png-transparent-computer-icons-graphy-img-landscape-graphy-icon-miscellaneous-angle-text-thumbnail.png">
+            <img src="assets/images/project6.png" class="imagen_proyecto">
         </div>
         <div class="exposer_right">
             <h1>Seguidor de puntero</h1>
