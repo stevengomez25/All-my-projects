@@ -507,7 +507,7 @@ Experience.addEventListener("click", () => {
             </ul>
             <div class="main_container_proyect"><iframe width="700" height="400" src="https://www.youtube.com/embed/RE87rQkXdNw?si=s9aSi0XLaUWCuF8t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
         </div>`
-        colors = ['red','blue','yellow','green','black','orange']
+        colors = ['#aaa','#bbb','#ccc','#ddd','#eee','#fff']
         content = [`
         <div class="exposer_left">
             <img src="assets/images/proyect-0-0.png" class="imagen_proyecto">
