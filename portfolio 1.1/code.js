@@ -208,8 +208,74 @@ technologies.addEventListener("click", () => {
         display_technologies.className = "desplegated_div technologies"
         new_div.appendChild(display_technologies)
         display_technologies.innerHTML = `
-        <div class="technologies_exposer"> Holi</div>
+        <div class="menu">
+            <div class="toggle"><i class="fa-solid fa-microchip"></i></div>
+            <li style="--i:0;" class="displayer_html">
+                <a href="#"><i class="fa-brands fa-html5"></i></a>
+            </li>
+            <li style="--i:1;" class="displayer_css">
+                <a href="#"><i><i class="fa-brands fa-css3-alt"></i></i></a>
+            </li>
+            <li style="--i:2;" class="displayer_js">
+                <a href="#"><i class="fa-brands fa-node-js"></i></a>
+            </li>
+            <li style="--i:3;" class="displayer_node">
+                <a href="#"><i class="fa-brands fa-node"></i></a>
+            </li>
+            <li style="--i:4;" class="displayer_react">
+                <a href="#"><i class="fa-brands fa-react"></i></a>
+            </li>
+            <li style="--i:5;" class="displayer_git">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </li>
+            <li style="--i:6;" class="displayer_python">
+                <a href="#"><i class="fa-brands fa-python"></i></a>
+            </li>
+        </div>
         `
+        let toggle = document.querySelector(".toggle");
+        let menu = document.querySelector(".menu");
+        let html = document.querySelector(".displayer_html")
+        let css = document.querySelector(".displayer_css")
+        let javascript = document.querySelector(".displayer_js")
+        let node = document.querySelector(".displayer_node")
+        let react = document.querySelector(".displayer_react")
+        let git = document.querySelector(".displayer_git")
+        let python = document.querySelector(".displayer_python")
+        function verificador (x){
+            console.log(x)
+            x.onclick = function(){
+                x.classList.toggle("selected")
+                toggle.innerHTML = `<div>${x}</div>`
+                console.log(x)
+            }
+        }
+        // function mapeador(x,y){
+        //     y.map((e)=>{
+        //         x.onclick = 
+        //     })
+        // }
+        toggle.onclick = function() {
+            menu.classList.toggle("active")
+            toggle.classList.toggle("active")
+            if (toggle.classList.contains("active")){
+                toggle.innerHTML = "Selecciona una tecnología"
+
+                verificador(html)
+                verificador(css)
+                verificador(javascript)
+                verificador(node)
+                verificador(react)
+                verificador(git)
+                verificador(python)
+
+
+            }else{
+                toggle.innerHTML = `<i class="fa-solid fa-microchip"></i>`
+            }
+        }
+
+
         try{document.querySelector('.Home').remove()}catch{console.log("Already removed")}
         try{document.querySelector('.about_me').remove()}catch{console.log("Already removed")}
         try{document.querySelector('.studies').remove()}catch{console.log("Already removed")}
@@ -411,7 +477,6 @@ About_me.addEventListener("click", () => {
         icono_cambio_about.className = "icon_i fa-solid fa-circle-arrow-left"
         display_aboutMe.classList.add("return_div")
         display_aboutMe.addEventListener("transitionend",()=>{
-            console.log("Algo paso")
             display_aboutMe.remove()
             try{document.querySelector('.technologies').remove()}catch{console.log("Already removed")}
             try{document.querySelector('.Home').remove()}catch{console.log("Already removed")}

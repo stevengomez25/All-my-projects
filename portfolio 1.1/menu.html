@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <div class="menu">
+        <div class="toggle"><a href="#" class="enter">+</a></div>
+        <li style="--i:0;">
+            <a href="#"><i>html</i></a>
+        </li>
+        <li style="--i:1;">
+            <a href="#"><i>css</i></a>
+        </li>
+        <li style="--i:2;">
+            <a href="#"><i>js</i></a>
+        </li>
+        <li style="--i:3;">
+            <a href="#"><i>node</i></a>
+        </li>
+        <li style="--i:4;">
+            <a href="#"><i>react</i></a>
+        </li>
+        <li style="--i:5;">
+            <a href="#"><i>git</i></a>
+        </li>
+        <li style="--i:6;">
+            <a href="#"><i>py</i></a>
+        </li>
+    </div>
+    <script>
+        let toggle = document.querySelector(".toggle");
+        let menu = document.querySelector(".menu");
+        toggle.onclick = function() {
+            menu.classList.toggle("active")
+        }
+    </script>
+</body>
+</html>
