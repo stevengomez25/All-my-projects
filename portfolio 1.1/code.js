@@ -242,35 +242,69 @@ technologies.addEventListener("click", () => {
         let react = document.querySelector(".displayer_react")
         let git = document.querySelector(".displayer_git")
         let python = document.querySelector(".displayer_python")
-        function verificador (x){
-            console.log(x)
-            x.onclick = function(){
-                x.classList.toggle("selected")
-                toggle.innerHTML = `<div>${x}</div>`
-                console.log(x)
-            }
+
+        let buttons = [html, css, javascript, node, react, git, python]
+        let contenido = [
+            `
+            <h1>HTML</h1>
+            <br>
+            <p>Mi primer acercamiento fue a la edad de 15 años, cuando en mi colegio tuve la oportunidad de tener un profesor muy versado en las cuestiones de la aplicación del maquetado web en proyectos de desarrollo web</p>
+            `,
+            `
+            <h1>CSS</h1>
+            <br>
+            <p>Seguramente en mis años del colegio estuve manejando este sistema de estilos, sin embargo, profundice en este desde el año 2021 cuando comencé a interesarme de lleno en este mundo del desarrollo tanto web como multiplataforma y hasta de análisis de datos</p>
+            `,
+            `
+            <h1>JavaScript</h1>
+            <br>
+            <p>Tengo conocimiento relativamente nuevo con respecto a este lenguaje de programación, siendo mi primer contacto con este en noviembre de 2022. Sin embargo ya poseía conceptos sólidos de programación y lógica al haber sido este mi segundo lenguaje</p>
+            `,
+            `
+            <h1>Node.js</h1>
+            <br>
+            <p>El primer contacto que hice fueron proyectos básicos que estuve revisando por un tiempo  (alrededor del 2022-2023) como el juego de 3 en linea, o tetris, en los cuales veo como modularizaban el proyecto de tal manera que incluso existia un archivo separado por función adicional</p>
+            `,
+            `
+            <h1>React.js</h1>
+            <br>
+            <p>Me dejó impresionado la capacidad de simplificar la escalación y reutilización del software, así como la opción de lanzar un build del programa o pagina web que se estaba diseñando para que el proyecto tuviera un impacto en el area profesional más sólido y estructuralmente correcto</p>
+            `,
+            `
+            <h1>GitHub</h1>
+            <br>
+            <p>Mi primer commit lo realicé en mayo de 2022, cuando estaba planeando unirme a un bootcamp de pago por descuento de nomina. No fue sino hasta este año 2024 que comencé a subir todos mis proyectos al repositorio virtual para exponer mis trabajos a cualquier potencial interesado en contratarme como profesional</p>
+            `,
+            `
+            <h1>Python</h1>
+            <br>
+            <p>Le tengo un aprecio muy especial a este lenguaje, ya que su simplicidad logró impulsarme para continuar en este mundo de la programación y adentrarme de lleno en esto que tanto me interesaba desde muy joven.</p>
+            `
+        ]
+
+        function mapeador(x,y){
+            y.map((e)=>{
+                x[y.indexOf(e)].onclick = function (){
+                    document.querySelectorAll(".selected").forEach((e)=>{e.classList.remove("selected");});
+                    x[y.indexOf(e)].classList.toggle("selected")
+                    toggle.innerHTML = `<div>${e}</div>`
+                }
+            })
         }
-        // function mapeador(x,y){
-        //     y.map((e)=>{
-        //         x.onclick = 
-        //     })
-        // }
+
+        mapeador(buttons,contenido);
+
         toggle.onclick = function() {
             menu.classList.toggle("active")
             toggle.classList.toggle("active")
             if (toggle.classList.contains("active")){
-                toggle.innerHTML = "Selecciona una tecnología"
+                toggle.innerHTML = "<h1>Selecciona una tecnología</h1>"
 
-                verificador(html)
-                verificador(css)
-                verificador(javascript)
-                verificador(node)
-                verificador(react)
-                verificador(git)
-                verificador(python)
+                mapeador(buttons,contenido)
 
 
             }else{
+                document.querySelectorAll(".selected").forEach((e)=>{e.classList.remove("selected");});
                 toggle.innerHTML = `<i class="fa-solid fa-microchip"></i>`
             }
         }

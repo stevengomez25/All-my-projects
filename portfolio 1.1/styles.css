@@ -189,11 +189,18 @@ input:checked + .slider:before {
   transform: rotate(0deg) translate(200px);
   opacity: 0;
 }
+.menu.active li:hover{
+  transform: rotate(calc(360deg / 7 * var(--i))) scale(1.7);
+}
 
 .menu.active li{
   transform: rotate(calc(360deg / 7 * var(--i))) scale(1.5);
   opacity: 1;
 }
+.menu.active li.selected{
+  transform: rotate(calc(360deg / 7 * var(--i))) scale(1.7);
+}
+
 .menu li a{
   font-size: 30px;
   text-decoration: none;
@@ -208,7 +215,9 @@ input:checked + .slider:before {
 }
 
 .toggle{
+  padding: 10px;
   position: absolute;
+  text-align: center;
   width: 60px;
   height: 60px;
   background: #fff;
@@ -224,7 +233,7 @@ input:checked + .slider:before {
 }
 
 .toggle:hover{
-  transform: scale(2);
+  transform: rotate(360deg) scale(2);
 }
 
 .menu.active .toggle{
@@ -232,8 +241,9 @@ input:checked + .slider:before {
   width: 500px;
   height: 500px;
 }
-
-
+li.selected{
+  transform: scale(2);
+}
 
 /* About me styles */
 
