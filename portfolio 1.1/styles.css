@@ -149,8 +149,7 @@ input:checked + .slider:before {
 }
 
 .desplegated_div{
-  width: auto;
-  height: 90%;
+  flex-grow: 1;
   animation: animation .5s linear;
 }
 
@@ -166,7 +165,7 @@ input:checked + .slider:before {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  width: 100%;
+  flex-grow: 1;
   background-color: #000;
 }
 
