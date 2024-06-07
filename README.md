@@ -4,7 +4,7 @@ First of all I would like to let you all know, even though I have my Introductio
 
 Español//
 
-# SteveRepDev
+# SteveGDev
 
 ¡Bienvenido a mi repositorio de desarrollo de software! Soy un desarrollador junior apasionado por la creación de aplicaciones web modernas y eficientes. Este repositorio contiene una colección de proyectos en los que he trabajado, destacando mis habilidades en tecnologías como React, HTML5, JavaScript, CSS, Python, Node.js y TypeScript.
 
