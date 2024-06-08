@@ -496,10 +496,14 @@ li.selected{
 
 .exposer_left{
   display: flex;
+  max-width: 50%;
+  height: 100%;
   flex-direction: column;
+  justify-content: space-evenly;
 }
 .exposer_right{
   display: flex;
+  flex-grow: 1;
   flex-direction: column;
   justify-content: center;
   text-align: center;

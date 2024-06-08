@@ -47,7 +47,7 @@ buttons_container_mayor.appendChild(section);
 content_letter = document.createElement('a');
 content_letter.className = "container_text";
 section.appendChild(content_letter);
-content_letter.innerHTML = "Home";
+content_letter.innerHTML = "Inicio";
 
 icon_section_div = document.createElement('div');
 icon_section_div.className = "icon_section_div";
@@ -64,7 +64,7 @@ buttons_container_mayor.appendChild(section);
 content_letter = document.createElement('a');
 content_letter.className = "container_text";
 section.appendChild(content_letter);
-content_letter.innerHTML = "Technologies";
+content_letter.innerHTML = "Tecnologías";
 
 icon_section_div = document.createElement('div');
 icon_section_div.className = "icon_section_div";
@@ -81,7 +81,7 @@ buttons_container_mayor.appendChild(section);
 content_letter = document.createElement('a');
 content_letter.className = "container_text";
 section.appendChild(content_letter);
-content_letter.innerHTML = "About me";
+content_letter.innerHTML = "Acerca de mi";
 
 icon_section_div = document.createElement('div');
 icon_section_div.className = "icon_section_div";
@@ -97,7 +97,7 @@ buttons_container_mayor.appendChild(section);
 content_letter = document.createElement('a');
 content_letter.className = "container_text";
 section.appendChild(content_letter);
-content_letter.innerHTML = "Studies";
+content_letter.innerHTML = "Estudios";
 
 icon_section_div = document.createElement('div');
 icon_section_div.className = "icon_section_div";
@@ -113,7 +113,7 @@ buttons_container_mayor.appendChild(section);
 content_letter = document.createElement('a');
 content_letter.className = "container_text";
 section.appendChild(content_letter);
-content_letter.innerHTML = "Experience";
+content_letter.innerHTML = "Experiencia";
 
 icon_section_div = document.createElement('div');
 icon_section_div.className = "icon_section_div";
@@ -172,7 +172,7 @@ home.addEventListener("click", () => {
             <div class="home_container">
                 <img src="image2.jpg" class="profile_picture">
                 <div class="icon_wrapper">
-                    <h3>Pasionate with develop and design</h3>
+                    <h3>Apasionado por el desarrollo y el diseño de software</h3>
                     <div class="icon_wrapper_2">
                         <a href="https://github.com/stevengomez25"><i class="fa-brands fa-square-github"></i></a>
                         <a href="https://www.facebook.com/stevengomez.0425/?locale=es_LA"><i class="fa-brands fa-square-facebook"></i></a>
@@ -336,9 +336,9 @@ About_me.addEventListener("click", () => {
         new_div.appendChild(display_aboutMe)
         display_aboutMe.innerHTML = `
         <ul class="main_bar">
-            <li><i class="fa-solid fa-clock-rotate-left"></i><button class="section_1">Past</button></li>
-            <li><i class="fa-solid fa-circle-pause"></i><button class="section_2">Present</button></li>
-            <li><i class="fa-solid fa-jet-fighter-up"></i><button class="section_3">Future</button></li>
+            <li><i class="fa-solid fa-clock-rotate-left"></i><button class="section_1">Pasado</button></li>
+            <li><i class="fa-solid fa-circle-pause"></i><button class="section_2">Presente</button></li>
+            <li><i class="fa-solid fa-jet-fighter-up"></i><button class="section_3">Futuro</button></li>
         </ul>
         <div class="desplegated_bar">
             <ul class="secondary_bar">
@@ -347,7 +347,7 @@ About_me.addEventListener("click", () => {
                 <li><button class="pestaña__3">Hobbies</button></li>
             </ul>
             <div class="main_desplegated_content">
-                <h1>Select a Time</h1>
+                <h1>Elige un tiempo</h1>
             </div>
         </div>
         `
@@ -491,7 +491,7 @@ About_me.addEventListener("click", () => {
                 document.querySelectorAll(`.section_activated`).forEach((j)=>{j.classList.remove("section_activated")})
                 document.querySelectorAll(`.activated`).forEach((e)=>{e.classList.remove("activated")})
                 document.querySelector(`.section_${content_about_bidimensional.indexOf(e)+1}`).classList.add("section_activated")
-                expositor.innerHTML = "<h1>Select a section</h1>"
+                expositor.innerHTML = "<h1>Elige una sección</h1>"
                 e.map((f)=>{
                     document.querySelector(`.pestaña__${e.indexOf(f)+1}`).addEventListener('click',()=>{
                         document.querySelectorAll(`.activated`).forEach((e)=>{e.classList.remove("activated")})
