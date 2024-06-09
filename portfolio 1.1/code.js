@@ -28,11 +28,19 @@ dot_changer.appendChild(span_switcher);
 input_switcher.addEventListener("change", function () {
     if (this.checked) {
         new_div.style.filter = "invert(1)";
-        document.querySelector('.profile_picture').style.filter = "invert(1)";
+        try{
+            document.querySelector('.profile_picture').style.filter = "invert(1)";
+        }catch(e){
+            console.log(e)
+        }
     }
     else {
         new_div.style.filter = "invert(0)";
-        document.querySelector('.profile_picture').style.filter = "invert(0)";
+        try{
+            document.querySelector('.profile_picture').style.filter = "invert(0)";
+        }catch(e){
+            console.log(e)
+        }
     }
 })
 
