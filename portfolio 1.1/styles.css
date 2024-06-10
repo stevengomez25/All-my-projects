@@ -674,4 +674,17 @@ li.selected{
     display: flex;
     flex-direction: column;
   }
+
+
+  /* Experiencia */
+
+  .experience{
+    width: 100%;
+  }
+
+  .experience ul{
+    flex-direction: column;
+    text-align: center;
+  }
+
 }
