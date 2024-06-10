@@ -197,14 +197,11 @@ home.addEventListener("click", () => {
         try{document.querySelector('.experience').remove()}catch{console.log("Already removed")}
     } else {
         icono_cambio_home.className = "icon_i fa-solid fa-circle-arrow-left"
-        display_home.classList.add("return_div")
-        display_home.addEventListener("transitionend", () => {
-            display_home.remove()
-            try{document.querySelector('.technologies').remove()}catch{console.log("Already removed")}
-            try{document.querySelector('.about_me').remove()}catch{console.log("Already removed")}
-            try{document.querySelector('.studies').remove()}catch{console.log("Already removed")}
-            try{document.querySelector('.experience').remove()}catch{console.log("Already removed")}
-        })
+        try{document.querySelector('.Home').remove()}catch{console.log("Already removed")}
+        try{document.querySelector('.technologies').remove()}catch{console.log("Already removed")}
+        try{document.querySelector('.about_me').remove()}catch{console.log("Already removed")}
+        try{document.querySelector('.studies').remove()}catch{console.log("Already removed")}
+        try{document.querySelector('.experience').remove()}catch{console.log("Already removed")}
     }
 })
 
@@ -324,7 +321,6 @@ technologies.addEventListener("click", () => {
         try{document.querySelector('.experience').remove()}catch{console.log("Already removed")}
     } else {
         icono_cambio_technologies.className = "icon_i fa-solid fa-circle-arrow-left"
-        display_technologies.classList.add("return_div")
         try{document.querySelector('.technologies').remove()}catch{console.log("Already removed")}
         try{document.querySelector('.Home').remove()}catch{console.log("Already removed")}
         try{document.querySelector('.about_me').remove()}catch{console.log("Already removed")}
@@ -515,7 +511,6 @@ About_me.addEventListener("click", () => {
         try{document.querySelector('.experience').remove()}catch{console.log("Already removed")}
     } else {
         icono_cambio_about.className = "icon_i fa-solid fa-circle-arrow-left"
-        display_aboutMe.classList.add("return_div")
         try{document.querySelector('.technologies').remove()}catch{console.log("Already removed")}
         try{document.querySelector('.Home').remove()}catch{console.log("Already removed")}
         try{document.querySelector('.about_me').remove()}catch{console.log("Already removed")}
@@ -581,7 +576,6 @@ Studies.addEventListener("click", () => {
         try{document.querySelector('.experience').remove()}catch{console.log("Already removed")}
     } else {
         icono_cambio_studies.className = "icon_i fa-solid fa-circle-arrow-left"
-        display_studies.classList.add("return_div")
         try{document.querySelector('.technologies').remove()}catch{console.log("Already removed")}
         try{document.querySelector('.Home').remove()}catch{console.log("Already removed")}
         try{document.querySelector('.about_me').remove()}catch{console.log("Already removed")}
@@ -730,7 +724,6 @@ Experience.addEventListener("click", () => {
         try{document.querySelector('.Home').remove()}catch{console.log("Already removed")}
     } else {
         icono_cambio_experience.className = "icon_i fa-solid fa-circle-arrow-left"
-        display_experience.classList.add("return_div")
         try{document.querySelector('.technologies').remove()}catch{console.log("Already removed")}
         try{document.querySelector('.Home').remove()}catch{console.log("Already removed")}
         try{document.querySelector('.about_me').remove()}catch{console.log("Already removed")}
