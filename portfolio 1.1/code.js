@@ -216,25 +216,25 @@ technologies.addEventListener("click", () => {
         <div class="menu">
             <div class="toggle"><i class="fa-solid fa-microchip"></i></div>
             <li style="--i:0;" class="displayer_html">
-                <a href="#"><i class="fa-brands fa-html5"></i></a>
+                <a><i class="fa-brands fa-html5"></i></a>
             </li>
             <li style="--i:1;" class="displayer_css">
-                <a href="#"><i><i class="fa-brands fa-css3-alt"></i></i></a>
+                <a><i><i class="fa-brands fa-css3-alt"></i></i></a>
             </li>
             <li style="--i:2;" class="displayer_js">
-                <a href="#"><i class="fa-brands fa-node-js"></i></a>
+                <a><i class="fa-brands fa-node-js"></i></a>
             </li>
             <li style="--i:3;" class="displayer_node">
-                <a href="#"><i class="fa-brands fa-node"></i></a>
+                <a><i class="fa-brands fa-node"></i></a>
             </li>
             <li style="--i:4;" class="displayer_react">
-                <a href="#"><i class="fa-brands fa-react"></i></a>
+                <a><i class="fa-brands fa-react"></i></a>
             </li>
             <li style="--i:5;" class="displayer_git">
-                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a><i class="fa-brands fa-github"></i></a>
             </li>
             <li style="--i:6;" class="displayer_python">
-                <a href="#"><i class="fa-brands fa-python"></i></a>
+                <a><i class="fa-brands fa-python"></i></a>
             </li>
         </div>
         `
