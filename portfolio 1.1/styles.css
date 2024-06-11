@@ -490,6 +490,10 @@ li.selected{
   flex-direction: row;
 }
 
+.main_container_proyect h1{
+  animation: shadower 1s linear;
+}
+
 .exposer_left{
   display: flex;
   max-width: 50%;

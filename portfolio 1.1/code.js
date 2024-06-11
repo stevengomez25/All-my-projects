@@ -624,7 +624,7 @@ Experience.addEventListener("click", () => {
                 <li><button class="pestaña_5">Pestaña 5</button></li>
                 <li><button class="pestaña_6">Pestaña 6</button></li>
             </ul>
-            <div class="main_container_proyect"><iframe width="100%" height="200" src="https://www.youtube.com/embed/RE87rQkXdNw?si=s9aSi0XLaUWCuF8t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            <div class="main_container_proyect"><h1>Selecciona algún proyecto</h1></div>
         </div>`
         colors = ['#aaa','#bbb','#ccc','#ddd','#eee','#fff']
         content = [`
