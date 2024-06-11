@@ -303,6 +303,9 @@ li.selected{
   height: 100%;
   flex-direction: column;
 }
+.main_desplegated_content h1{
+  animation: shadower .3s linear;
+}
 .desplegated_container:first-child{
   justify-content: end;
 }
@@ -335,19 +338,24 @@ li.selected{
   display: flex;
   flex-direction: column;
   align-items: center;
+  animation: animation .3s linear;
+
 }
 .Actividades{
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  animation: animation .3s linear;
 }
 .Hobbies{
   width: 100%;
   height: 100%;
   display: flex;
+  animation: animation .3s linear;
 }
 .section_activated{
+  transition: all .3s;
   background-color: #000;
   color: #fff;
 }
@@ -395,14 +403,6 @@ li.selected{
   align-items: center;
 }
 
-@keyframes animation {
-  from{
-    transform: translate(1000px,1000px);
-  }
-  to{
-    transform: translate(0,0);
-  }
-}
 
 
 .home_exposer{
@@ -476,6 +476,7 @@ li.selected{
   text-decoration: none;
 }
 .activated{
+  transition: all .3s;
   color: white;
   background-color: black;
 }
@@ -495,6 +496,8 @@ li.selected{
   height: 100%;
   flex-direction: column;
   justify-content: space-evenly;
+  animation: horizonal_movement .3s linear;
+
 }
 .exposer_right{
   display: flex;
@@ -502,6 +505,8 @@ li.selected{
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  animation: horizonal_movement .3s linear;
+
 }
 select{
   background-color:#888;
@@ -537,6 +542,38 @@ option{
   width: 100%;
 }
 
+/* Functionality  */
+
+.menu_deployer{
+  display: none;
+}
+
+@keyframes animation {
+  from{
+    transform: translate(0,1000px);
+  }
+  to{
+    transform: translate(0,0);
+  }
+}
+@keyframes shadower {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+@keyframes horizonal_movement {
+  from{
+    transform: translate(-1000px,0);
+  }
+  to{
+    transform: translate(0,0);
+  }
+  
+}
+
 @media screen and (max-width:800px){
   body{
     overflow: auto;
@@ -548,8 +585,34 @@ option{
   }
   .section_right{
     width: 100%;
+    height: auto;
     display: flex;
   }
+  /* Funcionality menu */
+  .menu_deployer{
+    display: flex;
+    transition: .3s;
+  }
+
+  .buttons_container_mayor{
+    background-color: #fff;
+    display: flex;
+    position: fixed;
+    top: -43%;
+    transition: .3s;
+    height: 50%;
+    justify-content: flex-end;
+  }
+  .menu_deployed{
+    height: 100%;
+    transform: translateY(43%);
+    z-index: 1001;
+    justify-content: space-evenly;
+  }
+  .deployed{
+    transform: rotate(360deg);
+  }
+  
 
   .section{
     margin-left: 20px;

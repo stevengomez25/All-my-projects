@@ -131,6 +131,19 @@ icon_section_i = document.createElement('i');
 icon_section_i.className = "icon_i fa-solid fa-circle-arrow-left";
 icon_section_div.appendChild(icon_section_i);
 
+section = document.createElement('div');
+section.className = "section Menu_deploy";
+buttons_container_mayor.appendChild(section);
+content_letter = document.createElement('a');
+content_letter.className = "menu_deployer";
+section.appendChild(content_letter);
+content_letter.innerHTML = `<i class="fa-solid fa-bars"></i>`;
+
+icon_section_div = document.createElement('div');
+icon_section_div.className = "icon_section_div";
+section.appendChild(icon_section_div);
+
+
 //MOVEMENT PAGE
 
 let home = document.querySelector(".home");
@@ -166,9 +179,16 @@ let icono_cambio_studies = container_4.querySelector(".icon_i")
 let container_5 = Experience.querySelector(".icon_section_div")
 let icono_cambio_experience = container_5.querySelector(".icon_i")
 
+// Menu functionality
+menu_deployer = document.querySelector(".menu_deployer")
+menu_deployer.onclick = function(){
+    menu_deployer.classList.toggle("deployed")
+    buttons_container_mayor.classList.toggle("menu_deployed")
+}
 
 home.addEventListener("click", () => {
     if (icono_cambio_home.className != "icon_i fa-solid fa-circle-check") {
+        buttons_container_mayor.classList.toggle("menu_deployed")
         icono_cambio_home.className = "icon_i fa-solid fa-circle-check"
         check_status(icono_cambio_about,icono_cambio_experience,icono_cambio_studies,icono_cambio_technologies)
         display_home = document.createElement('div')
@@ -207,6 +227,7 @@ home.addEventListener("click", () => {
 
 technologies.addEventListener("click", () => {
     if (icono_cambio_technologies.className != "icon_i fa-solid fa-circle-check") {
+        buttons_container_mayor.classList.toggle("menu_deployed")
         icono_cambio_technologies.className = "icon_i fa-solid fa-circle-check"
         check_status(icono_cambio_about,icono_cambio_experience,icono_cambio_studies,icono_cambio_home)
         display_technologies = document.createElement('div')
@@ -331,6 +352,7 @@ technologies.addEventListener("click", () => {
 
 About_me.addEventListener("click", () => {
     if (icono_cambio_about.className != "icon_i fa-solid fa-circle-check") {
+        buttons_container_mayor.classList.toggle("menu_deployed")
         icono_cambio_about.className = "icon_i fa-solid fa-circle-check"
         check_status(icono_cambio_home,icono_cambio_experience,icono_cambio_studies,icono_cambio_technologies)
         display_aboutMe = document.createElement('div')
@@ -521,6 +543,7 @@ About_me.addEventListener("click", () => {
 
 Studies.addEventListener("click", () => {
     if (icono_cambio_studies.className != "icon_i fa-solid fa-circle-check") {
+        buttons_container_mayor.classList.toggle("menu_deployed")
         icono_cambio_studies.className = "icon_i fa-solid fa-circle-check"
         check_status(icono_cambio_about,icono_cambio_experience,icono_cambio_home,icono_cambio_technologies)
         display_studies = document.createElement('div')
@@ -585,6 +608,7 @@ Studies.addEventListener("click", () => {
 
 Experience.addEventListener("click", () => {
     if (icono_cambio_experience.className != "icon_i fa-solid fa-circle-check") {
+        buttons_container_mayor.classList.toggle("menu_deployed")
         icono_cambio_experience.className = "icon_i fa-solid fa-circle-check"
         check_status(icono_cambio_about,icono_cambio_home,icono_cambio_studies,icono_cambio_technologies)
         display_experience = document.createElement('div')
