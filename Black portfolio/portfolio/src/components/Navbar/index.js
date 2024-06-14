@@ -3,7 +3,7 @@ import {Link as LinkR } from "react-router-dom";
 import styled from "styled-components";
 
 const Nav = styled.div`
-    background-color: ${({ theme })=> theme.card_light}
+    background-color: ${({ theme })=> theme.card_light};
     height: 80px;
     display: flex;
     justify-content: center;
@@ -60,13 +60,13 @@ const NavItems = styled.div`
     gap: 32px;
     list-style: none;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (max-width: 768px) {
     display:none;
     }
 `;
 
 const NavLink = styled.a`
-    color: ${({ theme })=>theme.text_primary}
+    color: ${({ theme })=>theme.text_primary};
     font-weight: 500;
     cursor: pointer;
     text-decoration: none;
