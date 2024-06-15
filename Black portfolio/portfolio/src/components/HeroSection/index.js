@@ -148,14 +148,14 @@ const SubTitle = styled.div`
 `;
 
 const ResumeButton = styled.a`
-    -webkit-appearance: button;
+-webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
     text-decoration: none;
     width: 95%;
     max-width: 300px;
     text-align: center;
-    padding: 36px 0;
+    padding: 16px 0;
     color:${({ theme }) => theme.white};
     border-radius: 20px;
     cursor: pointer;
@@ -173,13 +173,13 @@ const ResumeButton = styled.a`
     transition: all 0.4s ease-in-out;
     box-shadow:  20px 20px 60px #1F2634,
     filter: brightness(1);
-    }
+    }    
     
     
     @media (max-width: 640px) {
         padding: 12px 0;
         font-size: 18px;
-    }
+    } 
 
 `;
 
@@ -231,7 +231,9 @@ const Hero = () =>{
                             </Span>
                         </TextLoop>
                         <SubTitle>{Bio.description}</SubTitle>
-                        <ResumeButton href={Bio.resume}>Check Resume</ResumeButton>
+                        <ResumeButton href={Bio.resume} target='display'>
+                            Check Resume
+                        </ResumeButton>
                     </HeroLeftContainer>
                     <HeroRightContainer>
                         <Image src={HeroImg} alt="Hero"/>
