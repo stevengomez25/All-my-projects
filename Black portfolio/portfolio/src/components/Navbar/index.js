@@ -157,7 +157,7 @@ const Navbar = () =>{
                     display: "flex",
                     alignItems: "center",
                     color: "white",
-                    marginBottom: "20;",
+                    marginBottom: "20",
                     cursor: "pointer",
                 }}
             >
@@ -181,7 +181,6 @@ const Navbar = () =>{
                 <GitHubButton
                 style={{
                     padding: "10px 16px",
-                    background: `${theme.primary}`,
                     color: "white",
                     width: "max-content",
                 }}
