@@ -76,8 +76,8 @@ const TimelineSection = styled.div`
 const Experience  = () =>{
     return (<Container id="experience">
         <Wrapper>
-            <Title>Experience</Title>
-            <Desc>Here are some of my proyects</Desc>
+            <Title>Experiencia</Title>
+            <Desc>Aquí unas cuantas actividades en las que me he desempeñado</Desc>
             <TimelineSection>
                 <Timeline>
                     {experiences.map((experience,index) => (

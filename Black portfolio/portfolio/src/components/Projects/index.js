@@ -106,9 +106,9 @@ const Projects = () =>{
     return (
         <Container id="projects">
             <Wrapper>
-                <Title>Projects</Title>
+                <Title>Test y entrenamientos</Title>
                 <Desc>
-                    Here are some of my skills on which I have been working on for the past 2 years.
+                    Aquí podrás profundizar en los test y entrenamientos en los que baso mis disciplinas
                 </Desc>
                 <ToggleGroup>
                     {toggle === "all" ? (
@@ -118,21 +118,21 @@ const Projects = () =>{
                     )}
                     <Divider />
                     {toggle ==="web app"? (
-                        <ToggleButton active onClick={()=>setToggle("web app")}>Web App</ToggleButton>
+                        <ToggleButton active onClick={()=>setToggle("web app")}>Remunerados</ToggleButton>
                     ):(
-                        <ToggleButton onClick={()=>setToggle("web app")}>Web App</ToggleButton>
+                        <ToggleButton onClick={()=>setToggle("web app")}>Remunerados</ToggleButton>
                     )}
                     <Divider/>
                     {toggle === "android app" ?(
-                        <ToggleButton active onClick={()=>setToggle("android app")}>Android App</ToggleButton>
+                        <ToggleButton active onClick={()=>setToggle("android app")}>Sin ánimo de lucro</ToggleButton>
                     ):(
-                        <ToggleButton onClick={()=>setToggle("android app")}>Android App</ToggleButton>
+                        <ToggleButton onClick={()=>setToggle("android app")}>Sin ánimo de lucro</ToggleButton>
                     )}
                     <Divider/>
                     {toggle ==="machine learning"?(
-                        <ToggleButton active onClick={()=>setToggle("machine learning")}>Machine Learning</ToggleButton>
+                        <ToggleButton active onClick={()=>setToggle("machine learning")}>Desarrollo personal</ToggleButton>
                     ):(
-                        <ToggleButton onClick={()=>setToggle("machine learning")}>Machine Learning</ToggleButton>
+                        <ToggleButton onClick={()=>setToggle("machine learning")}>Desarrollo personal</ToggleButton>
 
                     )}
                 </ToggleGroup>

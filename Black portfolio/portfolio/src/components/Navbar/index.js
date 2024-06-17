@@ -3,10 +3,11 @@ import {Link as LinkR } from "react-router-dom";
 import styled, { useTheme } from "styled-components";
 import { DiCssdeck } from "react-icons/di";
 import { FaBars } from "react-icons/fa"
+import { Bio } from "../../data/constants";
 
 const Nav = styled.div`
     background-color: ${({ theme })=> theme.card_light};
-    height: 80px;
+    height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,7 +60,7 @@ const NavItems = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 32px;
+    gap: 35px;
     list-style: none;
 
     @media screen and (max-width: 768px) {
@@ -70,6 +71,7 @@ const NavItems = styled.div`
 const NavLink = styled.a`
     color: ${({ theme })=>theme.text_primary};
     font-weight: 500;
+    text-wrap: nowrap;
     cursor: pointer;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
@@ -89,7 +91,8 @@ const ButtonContainer = styled.div`
         display: none;
     }
 `
-const GitHubButton = styled.button`
+const GitHubButton = styled.a`
+    text-decoration: none;
     color: ${({ theme })=> theme.primary};
     background-color: transparent;
     border: 1px solid ${({ theme })=>theme.primary};
@@ -171,11 +174,11 @@ const Navbar = () =>{
                 }}/>
             </MobileIcon>
             <NavItems>
-                <NavLink href="#about">About</NavLink>
-                <NavLink href="#skills">Skills</NavLink>
-                <NavLink href="#experience">Experience</NavLink>
-                <NavLink href="#projects">Projects</NavLink>
-                <NavLink href="#education">Education</NavLink>
+                <NavLink href="#about">Sobre mi</NavLink>
+                <NavLink href="#skills">Habilidades</NavLink>
+                <NavLink href="#experience">Experiencia</NavLink>
+                <NavLink href="#projects">Proyectos</NavLink>
+                <NavLink href="#education">Educación</NavLink>
             </NavItems>
             <ButtonContainer>
                 <GitHubButton
@@ -184,26 +187,27 @@ const Navbar = () =>{
                     color: "white",
                     width: "max-content",
                 }}
-                href="/"
-                >Github Profile</GitHubButton>
+                href={Bio.github}
+                target="_blank"
+                >WhatsApp</GitHubButton>
             </ButtonContainer>
         </NavContainer>
         {open &&
             <MobileMenu open={open}>
                 <MobileMenuLinks href="#about" onClick={()=>{setOpen(!open);}}>
-                    About
+                    Sobre mi
                 </MobileMenuLinks>
                 <MobileMenuLinks href="#skills" onClick={()=>{setOpen(!open);}}>
-                    Skills
+                    Habilidades
                 </MobileMenuLinks>
                 <MobileMenuLinks href="#experience" onClick={()=>{setOpen(!open);}}>
-                    Experience
+                    Experiencia
                 </MobileMenuLinks>
                 <MobileMenuLinks href="#projects" onClick={()=>{setOpen(!open);}}>
-                    Projects
+                    Proyectos
                 </MobileMenuLinks>
                 <MobileMenuLinks href="#education" onClick={()=>{setOpen(!open);}}>
-                    Education
+                    Educación
                 </MobileMenuLinks>
                 <GitHubButton
                     Style={{
@@ -212,9 +216,9 @@ const Navbar = () =>{
                         color: "white",
                         width: "max-content",
                     }}
-                    href="/"
+                    href={Bio.github}
                     target="_blank">
-                        GitHub Profile
+                        WhatsApp
                     </GitHubButton>
             </MobileMenu>
         }

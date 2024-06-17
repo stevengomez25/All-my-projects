@@ -22,6 +22,7 @@ const HeroContainer = styled.div`
     clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
 `;
 const HeroBg = styled.div`
+    z-index: -1;
     position: absolute;
     display: flex;
     justify-content: end;
@@ -149,7 +150,8 @@ const SubTitle = styled.div`
 `;
 
 const ResumeButton = styled.a`
--webkit-appearance: button;
+    
+    -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
     text-decoration: none;
@@ -174,14 +176,13 @@ const ResumeButton = styled.a`
     transition: all 0.4s ease-in-out;
     box-shadow:  20px 20px 60px #1F2634,
     filter: brightness(1);
-    }    
+    }
     
     
     @media (max-width: 640px) {
         padding: 12px 0;
         font-size: 18px;
-    } 
-
+    }
 `;
 
 const Image = styled.img`
@@ -232,8 +233,8 @@ const Hero = () =>{
                             </Span>
                         </TextLoop>
                         <SubTitle>{Bio.description}</SubTitle>
-                        <ResumeButton href={Bio.resume} target='display'>
-                            Check Resume
+                        <ResumeButton href={Bio.resume} target='_blank'>
+                            Ver Curriculum
                         </ResumeButton>
                     </HeroLeftContainer>
                     <HeroRightContainer>
