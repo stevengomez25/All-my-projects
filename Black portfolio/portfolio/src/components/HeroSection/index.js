@@ -121,6 +121,7 @@ const TextLoop = styled.div`
     }
 
     @media screen and (max-width: 640px){
+        flex-direction: column;
         font-size: 22px;
         line-height: 48px;
         margin-bottom: 16px;
