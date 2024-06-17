@@ -215,11 +215,11 @@ const Hero = () =>{
                 </HeroBg>
                 <HeroInnerContainer>
                     <HeroLeftContainer>
-                        <Tittle>Hi, I am <br/>
+                        <Tittle>Hola, soy <br/>
                         {Bio.name}
                         </Tittle>
                         <TextLoop>
-                            I am a
+                            Soy
                             <Span>
                                 <Typewriter
                                     options={{
