@@ -171,11 +171,11 @@ const Navbar = () =>{
                 }}/>
             </MobileIcon>
             <NavItems>
-                <NavLink href="#About">About</NavLink>
-                <NavLink href="#Skills">Skills</NavLink>
-                <NavLink href="#Experience">Experience</NavLink>
-                <NavLink href="#Projects">Projects</NavLink>
-                <NavLink href="#Education">Education</NavLink>
+                <NavLink href="#about">About</NavLink>
+                <NavLink href="#skills">Skills</NavLink>
+                <NavLink href="#experience">Experience</NavLink>
+                <NavLink href="#projects">Projects</NavLink>
+                <NavLink href="#education">Education</NavLink>
             </NavItems>
             <ButtonContainer>
                 <GitHubButton
@@ -190,19 +190,19 @@ const Navbar = () =>{
         </NavContainer>
         {open &&
             <MobileMenu open={open}>
-                <MobileMenuLinks href="#About" onClick={()=>{setOpen(!open);}}>
+                <MobileMenuLinks href="#about" onClick={()=>{setOpen(!open);}}>
                     About
                 </MobileMenuLinks>
-                <MobileMenuLinks href="#Skills" onClick={()=>{setOpen(!open);}}>
+                <MobileMenuLinks href="#skills" onClick={()=>{setOpen(!open);}}>
                     Skills
                 </MobileMenuLinks>
-                <MobileMenuLinks href="#Experience" onClick={()=>{setOpen(!open);}}>
+                <MobileMenuLinks href="#experience" onClick={()=>{setOpen(!open);}}>
                     Experience
                 </MobileMenuLinks>
-                <MobileMenuLinks href="#Projects" onClick={()=>{setOpen(!open);}}>
+                <MobileMenuLinks href="#projects" onClick={()=>{setOpen(!open);}}>
                     Projects
                 </MobileMenuLinks>
-                <MobileMenuLinks href="#Education" onClick={()=>{setOpen(!open);}}>
+                <MobileMenuLinks href="#education" onClick={()=>{setOpen(!open);}}>
                     Education
                 </MobileMenuLinks>
                 <GitHubButton
