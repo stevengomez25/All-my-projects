@@ -43,6 +43,7 @@ import rm from '../images/rm.gif';
 import imc from '../images/imc.gif';
 import repeticiones from '../images/repeticiones.gif';
 import vo2 from '../images/vo2.jpg';
+import calistenia from '../images/calistenia.gif';
 
 
 import pyshicalrecovery from '../images/pyshicalrecovery.jpg';
@@ -430,23 +431,23 @@ export const Bio = {
     },
     {
       id: 16,
-      title: "Eventos Deportivos y Recreativos",
-      date: "Disponible",
+      title: "Entrenamiento Funcional",
+      date: "Sin equipo adicional",
       description:
-        "Organización y dirección de eventos deportivos locales, recreativos o competitivos para promover la participación comunitaria y el espíritu deportivo.",
+        "El entrenamiento funcional sin equipo adicional se centra en el desarrollo de movimientos y habilidades que imitan las actividades diarias y deportivas utilizando principalmente el peso corporal como resistencia. Este enfoque busca mejorar la funcionalidad y la eficiencia del cuerpo en situaciones cotidianas y deportivas, haciendo hincapié en la estabilidad, la fuerza, la flexibilidad y la coordinación. Los ejercicios pueden incluir movimientos como sentadillas, flexiones, planchas, zancadas y giros, todos diseñados para mejorar la fuerza y la estabilidad en múltiples planos de movimiento. Este tipo de entrenamiento no solo fortalece los músculos principales, sino también los estabilizadores y los músculos del core, promoviendo así un cuerpo más equilibrado, funcional y capaz de enfrentar las demandas variadas del día a día y las actividades físicas.",
       image:
-        `${eventosdeportivos}`,
-      tags: ["Liderazgo", "Organización", "Didactico", "Logística", "Motivación"],
+        `${calistenia}`,
+      tags: ["Autopercepción", "Resistencia", "Disciplina", "Vascularización", "Compromiso"],
       category: "training",
       github: "https://github.com/rishavchanda/Podstream",
       webapp: "https://podstream.netlify.app/",
     },
     {
       id: 0,
-      title: "Entrenamiento Funcional",
-      date: "Sin equipo adicional",
+      title: "Eventos Deportivos y Recreativos",
+      date: "Disponible",
       description:
-        "",
+        "Organización y dirección de eventos deportivos locales, recreativos o competitivos para promover la participación comunitaria y el espíritu deportivo.",
       image:
         `${eventosdeportivos}`,
       tags: ["Liderazgo", "Organización", "Didactico", "Logística", "Motivación"],
