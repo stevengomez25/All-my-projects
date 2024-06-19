@@ -75,9 +75,9 @@ const Education = () =>{
     return (
     <Container id="education">
         <Wrapper>
-            <Title>Education</Title>
+            <Title>Estudios</Title>
             <Desc>
-                My Education is related with a lot of people
+                Con mi educación he contribuido a un buen número de personas
             </Desc>
             <TimelineSection>
                 <Timeline>

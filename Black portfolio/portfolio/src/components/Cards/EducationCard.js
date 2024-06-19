@@ -160,7 +160,7 @@ const EducationCard = ({education}) =>{
             <Logo src={education.img} />
             <Body>
                 <Name>{education.school}</Name>
-                <Degree>{education.Degree}</Degree>
+                <Degree>{education.degree}</Degree>
                 <Date>{education.date}</Date>
             </Body>
         </Top>

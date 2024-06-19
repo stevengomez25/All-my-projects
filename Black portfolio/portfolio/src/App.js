@@ -9,6 +9,8 @@ import Education from './components/Education';
 import Projects from './components/Projects';
 import { BrowserRouter as Router } from "react-router-dom";
 import Footer from './components/Footer';
+import ProjectDetails from "./components/ProjectDetails";
+import { useState } from 'react';
 
 const Body = styled.div`
   background-color: ${({ theme })=> theme.bg};
@@ -22,6 +24,7 @@ const Wrapper = styled.div`
     clip-path: polygon(0 0, 100% 0, 100% 100%,30% 98%, 0 100%);
 `;
 function App() {
+  const [openModal, setOpenModal] = useState({ state: false, project: null });
   return (
     <ThemeProvider theme = { darkTheme}>
         <Router>
@@ -32,11 +35,14 @@ function App() {
             <Skills/>
             <Experience/>
           </Wrapper>
-          <Projects/>
+          <Projects openModal={openModal} setOpenModal={setOpenModal}/>
           <Wrapper>
             <Education/>
           </Wrapper>
           <Footer/>
+          {openModal.state &&
+            <ProjectDetails openModal={openModal} setOpenModal={setOpenModal}/>
+          }
 
         </Body>
           

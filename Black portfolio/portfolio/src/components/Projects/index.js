@@ -101,7 +101,7 @@ const CardContainer = styled.div`
 
 `;
 
-const Projects = () =>{
+const Projects = ({openModal,setOpenModal}) =>{
     const [toggle, setToggle] = useState("all");
     return (
         <Container id="projects">
@@ -117,30 +117,33 @@ const Projects = () =>{
                         <ToggleButton value="all" onClick={()=>setToggle("all")}>All</ToggleButton>
                     )}
                     <Divider />
-                    {toggle ==="web app"? (
-                        <ToggleButton active onClick={()=>setToggle("web app")}>Remunerados</ToggleButton>
+                    {toggle ==="test"? (
+                        <ToggleButton active onClick={()=>setToggle("test")}>Tests</ToggleButton>
                     ):(
-                        <ToggleButton onClick={()=>setToggle("web app")}>Remunerados</ToggleButton>
+                        <ToggleButton onClick={()=>setToggle("test")}>Tests</ToggleButton>
                     )}
                     <Divider/>
-                    {toggle === "android app" ?(
-                        <ToggleButton active onClick={()=>setToggle("android app")}>Sin ánimo de lucro</ToggleButton>
+                    {toggle === "training" ?(
+                        <ToggleButton active onClick={()=>setToggle("training")}>Entrenamientos</ToggleButton>
                     ):(
-                        <ToggleButton onClick={()=>setToggle("android app")}>Sin ánimo de lucro</ToggleButton>
+                        <ToggleButton onClick={()=>setToggle("training")}>Entrenamientos</ToggleButton>
                     )}
                     <Divider/>
-                    {toggle ==="machine learning"?(
-                        <ToggleButton active onClick={()=>setToggle("machine learning")}>Desarrollo personal</ToggleButton>
+                    {toggle ==="services"?(
+                        <ToggleButton active onClick={()=>setToggle("services")}>Servicios</ToggleButton>
                     ):(
-                        <ToggleButton onClick={()=>setToggle("machine learning")}>Desarrollo personal</ToggleButton>
+                        <ToggleButton onClick={()=>setToggle("services")}>Servicios</ToggleButton>
 
                     )}
                 </ToggleGroup>
                 <CardContainer>
-                    {toggle === "all" && projects.map(project => <ProjectCard project ={project} /> )}
+                    {toggle === "all" && projects
+                    .map(project =>(
+                    <ProjectCard project ={project} openModal={openModal} setOpenModal={setOpenModal}/>
+                    ))}
                     {projects.filter((item) =>item.category === toggle)
                     .map((project)=>(
-                        <ProjectCard project={project}/>
+                        <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
                     ))}
                 </CardContainer>
             </Wrapper>
