@@ -111,29 +111,6 @@ const Description = styled.div`
     }
 `;
 
-const Skills = styled.div`
-    width: 100%;
-    display: flex;
-    gap: 12px;
-    margin-top: 10px;
-`;
-
-const ItemWrapper = styled.div`
-    display: fleX;
-    flex-wrap: wrap;
-    gap: 8px;
-`
-
-const Skill = styled.div`
-    font-size: 15px;
-    font-weight: 400;
-    color: ${({theme})=>theme.text_primary+99};
-
-    @media (max-width: 768px){
-        font-size: 12px;
-    }
-`;
-
 const Span = styled.span`
     overflow: hidden;
     display: -webkit-box;
@@ -168,11 +145,6 @@ const EducationCard = ({education}) =>{
         <Description>
             <Span>{education.desc}</Span>
         </Description>
-        {/* {experience.doc && (
-            <a href={experience.doc} target="new">
-            <Document src={experience.doc}/>
-            </a>
-    )} */}
     </Card>
     );
 };
