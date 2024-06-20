@@ -44,6 +44,10 @@ import imc from '../images/imc.gif';
 import repeticiones from '../images/repeticiones.gif';
 import vo2 from '../images/vo2.jpg';
 import calistenia from '../images/calistenia.gif';
+import ATR from '../images/atr.png';
+import Aerobics from '../images/aerobics.gif';
+import Pliometria from '../images/pliometria.gif';
+
 
 
 import pyshicalrecovery from '../images/pyshicalrecovery.jpg';
@@ -338,8 +342,8 @@ export const Bio = {
         "Resistencia",
       ],
       category: "test",
-      github: "https://github.com/rishavchanda/Trackify",
-      webapp: "https://trackify.duckdns.org",
+      github: "https://wa.me/573225198889?text=Hola,%20quiero%20conocer%20más%20sobre%20Prueba%20de%20Cooper",
+      webapp: "https://wa.me/573225198889?text=Hola,%20quiero%20cotizar:%20Prueba%20de%20Cooper",
     },
     {
       id: 11,
@@ -356,8 +360,8 @@ export const Bio = {
         "Resistencia",
       ],
       category: "test",
-      github: "https://github.com/rishavchanda/Trackify",
-      webapp: "https://trackify.duckdns.org",
+      github: "https://wa.me/573225198889?text=Hola,%20quiero%20conocer%20más%20sobre%20Sprint%20de%2040Mts",
+      webapp: "https://wa.me/573225198889?text=Hola,%20quiero%20cotizar:%20Sprint%20de%2040Mts",
     },
     {
       id: 12,
@@ -373,8 +377,8 @@ export const Bio = {
         "Autoconocimiento",
       ],
       category: "test",
-      github: "https://github.com/rishavchanda/Trackify",
-      webapp: "https://trackify.duckdns.org",
+      github: "https://wa.me/573225198889?text=Hola,%20quiero%20conocer%20más%20sobre%20Test%20de%20RM%20Directo",
+      webapp: "https://wa.me/573225198889?text=Hola,%20quiero%20cotizar:%20Test%20RM%20Directo",
     },
     {
       id: 13,
@@ -391,8 +395,8 @@ export const Bio = {
         "Rendimiento",
       ],
       category: "test",
-      github: "https://github.com/rishavchanda/Trackify",
-      webapp: "https://trackify.duckdns.org",
+      github: "https://wa.me/573225198889?text=Hola,%20quiero%20conocer%20más%20sobre%20IMC",
+      webapp: "https://wa.me/573225198889?text=Hola,%20quiero%20cotizar:%20IMC",
     },
     {
       id: 14,
@@ -409,8 +413,8 @@ export const Bio = {
         "Establecimiento de metas",
       ],
       category: "test",
-      github: "https://github.com/rishavchanda/Trackify",
-      webapp: "https://trackify.duckdns.org",
+      github: "https://wa.me/573225198889?text=Hola,%20quiero%20conocer%20más%20sobre%20Máximo%20de%20Repeticiones%20tiempo%20determinado",
+      webapp: "https://wa.me/573225198889?text=Hola,%20quiero%20cotizar:%20Máximo%20repeticiones%20tiempo%20determinado",
     },
     {
       id: 15,
@@ -426,8 +430,8 @@ export const Bio = {
         "Elección de disciplina adecuada",
       ],
       category: "test",
-      github: "https://github.com/rishavchanda/Trackify",
-      webapp: "https://trackify.duckdns.org",
+      github: "https://wa.me/573225198889?text=Hola,%20quiero%20conocer%20más%20sobre%20Test%20Course%20Navette",
+      webapp: "https://wa.me/573225198889?text=Hola,%20quiero%20cotizar:%20Test%20Course%20Navette",
     },
     {
       id: 16,
@@ -439,8 +443,47 @@ export const Bio = {
         `${calistenia}`,
       tags: ["Autopercepción", "Resistencia", "Disciplina", "Vascularización", "Compromiso"],
       category: "training",
-      github: "https://github.com/rishavchanda/Podstream",
-      webapp: "https://podstream.netlify.app/",
+      github: "https://wa.me/573225198889?text=Hola,%20quiero%20conocer%20más%20sobre%20Entrenamiento%20funcional",
+      webapp: "https://wa.me/573225198889?text=Hola,%20quiero%20cotizar:%20Entrenamiento%20Funcional",
+    },
+    {
+      id: 17,
+      title: "Entrenamiento por ATR",
+      date: "Acumulación, transformación y realización",
+      description:
+        "programa de entrenamiento basado en la metodología ATR (Acumulación, Transformación y Realización) diseñado para optimizar tu rendimiento deportivo de manera progresiva y estructurada. Comenzaremos con una fase de acumulación para desarrollar una base sólida de resistencia y fuerza, luego avanzaremos a una fase de transformación centrada en convertir esas capacidades generales en habilidades específicas para tu deporte. Finalmente, nos concentraremos en la fase de realización, afinando tu técnica y resistencia específica a través de entrenamientos de alta intensidad y simulaciones de competición, todo para prepararte de manera óptima para alcanzar tus metas deportivas con seguridad y eficacia.",
+      image:
+        `${ATR}`,
+      tags: ["Trabajo general", "Resistencia", "Velocidad", "Agilidad", "Explosividad","Técnica"],
+      category: "training",
+      github: "https://wa.me/573225198889?text=Hola,%20quiero%20conocer%20más%20sobre%20Entrenamiento%20ATR",
+      webapp: "https://wa.me/573225198889?text=Hola,%20quiero%20cotizar:%20Entrenamiento%20ATR",
+    },
+    {
+      id: 17,
+      title: "Entrenamiento de Capacidad Aeróbica",
+      date: "Definición",
+      description:
+        "diseñado para mejorar tu resistencia y rendimiento cardiovascular de manera efectiva. A través de un programa personalizado, te guiaré en el desarrollo gradual de tu capacidad aeróbica mediante sesiones estructuradas que incluyen entrenamientos de intensidad controlada y progresiva. Esto no solo optimizará tu capacidad para realizar actividades físicas prolongadas con mayor eficiencia, sino que también te ayudará a alcanzar tus objetivos de salud y bienestar de manera segura y sostenible. Estoy comprometido a proporcionarte las herramientas y el apoyo necesarios para que alcances tu máximo potencial aeróbico y disfrutes de una vida más activa y saludable.",
+      image:
+        `${Aerobics}`,
+      tags: ["Resistencia Cardiovascular", "Capacidad Pulmonar", "Eficiencia Oxígeno", "tiempo de recuperación reducido"],
+      category: "training",
+      github: "https://wa.me/573225198889?text=Hola,%20quiero%20conocer%20más%20sobre%20Entrenamiento%20Aeróbico",
+      webapp: "https://wa.me/573225198889?text=Hola,%20quiero%20cotizar:%20Entrenamiento%20Aeróbico",
+    },
+    {
+      id: 17,
+      title: "Entrenamiento de pliometría",
+      date: "Resistencia y Explosividad",
+      description:
+        "entrenamiento de pliometría diseñado para potenciar tu fuerza explosiva y agilidad. Mi programa personalizado te guiará a través de ejercicios dinámicos que incluyen saltos, lanzamientos y movimientos rápidos, diseñados para mejorar tu capacidad de generar potencia muscular rápidamente. Con un enfoque en la técnica correcta y progresión segura, te ayudaré a desarrollar las habilidades necesarias para destacar en deportes que requieren velocidad y agilidad, optimizando así tu rendimiento atlético de manera efectiva y segura. Estoy comprometido a ayudarte a alcanzar tus metas de forma sistemática y disfrutar de los beneficios de una mayor explosividad y agilidad en tu actividad física.",
+      image:
+        `${Pliometria}`,
+      tags: ["Explosividad", "Potencia", "Velocidad", "Agilidad", "Salto","Lanzamiento","Coordinación neuromuscular"],
+      category: "training",
+      github: "https://wa.me/573225198889?text=Hola,%20quiero%20conocer%20más%20sobre%20Entrenamiento%20de%20Pliometría",
+      webapp: "https://wa.me/573225198889?text=Hola,%20quiero%20cotizar:%20Entrenamiento%20Pliometría",
     },
     {
       id: 0,
@@ -452,8 +495,8 @@ export const Bio = {
         `${eventosdeportivos}`,
       tags: ["Liderazgo", "Organización", "Didactico", "Logística", "Motivación"],
       category: "services",
-      github: "https://github.com/rishavchanda/Podstream",
-      webapp: "https://podstream.netlify.app/",
+      github: "https://wa.me/573225198889?text=Hola,%20quiero%20conocer%20más%20sobre%20Eventos%20Deportivos",
+      webapp: "https://wa.me/573225198889?text=Hola,%20quiero%20cotizar:%20Eventos%20Deportivos",
     },
     {
       id: 1,
@@ -470,8 +513,8 @@ export const Bio = {
         "Socialización",
       ],
       category: "services",
-      github: "https://github.com/rishavchanda/Project-Management-App",
-      webapp: "https://vexa-app.netlify.app/",
+      github: "https://wa.me/573225198889?text=Hola,%20quiero%20conocer%20más%20sobre%20Consultoría%20Deportiva",
+      webapp: "https://wa.me/573225198889?text=Hola,%20quiero%20cotizar:%20Consultoría%20Deportiva",
     },
     {
       id: 2,
@@ -483,8 +526,8 @@ export const Bio = {
         `${saludybienestar}`,
       tags: ["Autoconocimiento", "Asesoramiento", "Acompañamiento profesional", "Alimentación adecuada"],
       category: "services",
-      github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-      webapp: "https://brain-tumor.netlify.app/",
+      github: "https://wa.me/573225198889?text=Hola,%20quiero%20conocer%20más%20sobre%20Educación%20en%20Salud%20y%20Bienestar",
+      webapp: "https://wa.me/573225198889?text=Hola,%20quiero%20cotizar:%20Educación%20Salud%20y%20Bienestar",
     },
     {
       id: 3,
@@ -497,8 +540,8 @@ export const Bio = {
         `${coachingmotivacional}`,
       tags: ["Autoestima", "Desarrollo personal", "Motivación", "Enfoque", "Determinación"],
       category: "services",
-      github: "https://github.com/rishavchanda/Buckoid-Android-App",
-      webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
+      github: "https://wa.me/573225198889?text=Hola,%20quiero%20conocer%20más%20sobre%20Coaching%20Motivacional",
+      webapp: "https://wa.me/573225198889?text=Hola,%20quiero%20cotizar:%20Coaching%20Motivacional",
     },
     {
       id: 4,
@@ -510,8 +553,8 @@ export const Bio = {
         `${clasesgrupales}`,
       tags: ["Socialización", "Acondicionamiento", "Descanso"],
       category: "services",
-      github: "https://github.com/rishavchanda/Job-finder-App",
-      webapp: "https://github.com/rishavchanda/Job-finder-App",
+      github: "https://wa.me/573225198889?text=Hola,%20quiero%20conocer%20más%20sobre%20Clases%20Grupales",
+      webapp: "https://wa.me/573225198889?text=Hola,%20quiero%20cotizar:%20Clases%20Grupales",
     },
     {
       id: 5,
@@ -523,8 +566,8 @@ export const Bio = {
         `${entrenamientodeportivo}`,
       tags: ["Resistencia", "Enfoque", "Objetivos", "Disciplina"],
       category: "services",
-      github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-      webapp: "https://whatsapp-clone-rishav.web.app",
+      github: "https://wa.me/573225198889?text=Hola,%20quiero%20conocer%20más%20sobre%20Entrenamiento%20Deportivo%20Especializado",
+      webapp: "https://wa.me/573225198889?text=Hola,%20quiero%20cotizar:%20Entrenamiento%20Deportivo%20Especializado",
     },
     {
       id: 6,
@@ -536,8 +579,8 @@ export const Bio = {
         `${pyshicalrecovery}`,
       tags: ["Rápida Reincorporación", "Fortalecimiento", "Prevención de remanentes", "Efectividad"],
       category: "services",
-      github: "https://github.com/rishavchanda/Todo-Web-App",
-      webapp: "https://rishav-react-todo.netlify.app/",
+      github: "https://wa.me/573225198889?text=Hola,%20quiero%20conocer%20más%20sobre%20Rehabilitación%20y%20Recuperación",
+      webapp: "https://wa.me/573225198889?text=Hola,%20quiero%20cotizar:%20Rehabilitación%20y%20Recuperación",
     },
     {
       id: 7,
@@ -549,8 +592,8 @@ export const Bio = {
         `${Pyshical_Evaluation}`,
       tags: ["Prevención de lesiones", "Personalización", "Adaptación", "Maximización del rendimiento"],
       category: "services",
-      github: "https://github.com/rishavchanda/Breaking-Bad",
-      webapp: "https://breaking-bad-webapp.netlify.app",
+      github: "https://wa.me/573225198889?text=Hola,%20quiero%20conocer%20más%20sobre%20Evaluación%20Física",
+      webapp: "https://wa.me/573225198889?text=Hola,%20quiero%20cotizar:%20Evaluación%20Física",
     },
     {
       id: 8,
@@ -562,8 +605,8 @@ export const Bio = {
         `${Alimentacion}`,
       tags: ["Estabilidad Emocional", "Salud", "Aumento de Desempeño Físico", "Desarrollo Personal"],
       category: "services",
-      github: "https://github.com/rishavchanda/Quiz-Earn",
-      webapp: "https://github.com/rishavchanda/Quiz-Earn",
+      github: "https://wa.me/573225198889?text=Hola,%20quiero%20conocer%20más%20sobre%20Asesoramiento%20Nutricional",
+      webapp: "https://wa.me/573225198889?text=Hola,%20quiero%20cotizar:%20Asesoramiento%20Nutricional",
     },
     {
       id: 9,
@@ -575,8 +618,8 @@ export const Bio = {
         `${PT}`,
       tags: ["Disciplina", "Constancia", "Resiliencia", "Realización Personal", "Salud Óptima", "Estabilización del sueño"],
       category: "services",
-      github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-      webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+      github: "https://wa.me/573225198889?text=Hola,%20quiero%20conocer%20más%20sobre%20Entrenamiento%20Personalizado",
+      webapp: "https://wa.me/573225198889?text=Hola,%20quiero%20cotizar:%20Entrenamiento%20Personalizado",
     },
   ];
   

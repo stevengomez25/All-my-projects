@@ -129,7 +129,7 @@ const TextLoop = styled.div`
     }
 `;
 const Span = styled.div`
-    color: ${({theme})=> theme.primary};
+    color: ${({theme})=> theme.white};
     cursor: pointer;
 `
 const SubTitle = styled.div`
