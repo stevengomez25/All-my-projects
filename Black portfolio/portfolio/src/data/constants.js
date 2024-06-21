@@ -69,9 +69,9 @@ export const Bio = {
     resume:
       "https://www.google.com",
     linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-    twitter: "https://twitter.com/RishavChanda",
-    insta: "https://www.instagram.com/rishav_chanda/",
-    facebook: "https://www.facebook.com/rishav.chanda.165/",
+    twitter: "https://x.com/AlexFelipeCont1",
+    insta: "https://www.instagram.com/alex_felipeafc/",
+    facebook: "https://www.facebook.com/alex.felipeafc?locale=es_LA",
   };
   
   export const skills = [
