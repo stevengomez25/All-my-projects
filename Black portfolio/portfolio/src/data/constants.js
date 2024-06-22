@@ -67,7 +67,7 @@ export const Bio = {
       "En este portafolio, les presento un recorrido por mi trayectoria académica y experiencia en el campo de la Cultura Física y Deportes. Soy Alex Contreras, un apasionado del deporte y el bienestar físico, con una formación sólida y una dedicación constante hacia el desarrollo integral de los individuos a través del movimiento y la actividad física.",
     github: "https://wa.me/573225198889",
     resume:
-      "https://www.google.com",
+      "https://drive.google.com/file/d/1JT4tYxF0pKodB9e9fsBZ1i7QCI7cY1Rp/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
     twitter: "https://x.com/AlexFelipeCont1",
     insta: "https://www.instagram.com/alex_felipeafc/",
