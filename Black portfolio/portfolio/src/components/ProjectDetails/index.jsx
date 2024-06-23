@@ -100,7 +100,7 @@ const Tag = styled.div`
     margin: 4px;
     padding: 4px 8px;
     border-radius: 8px;
-    background-color: ${({ theme }) => theme.primary + 20};
+    background-color: ${({ theme }) => theme.button + 7};
     @media only screen and (max-width: 600px) {
         font-size: 12px;
     }
