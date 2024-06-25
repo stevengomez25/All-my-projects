@@ -1,0 +1,16 @@
+[
+    {
+        "id": "1",
+        "tittle" : "Interestellar",
+        "director" : "Christopher Nolan",
+        "year" : "2014",
+        "rating" : "9.2"
+    },
+    {
+        "id": "2",
+        "tittle" : "Shrek",
+        "director" : "Andrew Adamson & Vicky Jenson",
+        "year" : "2001",
+        "rating" : "8.5"
+    }
+]
