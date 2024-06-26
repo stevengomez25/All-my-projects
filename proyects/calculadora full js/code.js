@@ -33,7 +33,7 @@ let createbutton = (i,icon)=>{
         barshower_info.innerHTML = "";
         break
       case "=":
-        x = parseInt(barshower_info.innerHTML);
+        x = `${parseFloat(barshower_info.innerHTML)}`;
         console.log(x);
         barshower_info.innerHTML=x;
         break;
