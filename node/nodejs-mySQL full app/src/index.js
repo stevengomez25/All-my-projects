@@ -2,7 +2,10 @@ const express = require('express');
 const morgan = require('morgan');
 const {engine} = require('express-handlebars');
 const path = require('path');
-
+const flash = require('connect-flash');
+const sesion = require('express-session');
+const mySQLStore = require('express-mysql-session');
+const { database } = require('./keys');
 
 //Inicializations
 
@@ -22,7 +25,13 @@ app.engine('.hbs',engine({
 app.set('view engine', '.hbs');
 
 //middlewares
-
+app.use(sesion({
+    secret: 'Stevenmysqlnodesesion',
+    resave: false,
+    saveUninitialized: false,
+    store: new mySQLStore(database)
+}))
+app.use(flash());
 app.use(morgan('dev'));
 app.use(express.urlencoded({extended:false}));
 app.use(express.json());
@@ -30,7 +39,7 @@ app.use(express.json());
 //Global Variables
 
 app.use(function(req, res, next) {
-    
+    app.locals.success = req.flash("success");
     next();
 })
 
