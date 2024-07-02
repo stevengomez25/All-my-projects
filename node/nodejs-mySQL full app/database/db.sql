@@ -19,6 +19,8 @@ ALTER TABLE users
 
 DESCRIBE users;
 
+
+
 --Link Table
 
 CREATE TABLE link(
