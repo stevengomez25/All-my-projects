@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/"
+    "dev": "nodemon src/",
+    "build": "netlify deploy --prod"
   },
   "keywords": [],
   "author": "",
@@ -20,8 +21,11 @@
     "morgan": "^1.10.0",
     "mysql": "^2.18.1",
     "mysql2": "^3.10.2",
+    "netlify-cli": "^17.33.0",
+    "netlify-lambda": "^0.4.0",
     "passport": "^0.7.0",
     "passport-local": "^1.0.0",
+    "serverless-http": "^3.2.0",
     "timeago.js": "^4.0.2"
   },
   "devDependencies": {
