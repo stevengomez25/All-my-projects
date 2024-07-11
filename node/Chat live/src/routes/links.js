@@ -54,4 +54,9 @@ router.post('/edit/:id',isLoggedIn, async(req, res)=>{
     res.redirect('/links');
 })
 
+
+router.get('/chat/:id',isLoggedIn, async(req,res)=>{
+    res.render('links/chat');
+})
+
 module.exports = router;
