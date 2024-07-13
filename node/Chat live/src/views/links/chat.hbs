@@ -3,8 +3,9 @@
             <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
                 <div class="card">
                     <div class="card-header">
-                        Chat con Usuario
+                        Chat con {{links.full_name}}
                     </div>
+                    {{#if links.id}}
                     <div class="card-body chat-body">
                         <!-- Mensajes del chat -->
                         <div class="mb-3">
@@ -21,6 +22,16 @@
                         </div>
                         <!-- Fin de los mensajes del chat -->
                     </div>
+                    {{else}}
+                    <div class="card-body chat-body">
+                        <!-- Mensajes del chat -->
+                        <div class="text-center p-5">
+                            <div class="message sent">
+                                <p>Inicia enviando un mensaje</p>
+                            </div>
+                        </div>
+                    </div>
+                    {{/if}}
                     <div class="card-footer">
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="Escribe tu mensaje...">
