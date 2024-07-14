@@ -60,11 +60,17 @@ router.get('/chat/:id',isLoggedIn, async(req,res)=>{
     const links = await pool.query('SELECT * from link WHERE id = ?', [id]);
     const messages = await pool.query('SELECT * from chats WHERE id = ?', [id]);
     res.render('links/chat', {links: links[0], messages: messages});
+    console.log(messages);
 
 })
 
 router.post('/chat/:id',isLoggedIn, async(req,res)=>{
-
+    const {message} = req.body;
+    const {id} = req.params;
+    console.log(message);
+    const links = await pool.query('SELECT * from link WHERE id = ?', [id]);
+    const messages = await pool.query('SELECT * from chats WHERE id = ?', [id]);
+    res.render('links/chat', {links: links[0], messages: messages});
 })
 
 module.exports = router;
