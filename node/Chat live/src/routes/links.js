@@ -70,7 +70,7 @@ router.post('/chat/:id',isLoggedIn, async(req,res)=>{
     const links = await pool.query('SELECT * from link WHERE id = ?', [id]);
     console.log(links);
     const messages = await pool.query('SELECT * from chats WHERE id = ?', [id]);
-    await pool.query('INSERT INTO chats (user1_id, user2_id, message, sent_by) VALUES (?, ?, ?, ?)', [id, 4,message,id])
+    await pool.query('INSERT INTO chats (user1_id, user2_id, message, sent_by) VALUES (?, ?, ?, ?)', [id, "4",message,"5"])
     res.render('links/chat', {links: links[0], messages: messages});
 })
 
