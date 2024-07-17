@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resultados de la Búsqueda de Usuarios</title>
+</head>
+<body>
+  <h1>Resultados de la Búsqueda de Usuarios</h1>
+  <ul>
+    <% if (users.length > 0) { %>
+      <% users.forEach(user => { %>
+        <li>
+          <h2><%= user.username %></h2>
+          <p>Nombre Completo: <%= user.full_name %></p>
+        </li>
+      <% }); %>
+    <% } else { %>
+      <li>No se encontraron resultados</li>
+    <% } %>
+  </ul>
+</body>
+</html>
