@@ -2,21 +2,39 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Resultados de la Búsqueda de Usuarios</title>
+  <title>Búsqueda de Usuarios</title>
+  <script>
+    async function searchUsers() {
+      const query = document.getElementById('search-input').value;
+      const resultsContainer = document.getElementById('results');
+
+      if (query.length === 0) {
+        resultsContainer.innerHTML = '';
+        return;
+      }
+
+      const response = await fetch(`/search-user?query=${query}`);
+      const users = await response.json();
+
+      resultsContainer.innerHTML = '';
+
+      if (users.length > 0) {
+        users.forEach(user => {
+          const userElement = document.createElement('div');
+          userElement.innerHTML = `<h2>${user.username}</h2><p>Nombre Completo: ${user.full_name}</p>`;
+          resultsContainer.appendChild(userElement);
+        });
+      } else {
+        resultsContainer.innerHTML = '<p>No se encontraron resultados</p>';
+      }
+    }
+  </script>
 </head>
 <body>
-  <h1>Resultados de la Búsqueda de Usuarios</h1>
-  <ul>
-    {{#if users.length}}
-      {{#each users}}
-        <li>
-          <h2>{{this.username}}</h2>
-          <p>Nombre Completo: {{this.full_name}}</p>
-        </li>
-      {{/each}}
-    {{else}}
-      <li>No se encontraron resultados</li>
-    {{/if}}
-  </ul>
+  <h1>Búsqueda de Usuarios</h1>
+  <form onsubmit="event.preventDefault(); searchUsers();">
+    <input type="text" id="search-input" placeholder="Buscar usuarios..." oninput="searchUsers()">
+  </form>
+  <div id="results"></div>
 </body>
 </html>
