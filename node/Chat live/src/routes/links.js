@@ -74,4 +74,8 @@ router.post('/chat/:id',isLoggedIn, async(req,res)=>{
     res.render('links/chat', {links: links[0], messages: messages});
 })
 
+router.get('/search/',isLoggedIn, async(req,res)=>{
+    res.render('links/search')
+})
+
 module.exports = router;
