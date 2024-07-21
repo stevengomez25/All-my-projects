@@ -1,13 +1,39 @@
+ <script>
+    async function searchUsers() {
+      const query = document.getElementById('search-input').value;
+      const resultsContainer = document.getElementById('results');
+
+      if (query.length === 0) {
+        resultsContainer.innerHTML = '';
+        return;
+      }
+
+      const response = await fetch(`/search-user?query=${query}`);
+      const users = await response.json();
+
+      resultsContainer.innerHTML = '';
+
+      if (users.length > 0) {
+        users.forEach(user => {
+          const userElement = document.createElement('div');
+          userElement.innerHTML = `<h2>${user.username}</h2><p>Nombre Completo: ${user.full_name}</p>`;
+          resultsContainer.appendChild(userElement);
+        });
+      } else {
+        resultsContainer.innerHTML = '<p>No se encontraron resultados</p>';
+      }
+    }
+  </script>
 <div class="container p-4">
     <div class="row">
         <div class="col-md-4 mx-auto">
             <div class="card-body">
-                <form action="/links/add" method="POST">
+                <form action="/links/add" method="POST" onsubmit="event.preventDefault(); searchUsers();">
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="Chat Name" name="title" autofocus>
                     </div>
                         <div class="form-group">
-                            <input type="text" name="url" class="form-control" placeholder="username">
+                            <input type="text" id="search-input" placeholder="Buscar usuarios..." oninput="searchUsers()">
                         </div>
                         <div class="form-group">
                             <textarea name="description" rows="2" class="form-control" placeholder="Message"></textarea>
