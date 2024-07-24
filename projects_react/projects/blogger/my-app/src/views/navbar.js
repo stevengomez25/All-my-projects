@@ -1,5 +1,7 @@
 import React from 'react';
 
-function reactComponent(){
-    
+export function NavBar(){
+    return(
+        <h1>Hola</h1>
+    )
 }
