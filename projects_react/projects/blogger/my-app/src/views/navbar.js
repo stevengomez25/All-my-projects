@@ -1,7 +1,11 @@
 import React from 'react';
 
+
 export function NavBar(){
     return(
-        <h1>Hola</h1>
+        <>
+            <title>Aqui va el slogan</title>
+            <h1>Hola</h1>
+        </>
     )
 }
