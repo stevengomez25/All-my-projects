@@ -24,6 +24,10 @@
     "standard": "17.0.0"
   },
   "eslintConfig": {
-    "extends":"02-tic-tac-toe/node_modules/standard/eslintrc.json"
+    "extends": "02-tic-tac-toe/node_modules/standard/eslintrc.json"
+  },
+  "dependencies": {
+    "Blog": "^1.0.0",
+    "create-react-app": "^5.0.1"
   }
 }
