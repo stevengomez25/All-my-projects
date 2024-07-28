@@ -8,7 +8,7 @@ function App() {
         <h1>Aqui tendrás todo tu conocimiento adquirido</h1>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Ya no se que hacer con mi hijueputa vida
         </p>
         <a
           className="App-link"
@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          35 Maneras de como morir sin dolor
         </a>
       </header>
     </div>
