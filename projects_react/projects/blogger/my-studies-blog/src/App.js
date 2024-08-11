@@ -30,7 +30,7 @@ function App() {
         <h1>Aqui tendrás todo tu conocimiento adquirido</h1>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Ya no se que hacer con mi hijueputa vida
+          Por ahora utilizare este medio para ingresar la información sobre lo que vaya aprendiendo
         </p>
         <a
           className="App-link"
