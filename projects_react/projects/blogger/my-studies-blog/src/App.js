@@ -32,6 +32,10 @@ function App() {
         <p>
           Por ahora utilizare este medio para ingresar la información sobre lo que vaya aprendiendo
         </p>
+        <br />
+        <p>¿Que son los algoritmos?</p>
+        <br />
+        <p>Son el medio por el cual podemos procesar información y transformarla, organizarla, clasificarla, descartarla o distribuirla de manera correcta, basados en las necesidades propias del problema dado</p>
         <a
           className="App-link"
           href="https://reactjs.org"
