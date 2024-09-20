@@ -36,13 +36,16 @@ function App() {
         <p>¿Que son los algoritmos?</p>
         <br />
         <p>Son el medio por el cual podemos procesar información y transformarla, organizarla, clasificarla, descartarla o distribuirla de manera correcta, basados en las necesidades propias del problema dado</p>
+        <br/>
+        <p>Septiembre 19: no dejare que nada ni nadie tenga control sobre mis sueños. Hoy retomo la programación.
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          35 Maneras de como morir sin dolor
+          Epa
         </a>
       </header>
     </div>
