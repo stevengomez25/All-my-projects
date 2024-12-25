@@ -39,6 +39,8 @@ function App() {
         <br/>
         <p>Septiembre 19: no dejare que nada ni nadie tenga control sobre mis sueños. Hoy retomo la programación.
         </p>
+        <br/>
+        <p>Agregando un nuevo update a la bitacora</p>
         <a
           className="App-link"
           href="https://reactjs.org"
