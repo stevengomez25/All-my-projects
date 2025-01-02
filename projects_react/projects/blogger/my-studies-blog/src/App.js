@@ -41,6 +41,10 @@ function App() {
         </p>
         <br/>
         <p>Agregando un nuevo update a la bitacora</p>
+        <h1>Odin proyect</h1><br/>
+        <p>This proyect is focussed on develope each skill required for being a successful Software Developer full stack.</p><br/>
+        <p>I'm currently stuck in the dessert state, sadly because of unstable emotions.</p><br/>
+        <p>However, I will get this program finished by the end of this semester.</p>
         <a
           className="App-link"
           href="https://reactjs.org"
