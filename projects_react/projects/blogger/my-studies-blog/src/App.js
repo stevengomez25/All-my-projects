@@ -44,7 +44,9 @@ function App() {
         <h1>Odin proyect</h1><br/>
         <p>This proyect is focussed on develope each skill required for being a successful Software Developer full stack.</p><br/>
         <p>I'm currently stuck in the dessert state, sadly because of unstable emotions.</p><br/>
-        <p>However, I will get this program finished by the end of this semester.</p>
+        <p>However, I will get this program finished by the end of this semester.</p><br/>
+        <h2>How to avoid problems with motivation</h2><br/>
+        <p>We must use the pomodoro technique, switching between working and studying time, and breaks, and each round we should get a bigger break. We must avoid from getting burn out since if we don't have enough breaks, we will get exhausted. Finally we should not get around the main path since there is a lot of information to complement it.</p><br/>
         <a
           className="App-link"
           href="https://reactjs.org"
