@@ -47,6 +47,8 @@ function App() {
         <p>However, I will get this program finished by the end of this semester.</p><br/>
         <h2>How to avoid problems with motivation</h2><br/>
         <p>We must use the pomodoro technique, switching between working and studying time, and breaks, and each round we should get a bigger break. We must avoid from getting burn out since if we don't have enough breaks, we will get exhausted. Finally we should not get around the main path since there is a lot of information to complement it.</p><br/>
+        <h2>Ask for help</h2>
+        <p>When looking for help, we must give context about the problem itselft, share our code and provide the exercise we want to achieve, like being the most specific so our helpers will be available to assist us in the best way possible.</p><br/>
         <a
           className="App-link"
           href="https://reactjs.org"
