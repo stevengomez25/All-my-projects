@@ -30,16 +30,11 @@ function App() {
           </div>
         </div>
         </nav>
-        <h1 id="Intro">Aqui tendrás todo tu conocimiento adquirido</h1>
+        <h1 id="Intro">Estudios</h1>
         <img src="https://i.pinimg.com/originals/38/72/b4/3872b4b00564c4e90d50e94f2131f227.gif" alt="Logo" width="auto" height="auto" />
         <p>
-          Por ahora utilizare este medio para ingresar la información sobre lo que vaya aprendiendo
+          Bitacora de información escencial
         </p>
-        <br />
-        <p>Septiembre 19: no dejare que nada ni nadie tenga control sobre mis sueños. Hoy retomo la programación.
-        </p>
-        <br/>
-        <p>Agregando un nuevo update a la bitacora</p>
 
         <div className="Notes" id="Notes">
           <h1>Notes</h1>
