@@ -8,6 +8,7 @@
   width: 100%; /* Asegura que todas las notas tengan el mismo ancho */
   max-width: 400px; /* Ancho máximo para todas las notas */
   box-sizing: border-box; /* Incluye padding y border en el ancho total */
+  min-width: 300px;
   color: #000;
 }
 
@@ -25,6 +26,9 @@
 
 .note-list {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items: stretch;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
 }
