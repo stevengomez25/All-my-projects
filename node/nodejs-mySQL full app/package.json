@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/",
-    "build": "netlify deploy --prod"
+    "build": "netlify deploy --prod",
+    "start": "node src/index.js"
   },
   "keywords": [],
   "author": "",
