@@ -2,6 +2,8 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FaEnvelope, FaLock } from 'react-icons/fa';
 import Header from '../components/Header';
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
+
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -14,7 +16,7 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      const res = await fetch('http://localhost:5000/api/users/login', {
+      const res = await fetch(`${BACKEND_URL}/api/users/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password }),
@@ -50,7 +52,7 @@ const Login = () => {
         >
           <h2 className="text-3xl font-bold mb-6 text-center ">Iniciar Sesión</h2>
 
-          {error && <p className="text-red-300 mb-4 text-sm text-center">{error}</p>}
+          {error && <p className="text-pink-950 mb-4 text-sm text-center">{error}</p>}
 
           <div className="mb-4 ">
             <label className="block text-sm mb-1 ">Email</label>
@@ -102,7 +104,7 @@ const Login = () => {
           <p className="mt-6 text-center text-sm">
             ¿No tiene cuenta?
             <a href="/register" className="font-semibold underline ml-1">
-              Crear una
+              Registrarse
             </a>
           </p>
         </form>

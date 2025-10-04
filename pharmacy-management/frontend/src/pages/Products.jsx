@@ -1,6 +1,10 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import ModalEditProduct from '../components/EditProduct';
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
+
+
+
 
 const Products = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -19,7 +23,7 @@ const Products = () => {
       const userInfo = JSON.parse(localStorage.getItem("userInfo"));
 
       const res = await fetch(
-        `http://localhost:5000/api/products/${updatedProduct._id}`,
+        `${BACKEND_URL}/api/products/${updatedProduct._id}`,
         {
           method: "PUT",
           headers: {
@@ -57,7 +61,7 @@ const Products = () => {
     }
     const fetchProducts = async () => {
       try {
-        const res = await fetch('http://localhost:5000/api/products', {
+        const res = await fetch(`${BACKEND_URL}/api/products`, {
           headers: {
             'Authorization': `Bearer ${userInfo?.token}`,
           },
@@ -89,7 +93,7 @@ const Products = () => {
     if (!window.confirm('Are you sure you want to delete this product?')) return;
 
     try {
-      const res = await fetch(`http://localhost:5000/api/products/${id}`, {
+      const res = await fetch(`${BACKEND_URL}/api/products/${id}`, {
         method: 'DELETE',
         headers: {
           'Authorization': `Bearer ${userInfo.token}`,
@@ -111,7 +115,7 @@ const Products = () => {
 
   return (
     <div className="p-6">
-      <h2 className="text-3xl font-bold text-gray-800 mb-6">Products</h2>
+      <h2 className="text-3xl font-bold text-gray-800 mb-6">Productos</h2>
 
       {error && (
         <div className="mb-4 p-3 bg-red-100 text-red-700 rounded-lg">
@@ -120,7 +124,7 @@ const Products = () => {
       )}
 
       {products.length === 0 ? (
-        <p className="text-gray-500 text-center">No products found.</p>
+        <p className="text-gray-500 text-center">No se encontraron productos.</p>
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {products.map((product) => (
@@ -136,8 +140,11 @@ const Products = () => {
               <p className="text-sm text-gray-600">
                 Cantidad: {product.quantity}
               </p>
+              <p className="text-sm text-gray-600">
+                Vence: {product.expiration}
+              </p>
               <p className="text-blue-600 font-bold text-lg">
-                ${product.price}
+                ${product.price.toLocaleString()}
               </p>
               <div className=" top-2 right-2 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <button onClick={() => handleEditClick(product)} className="cursor-pointer bg-blue-500 text-white p-2 rounded-full hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">

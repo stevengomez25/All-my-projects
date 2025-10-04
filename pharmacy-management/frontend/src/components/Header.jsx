@@ -8,7 +8,7 @@ const Header = () => {
         <p className="text-gray-600 text-sm">Tu solución integral para la gestión farmacéutica</p>
       </div>
       <div className="w-20 h-20">
-        <img src={logo} alt="Logo" className="w-full h-full object-contain" />
+        <img src={logo} alt="Logo" className="w-full h-full object-contain rounded-full contrast-200" />
       </div>
     </header>
   );

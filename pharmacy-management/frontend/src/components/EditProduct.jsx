@@ -34,13 +34,15 @@ const ModalEditProduct = ({ isOpen, onClose, product, onSave }) => {
         <input name="UM" value={formData.UM || ""} onChange={handleChange} placeholder="Unit of Measure" className="w-full border p-2 rounded mb-3" />
         <input type="number" name="quantity" value={formData.quantity || ""} onChange={handleChange} placeholder="Quantity" className="w-full border p-2 rounded mb-3" />
         <input type="number" name="price" value={formData.price || ""} onChange={handleChange} placeholder="Price" className="w-full border p-2 rounded mb-3" />
+        <input type="date" name="expiration" value={formData.expiration || ""} onChange={handleChange} placeholder="Expiration" className="w-full border p-2 rounded mb-3" />
+
         
         <select name="status" value={formData.status || ""} onChange={handleChange} className="w-full border p-2 rounded mb-3">
-          <option value="">Select status</option>
-          <option value="available">Available</option>
-          <option value="out of stock">Out of stock</option>
-          <option value="in transit">In transit</option>
-          <option value="terminated">Terminated</option>
+          <option value="">Seleccionar Estado</option>
+          <option value="Disponible">Disponible</option>
+          <option value="Inventario Agotado">Inventario Agotado</option>
+          <option value="En Tránsito">En Tránsito</option>
+          <option value="Descontinuado">Descontinuado</option>
         </select>
 
         <div className="flex justify-end space-x-2">

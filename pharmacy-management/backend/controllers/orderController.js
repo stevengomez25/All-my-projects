@@ -3,7 +3,8 @@ import Product from "../models/Product.js";
 
 const createOrder = async (req, res) => {
     try {
-        const { items, createdBy } = req.body;
+        const {orderType} = req.body;
+        const { items } = req.body;
 
         if (!items || items.length === 0) {
             return res.status(400).json({ message: "Order must have at least one item." });
@@ -43,9 +44,11 @@ const createOrder = async (req, res) => {
 
         const newOrder = new Order({
             orderNumber: `ORD-${Date.now()}`,
+            orderType: orderType,
             items: orderItems,
             totalAmount,
-            createdBy: req.user._id
+            createdBy: req.user._id,
+            ...(req.body.branch && { branch: req.body.branch })
         });
 
         await newOrder.save();

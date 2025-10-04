@@ -1,7 +1,7 @@
 import Product from "../models/Product.js";
 
 const registerProduct = async (req, res) =>{
-    const {code, name, description, presentation, UM, quantity, price, status} = req.body;
+    const {code, name, description, presentation, UM, quantity, price, status, expiration} = req.body;
     try{
         if(!name || quantity == null || price == null || !status){
             return res.status(400).json({message: 'Please provide valid product data'});
@@ -20,6 +20,7 @@ const registerProduct = async (req, res) =>{
             quantity,
             price,
             status,
+            expiration,
             createdBy: req.user._id
         });
         res.status(201).json({
@@ -31,7 +32,8 @@ const registerProduct = async (req, res) =>{
             UM: product.UM,
             quantity: product.quantity,
             price: product.price,
-            status: product.status
+            status: product.status,
+            expiration: product.expiration
         });
     }catch(error){
         console.error(error);
@@ -54,7 +56,7 @@ const updateProduct = async (req,res) => {
         if(!product){
             return res.status(404).json({message:'Product not found'});
         }
-        const {code, name, description,presentation, UM, quantity,price,status} = req.body;
+        const {code, name, description,presentation, UM, quantity,price,status, expiration} = req.body;
         if(code) product.code = code;
         if(name) product.name = name;
         if(description) product.description = description;
@@ -63,6 +65,7 @@ const updateProduct = async (req,res) => {
         if(quantity) product.quantity = quantity;
         if(price) product.price = price;
         if(status) product.status = status;
+        if(expiration) product.expiration = expiration;
 
         const updatedProduct = await product.save();
         res.json(updatedProduct);

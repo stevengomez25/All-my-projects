@@ -1,6 +1,9 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Header from '../components/Header';
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
+
+
 
 const Register = () => {
   const [form, setForm] = useState({ email: '', password: '', name: '' });
@@ -13,7 +16,7 @@ const Register = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch('http://localhost:5000/api/users/register', {
+      const res = await fetch(`${BACKEND_URL}/api/users/register`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -44,7 +47,7 @@ const Register = () => {
         <div className="bg-white/20 backdrop-blur-lg p-8 rounded-2xl shadow-lg w-full max-w-md text-black ml-3">
           <h2 className="text-2xl font-bold mb-4 text-center">Crear cuenta</h2>
           <form onSubmit={handleSubmit}>
-            <label className="block mb-2">Nombre</label>
+            <label className="block mb-2">Nombre de Usuario</label>
             <input
               type="text"
               name="name"

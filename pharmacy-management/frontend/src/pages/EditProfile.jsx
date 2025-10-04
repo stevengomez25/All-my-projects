@@ -1,5 +1,8 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
+
+
 
 const EditProfile = () => {
   const [user, setUser] = useState({});
@@ -21,7 +24,7 @@ const EditProfile = () => {
     const token = user.token;
 
     try {
-      const res = await fetch(`http://localhost:5000/api/users/${user._id}`, {
+      const res = await fetch(`${BACKEND_URL}/api/users/${user._id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
@@ -43,7 +46,7 @@ const EditProfile = () => {
 
   return (
     <div className="max-w-md mx-auto mt-10 p-4 border shadow rounded">
-      <h2 className="text-xl font-bold mb-4">Edit Profile</h2>
+      <h2 className="text-xl font-bold mb-4">Editar Perfil</h2>
       <form onSubmit={handleSubmit} className="space-y-4">
         <input
           type="text"
@@ -60,7 +63,7 @@ const EditProfile = () => {
           required
         />
         <button type="submit" className="w-full bg-green-500 text-white p-2 rounded">
-          Save Changes
+          Guardar Cambios
         </button>
       </form>
     </div>

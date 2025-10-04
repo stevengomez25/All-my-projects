@@ -9,6 +9,9 @@ import CreateProduct from './pages/CreateProduct';
 import EditProfile from './pages/EditProfile';
 import Profile from './pages/Profile';
 import Orders from './pages/Order';
+import Footer from './components/Footer';
+import Help from './pages/Help';
+
 
 
 function App() {
@@ -18,6 +21,7 @@ function App() {
         <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
+        <Route path='/Help' element={<Help/>}/>
         <Route path='/' element={<MainLayout />}>
           {/* <Route path="/dashboard" element={<Dashboard />} /> */}
           <Route path="users/profile" element={<Profile />} />
@@ -27,6 +31,7 @@ function App() {
           <Route path='orders' element={<Orders/>}/>
         </Route>
       </Routes>
+      <Footer/>
     </>
   );
 }

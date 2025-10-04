@@ -36,8 +36,13 @@ const productSchema = new mongoose.Schema({
     status:{
         type:String,
         required: true,
-        enum:['available','out of stock', 'in transit', 'terminated']
+        enum:['Disponible','Inventario Agotado', 'En Tránsito', 'Descontinuado']
     },
+    expiration:{
+        type: Date,
+        required: true
+    },
+
     createdBy:{
         type: mongoose.Schema.Types.ObjectId,
         ref: 'User',

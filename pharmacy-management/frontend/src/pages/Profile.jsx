@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react';
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
+
 
 const Profile = () => {
   const [user, setUser] = useState(null);
@@ -10,7 +12,7 @@ const Profile = () => {
       if (!userInfo?.token) return setError('Unauthorized');
 
       try {
-        const res = await fetch('http://localhost:5000/api/users/profile', {
+        const res = await fetch(`${BACKEND_URL}/api/users/profile`, {
           headers: {
             Authorization: `Bearer ${userInfo.token}`,
           },
@@ -33,10 +35,10 @@ const Profile = () => {
 
   return (
     <div className="max-w-md mx-auto mt-10 p-4 border shadow rounded">
-      <h2 className="text-xl font-bold mb-4">Profile</h2>
-      <p><strong>Username:</strong> {user.username}</p>
-      <p><strong>Email:</strong> {user.email}</p>
-      <p><strong>Role:</strong> {user.role}</p>
+      <h2 className="text-xl font-bold mb-4">Bienvenid@ {user.username}</h2>
+      <p><strong>Usuario:</strong> {user.username}</p>
+      <p><strong>Correo Electrónico:</strong> {user.email}</p>
+      <p><strong>Rol:</strong> {user.role}</p>
     </div>
   );
 };

@@ -118,7 +118,7 @@ const deleteUser = async (req,res) => {
     if(req.user._id.toString() === userToDelete._id.toString()){
         return res.status(400).json({message:'You cannot delete yourself'});
     }
-    await userToDelete.remove();
+    await User.findByIdAndDelete(req.params.id);
     res.json({message: 'User removed'});
 }catch(error){
     console.log(error);

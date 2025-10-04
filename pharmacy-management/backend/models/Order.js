@@ -43,6 +43,15 @@ const orderSchema = new mongoose.Schema({
     required: true,
     unique: true
   },
+  orderType:{
+    type: String,
+    enum:["Transferencia","Pedido","Despacho","Compra","Recibo"],
+    required: true
+  },
+  BranchTo:{
+    type: Number,
+    enum:[1,2,3]
+  },
   items: [orderItemSchema],
   totalAmount: {
     type: Number,
