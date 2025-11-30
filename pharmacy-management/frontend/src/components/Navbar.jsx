@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className="bg-blue-600 text-white px-4 py-3 flex justify-between items-center flex-col md:flex-row">
       <div>
-        <Link to="/" className="font-bold text-lg">Sistema de Administración de Inventario de Farmacia</Link>
+        <Link to="/" className="font-bold text-lg">SAIF</Link>
       </div>
 
       <div className="space-x-4">
@@ -29,6 +29,7 @@ const Navbar = () => {
         )}
         {userInfo ? (
           <>
+            <Link to='/providers' className='over:underline'>Proveedores</Link>
             <Link to="/users/profile" className='over:underline'>Perfil</Link>
             <Link to="/products" className="hover:underline">Productos</Link>
             <button onClick={handleLogout} className="bg-red-500 px-3 py-1 rounded hover:bg-red-600">

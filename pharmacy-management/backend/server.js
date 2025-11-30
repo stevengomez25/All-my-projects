@@ -7,6 +7,7 @@ import userRoutes from './routes/userRoutes.js';
 import orderRoutes from './routes/orderRoutes.js';
 import productRoutes from './routes/productRoutes.js';
 import dashboardRoutes from './routes/dashboardRoutes.js';
+import providerRoutes from './routes/providerRoutes.js';
 
 dotenv.config();
 
@@ -19,6 +20,7 @@ app.use("/api/users", userRoutes);
 app.use("/api/orders", orderRoutes);
 app.use("/api/products",productRoutes);
 app.use("/api/dashboard",dashboardRoutes);
+app.use("/api/providers",providerRoutes);
 
 
 app.get('/api/ping', (req, res) => {

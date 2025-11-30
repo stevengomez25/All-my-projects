@@ -64,19 +64,24 @@ const loginUser = async (req, res) => {
 };
 
 const getProfile = async (req, res) => {
-    const user = await User.findById(req.user._id);
-
-    if (user) {
+    try{
+        const user = await User.findById(req.user._id);
+        if (user) {
         res.json({
             _id: user._id,
             username: user.username,
             email: user.email,
             role: user.role,
         });
-    } else {
+        } else {
         res.status(404).json({ message: 'User not found' });
     }
-}
+    }catch(e){
+        console.error(e);
+        return res.status(500).json({message:"Error while getting profile"})
+    };
+    
+};
 
 const updateProfile = async (req, res) => {
     const { username, email, password } = req.body;

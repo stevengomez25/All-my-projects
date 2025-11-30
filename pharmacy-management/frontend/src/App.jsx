@@ -11,6 +11,7 @@ import Profile from './pages/Profile';
 import Orders from './pages/Order';
 import Footer from './components/Footer';
 import Help from './pages/Help';
+import Providers from './pages/Provider';
 
 
 
@@ -29,6 +30,7 @@ function App() {
           <Route path="products" element={<Products />} />
           <Route path="create-product" element={<CreateProduct />} />
           <Route path='orders' element={<Orders/>}/>
+          <Route path='providers' element={<Providers/>}/>
         </Route>
       </Routes>
       <Footer/>
