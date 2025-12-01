@@ -60,7 +60,7 @@ export default function Products() {
 
         <button
           onClick={() => setOpenModal(true)}
-          className="px-5 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+          className="p-2 bg-neutral-100 text-neutral-800 border border-neutral-300 rounded-full text-sm font-medium hover:bg-neutral-200 transition duration-300 flex items-center space-x-1"
         >
           + Create Product
         </button>

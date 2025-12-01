@@ -2,10 +2,16 @@ import { useEffect, useState } from "react";
 import { getProducts } from "../api/products";
 import { useAuth } from "../context/AuthContext";
 import { TbLockUp } from "react-icons/tb";
+import { useCart } from "../context/cartContext";
+import CartIcon from "../components/CartIcon";
+import CartSidebar from "../components/CartSidebar";
 
 export default function Home() {
   const [products, setProducts] = useState([]);
   const { isAuthenticated, loading } = useAuth();
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
+  const openCart = () => setIsSidebarOpen(true);
 
   const fetchProducts = async () => {
     try {
@@ -23,6 +29,12 @@ export default function Home() {
     fetchProducts();
   }, []);
 
+  const { addToCart } = useCart();
+
+  const handleAdd = (product) => {
+    addToCart(product, 1);
+  };
+
   return (
     <div className="min-h-screen bg-neutral-50 font-sans">
       {/* Header */}
@@ -33,30 +45,31 @@ export default function Home() {
           </h1>
           {/* Renderizado Condicional del Botón */}
           {isAuthenticated ? (
-            <a 
+            <a
               href="/dashboard"
               className="px-6 py-2 bg-neutral-800 text-white rounded-full text-sm font-medium hover:bg-neutral-600 transition duration-300 shadow-lg"
             >
               Dashboard
             </a>
           ) : (
-            <a 
-              href="/login" 
+            <a
+              href="/login"
               className="px-4 py-2 bg-neutral-100 text-neutral-800 border border-neutral-300 rounded-full text-sm font-medium hover:bg-neutral-200 transition duration-300 flex items-center space-x-1"
             >
-              <TbLockUp className="text-lg"/>
+              <TbLockUp className="text-lg" />
               <span className="hidden sm:inline">Iniciar Sesión</span>
             </a>
           )}
+          <CartIcon onClickCart={openCart} />
         </div>
       </header>
 
       {/* Hero Section */}
-      <section className="w-full bg-cover bg-center h-[60vh] md:h-[70vh] flex items-center" 
-               style={{ backgroundImage: "url('https://images.unsplash.com/photo-1542037104857-ff30cd1e4d3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1ODU1MzN8MHwxfHNlYXJjaHwxNXx8ZmFzaGlvbiUyMGJhbm5lcnxlbnwwfDB8fHwxNzAzNzYwMzU2fDA&ixlib=rb-4.0.3&q=80&w=1080')" }}>
+      <section className="w-full bg-cover bg-center h-[60vh] md:h-[70vh] flex items-center"
+        style={{ backgroundImage: "url('https://wallpapers.com/images/hd/4k-spring-pond-flowers-216pzooxtce7d6tt.jpg')" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-left bg-black bg-opacity-30 p-8 md:p-12 rounded-lg ml-4 md:ml-12">
           <h2 className="text-4xl sm:text-6xl lg:text-7xl font-light mb-4 text-white uppercase tracking-wider leading-tight">
-            Colección **Primavera 2025**
+            Colección <b>Primavera 2025</b>
           </h2>
           <p className="text-white text-lg md:text-xl font-extralight mb-6 max-w-md">
             Descubre las texturas y estilos que definen la moda de esta temporada.
@@ -85,6 +98,7 @@ export default function Home() {
             gap-6 sm:gap-8
           ">
             {products.map((product) => (
+
               <div
                 key={product._id}
                 className="
@@ -119,10 +133,13 @@ export default function Home() {
                     Ropa Casual
                   </p>
                   <p className="text-black font-semibold text-xl">
-                    ${parseFloat(product.cost).toFixed(2)}
+                    ${parseFloat(product.cost).toLocaleString()}
                   </p>
                   {/* Botón de añadir al carrito (añadido para estética) */}
-                  <button className="mt-3 w-full bg-neutral-900 text-white py-2 text-sm font-medium rounded-full opacity-0 group-hover:opacity-100 transition duration-300 transform translate-y-2 group-hover:translate-y-0">
+                  <button className="mt-3 w-full bg-neutral-900 active:bg-green-400 text-white py-2 text-sm font-medium rounded-full opacity-0 group-hover:opacity-100 transition duration-300 active:duration-100 active:text-black transform translate-y-2 group-hover:translate-y-0">
+                    Ver más
+                  </button>
+                  <button onClick={() => { handleAdd(product) }} className="mt-3 w-full bg-neutral-900 active:bg-green-400 text-white py-2 text-sm font-medium rounded-full opacity-0 group-hover:opacity-100 transition duration-300 active:duration-100 active:text-black transform translate-y-2 group-hover:translate-y-0">
                     Añadir al Carrito
                   </button>
                 </div>
@@ -142,6 +159,10 @@ export default function Home() {
             <a href="#" className="hover:text-neutral-800 transition">Contacto</a>
           </div>
         </div>
+        <CartSidebar
+          isOpen={isSidebarOpen}
+          close={() => setIsSidebarOpen(false)}
+        />
       </footer>
     </div>
   );
