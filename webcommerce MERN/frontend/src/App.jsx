@@ -18,6 +18,7 @@ import ProtectedRoute from "./components/ProtectedRoute"; // Must be imported
 import AdminRoute from "./components/AdminRoute";
 import Products from "./pages/Products";
 import Logout from "./pages/Logout";
+import ProductPage from "./pages/ProductPage";
 
 
 // 4. Define and Export the App Component (Fixes your main error)
@@ -26,6 +27,7 @@ function App() {
     <Routes>
       
       {/* Public Routes */}
+      <Route path="/products/:id" element={<ProductPage/>}></Route>
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
       <Route path="/not-authorized" element={<NotAuthorized />} />

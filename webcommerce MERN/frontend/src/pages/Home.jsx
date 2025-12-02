@@ -5,13 +5,19 @@ import { TbLockUp } from "react-icons/tb";
 import { useCart } from "../context/cartContext";
 import CartIcon from "../components/CartIcon";
 import CartSidebar from "../components/CartSidebar";
+import { Link } from "react-router-dom";
+import ProductModal from "../components/ProductModal";
 
 export default function Home() {
   const [products, setProducts] = useState([]);
   const { isAuthenticated, loading } = useAuth();
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [selectedProductId, setSelectedProductId] = useState(null);
 
   const openCart = () => setIsSidebarOpen(true);
+
+  const openModal = (id) => setSelectedProductId(id);
+  const closeModal = () => setSelectedProductId(null);
 
   const fetchProducts = async () => {
     try {
@@ -34,6 +40,55 @@ export default function Home() {
   const handleAdd = (product) => {
     addToCart(product, 1);
   };
+
+  const ProductCard = ({ product }) => (
+    // 🚨 CAMBIO CLAVE: Al hacer clic en la tarjeta, abre el modal
+    <div
+      key={product._id}
+      onClick={() => openModal(product._id)} // <-- Usa onClick en lugar de <Link>
+      className="
+                bg-white rounded-lg group overflow-hidden 
+                shadow-lg 
+                hover:shadow-2xl 
+                transition duration-300 cursor-pointer 
+                transform hover:scale-[1.02]
+            "
+    >
+      {/* Product Image */}
+      <div className="w-full h-56 md:h-64 overflow-hidden relative">
+        {/* ... Contenido de la imagen y etiqueta NEW ... */}
+        <img
+          src={product.image || "https://via.placeholder.com/300x400.png?text=Fashion"}
+          alt={product.name}
+          className="w-full h-full object-cover transition duration-500 group-hover:opacity-85"
+        />
+        <span className="absolute top-3 left-3 bg-neutral-800 text-white text-xs font-medium px-3 py-1 rounded-full">NEW</span>
+      </div>
+
+      {/* Product Info */}
+      <div className="p-4 text-center">
+        <h4 className="font-medium text-lg text-neutral-800 line-clamp-1 mb-1">
+          {product.name}
+        </h4>
+        <p className="text-neutral-500 text-sm mb-3">
+          Ropa Casual
+        </p>
+        <p className="text-black font-semibold text-xl">
+          ${parseFloat(product.cost).toLocaleString()}
+        </p>
+        {/* 🚨 Eliminamos los <Link> que redirigían y dejamos solo el botón de ADD */}
+        <button
+          onClick={(e) => {
+            e.stopPropagation(); // Evita que se active el openModal del div padre
+            handleAdd(product);
+          }}
+          className="mt-3 w-full bg-neutral-900 active:bg-green-400 text-white py-2 text-sm font-medium rounded-full opacity-0 group-hover:opacity-100 transition duration-300 active:duration-100 active:text-black transform translate-y-2 group-hover:translate-y-0"
+        >
+          Añadir al Carrito
+        </button>
+      </div>
+    </div>
+  );
 
   return (
     <div className="min-h-screen bg-neutral-50 font-sans">
@@ -97,54 +152,7 @@ export default function Home() {
             lg:grid-cols-5 
             gap-6 sm:gap-8
           ">
-            {products.map((product) => (
-
-              <div
-                key={product._id}
-                className="
-                  bg-white rounded-lg group overflow-hidden 
-                  shadow-lg 
-                  hover:shadow-2xl 
-                  transition duration-300 cursor-pointer 
-                  transform hover:scale-[1.02]
-                "
-              >
-                {/* Product Image */}
-                <div className="w-full h-56 md:h-64 overflow-hidden relative">
-                  <img
-                    src={
-                      product.image ||
-                      "https://via.placeholder.com/300x400.png?text=Fashion"
-                    }
-                    alt={product.name}
-                    className="w-full h-full object-cover transition duration-500 group-hover:opacity-85"
-                  />
-                  {/* Etiqueta de nuevo producto (opcional) */}
-                  <span className="absolute top-3 left-3 bg-neutral-800 text-white text-xs font-medium px-3 py-1 rounded-full">NEW</span>
-                </div>
-
-                {/* Product Info */}
-                <div className="p-4 text-center">
-                  <h4 className="font-medium text-lg text-neutral-800 line-clamp-1 mb-1">
-                    {product.name}
-                  </h4>
-                  <p className="text-neutral-500 text-sm mb-3">
-                    {/* Placeholder para categoría */}
-                    Ropa Casual
-                  </p>
-                  <p className="text-black font-semibold text-xl">
-                    ${parseFloat(product.cost).toLocaleString()}
-                  </p>
-                  {/* Botón de añadir al carrito (añadido para estética) */}
-                  <button className="mt-3 w-full bg-neutral-900 active:bg-green-400 text-white py-2 text-sm font-medium rounded-full opacity-0 group-hover:opacity-100 transition duration-300 active:duration-100 active:text-black transform translate-y-2 group-hover:translate-y-0">
-                    Ver más
-                  </button>
-                  <button onClick={() => { handleAdd(product) }} className="mt-3 w-full bg-neutral-900 active:bg-green-400 text-white py-2 text-sm font-medium rounded-full opacity-0 group-hover:opacity-100 transition duration-300 active:duration-100 active:text-black transform translate-y-2 group-hover:translate-y-0">
-                    Añadir al Carrito
-                  </button>
-                </div>
-              </div>
-            ))}
+            {products.map((product) => <ProductCard key={product._id} product={product} />)}
           </div>
         )}
       </main>
@@ -159,6 +167,12 @@ export default function Home() {
             <a href="#" className="hover:text-neutral-800 transition">Contacto</a>
           </div>
         </div>
+        {selectedProductId && (
+          <ProductModal
+            productId={selectedProductId}
+            onClose={closeModal}
+          />
+        )}
         <CartSidebar
           isOpen={isSidebarOpen}
           close={() => setIsSidebarOpen(false)}

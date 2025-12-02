@@ -34,7 +34,7 @@ router.post(
 
 // GET product by id
 
-router.get("/:id", protect, getProduct);
+router.get("/:id", getProduct);
 
 // UPDATE product
 
