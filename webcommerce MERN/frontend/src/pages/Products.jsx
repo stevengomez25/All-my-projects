@@ -3,6 +3,26 @@ import CreateProductModal from "../components/CreateProductModal";
 import { deleteProduct, getProducts } from "../api/products";
 import EditProductModal from "../components/EditProductModal";
 
+// --- Función Auxiliar para Calcular Stock Total ---
+const calculateTotalStock = (product) => {
+  let totalStock = 0;
+
+  // Sumar stock de availableSizes
+  if (Array.isArray(product.availableSizes)) {
+    totalStock += product.availableSizes.reduce((sum, size) => sum + (size.quantity || 0), 0);
+  }
+
+  // Sumar stock de availableColors
+  if (Array.isArray(product.availableColors)) {
+    totalStock += product.availableColors.reduce((sum, color) => sum + (color.quantity || 0), 0);
+  }
+  
+  // Si no hay variantes definidas, asumimos 0
+  return totalStock;
+};
+// ----------------------------------------------------
+
+
 export default function Products() {
   const [products, setProducts] = useState([]);
   const [openModal, setOpenModal] = useState(false);
@@ -24,19 +44,17 @@ export default function Products() {
     fetchProducts();
   }, []);
 
-
   const openEditModalHandler = (product) => {
     setProductToEdit(product);
   };
 
-
-  const handleCancel = async (product) => {
+  const handleCancel = async (productId) => {
     if (!window.confirm("¿Estás seguro de que deseas eliminar el producto?")) {
       return;
     }
 
     try {
-      deleteProduct(product);
+      await deleteProduct(productId); // Asegúrate de pasar el ID, no el objeto completo
       alert('¡Producto eliminado exitosamente!');
       fetchProducts();
     } catch (err) {
@@ -45,12 +63,23 @@ export default function Products() {
     }
   };
 
-
-
-  // 3. Función para cerrar el modal de edición
   const closeEditModalHandler = () => {
-    setProductToEdit(null); // Esto también desactiva la renderización del modal
+    setProductToEdit(null);
   };
+  
+  // --- Función Auxiliar para mostrar variantes en la tabla ---
+  const formatVariants = (sizes, colors) => {
+      const sizeCount = Array.isArray(sizes) ? sizes.length : 0;
+      const colorCount = Array.isArray(colors) ? colors.length : 0;
+
+      let summary = [];
+      if (sizeCount > 0) summary.push(`${sizeCount} Talla(s)`);
+      if (colorCount > 0) summary.push(`${colorCount} Color(es)`);
+
+      return summary.join(' / ') || 'N/A';
+  };
+  // -----------------------------------------------------------
+
 
   return (
     <div className="min-h-screen bg-gray-100 p-6">
@@ -75,14 +104,15 @@ export default function Products() {
               <th className="p-3">Name</th>
               <th className="p-3">Code</th>
               <th className="p-3">Cost</th>
-              <th className="p-3">Stock</th>
+              <th className="p-3">Total Stock</th>
+              <th className="p-3">Variants</th> {/* Nueva columna */}
               <th className="p-3">Actions</th>
             </tr>
           </thead>
           <tbody>
             {products.length === 0 ? (
               <tr>
-                <td colSpan="5" className="p-4 text-center text-gray-500">
+                <td colSpan="7" className="p-4 text-center text-gray-500"> {/* Colspan ajustado a 7 */}
                   No products found.
                 </td>
               </tr>
@@ -103,11 +133,21 @@ export default function Products() {
                     {product.name}
                   </td>
                   <td className="p-3 text-gray-600">{product.code}</td>
-                  <td className="p-3 text-gray-600">{product.stock}</td>
-
+                  
+                  {/* Stock Total calculado */}
                   <td className="p-3 font-bold text-blue-600">
-                    ${product.cost}
+                    ${product.cost.toLocaleString()}
                   </td>
+
+                  <td className="p-3 text-gray-600 font-bold">
+                    {calculateTotalStock(product)} {/* Usamos la función de stock */}
+                  </td>
+                  
+                  {/* Resumen de Variantes */}
+                  <td className="p-3 text-sm text-gray-500">
+                    {formatVariants(product.availableSizes, product.availableColors)}
+                  </td>
+
                   <td className="p-3">
                     <button onClick={() => { openEditModalHandler(product) }} className="text-blue-600 font-medium hover:underline mr-3">
                       Edit
@@ -123,18 +163,18 @@ export default function Products() {
         </table>
       </div>
 
-      {/* Modal */}
+      {/* Modal de Creación */}
       {openModal && (
         <CreateProductModal
           close={() => setOpenModal(false)}
           reload={fetchProducts}
         />
       )}
+      
       {/* MODAL DE EDICIÓN */}
-      {/* Se renderiza solo si productToEdit no es null */}
       {productToEdit && (
         <EditProductModal
-          productToEdit={productToEdit} // Pasa el objeto del producto
+          productToEdit={productToEdit}
           close={closeEditModalHandler}
           reload={fetchProducts}
         />

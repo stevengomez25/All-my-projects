@@ -17,6 +17,20 @@ const productSchema = new mongoose.Schema(
       type: String,
       default: "",
     },
+    availableSizes: [{
+    // Usamos 'availableSizes' para distinguir el propósito
+    sizeName: {
+      type: String,
+      required: true,
+      trim: true
+    },
+    quantity: {
+      type: Number,
+      required: true,
+      min: 0,
+      default: 0
+    }
+  }],
     cost: {
       type: Number,
       required: true,
@@ -32,6 +46,21 @@ const productSchema = new mongoose.Schema(
       type: mongoose.Schema.Types.ObjectId,
       ref: "User",
     },
+    availableColors: [{
+    // Esquema anidado para cada combinación de Color y Cantidad
+    colorName: {
+      type: String,
+      required: true,
+      trim: true // Elimina espacios en blanco al inicio/final
+    },
+    quantity: {
+      type: Number,
+      required: true,
+      min: 0, // Asegura que la cantidad no sea negativa
+      default: 0
+    }
+  }],
+  
   },
   { timestamps: true }
 );
